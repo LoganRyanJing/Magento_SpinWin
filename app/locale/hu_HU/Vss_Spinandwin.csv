@@ -1,0 +1,201 @@
+Jan,január
+Feb,Február
+Mar,elront
+Apr,Április
+May,Lehet
+Jun,Június
+Jul,Július
+Aug,Augusztus
+Sep,szeptember
+Oct,Október
+Nov,November
+Dec,December
+Spin and Win,Centrifugálás és a Win
+Module Configurations,modul felépítése
+Image has been uploaded successfully!,A fényképek feltöltése sikerült!
+There was some error while uploading the image for the front end.,Volt néhány hiba a kép feltöltése a kezelőfelületen.
+Module configuration have been saved successfully!,Modul beállítás mentése sikeresen!
+Not your lucky day today. Better Luck Next Time.,Nem szerencsés nap ez a mai. Legközelebb több szerencsét.
+"Something went wrong while generating the coupon code, please try again.","Hiba történt a termelő a kupon kód, próbálja újra."
+Slice Settings,szelet beállításai
+Note,jegyzet
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Az érték, amit teszel a Gravity oszlopban határozza meg a lehetőségét, hogy egy szelet kell kiválasztani a front end. Minél magasabb az érték, annál nagyobb az esélye, hogy a szelet kell választani, ha a fogyasztó a plugin."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,"2. Az érték a Gravity oszlopot az egyes szelet nem lehet nagyobb, mint 100, és az összeg az összes 12 szelet nem lehet nagyobb, mint 100, és kevesebb, mint 1."
+Slice Label,szelet Label
+Coupon Type,Kupon típusa
+Coupon Value,A kupon értéke
+Gravity (%),Gravity (%)
+Fixed,Rögzített
+Percentage,Százalék
+Free Shipping,Ingyenes szállítás
+Please select atleast one page,"Kérjük, válasszon ki legalább egy oldalon"
+Please select atleast one country,"Kérjük, válasszon ki legalább egy országot"
+Field cannot be empty,Mező nem lehet üres
+Total Coupons Generated,Összes kupon generált
+Total Coupons Unused,Összes kupon Unused
+Total Coupons Used,Összes kupon Használt
+`Active Date` cannot be greater than `Inactive Date`,"`Active-időpont nem lehet nagyobb, mint a` Inaktív-időpont"
+`From` Date cannot be greater than `To` Date,"`From` dátum nem lehet nagyobb, mint` To` dátuma"
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Az összeg gravitáció nem az érvényes tartományon. Meg kell betwen 1 és 100
+Date & Time should be greater than current date time.,"Dátum és idő legyen nagyobb, mint az aktuális dátum idő."
+Please enter First name.,"Kérjük, adja meg az első név."
+First name cannot be greater than # characters.,"Első neve nem lehet nagyobb, mint # karaktert."
+First name cannot be less than # characters.,"Első neve nem lehet kevesebb, mint # karaktert."
+Please enter middle name.,"Kérjük, írja be a középső neve."
+Middle name cannot be greater than # characters.,"Közel neve nem lehet nagyobb, mint # karaktert."
+Middle name cannot be less than # characters.,"Közel neve nem lehet kevesebb, mint # karaktert."
+Only alphabets are allowed.,Csak ábécé engedélyezett.
+Please enter Last name.,"Kérjük, adja meg vezetéknevét."
+Last name cannot be greater than # characters.,"Az utolsó név nem lehet nagyobb, mint # karaktert."
+Last name cannot be less than # characters.,"Az utolsó név nem lehet kevesebb, mint # karaktert."
+Field should be alphanumeric.,Field legyen alfanumerikus.
+Please enter Password.,"Kérjük, írja be a jelszót."
+Password cannot be greater than # characters.,"A jelszó nem lehet nagyobb, mint # karaktert."
+Password cannot be less than # characters.,"A jelszó nem lehet kevesebb, mint # karaktert."
+Password should contain atleast 1 special character.,Jelszó tartalmaznia kell atleast 1 speciális karaktert.
+Password should contain alphabets.,Jelszó kell tartalmaznia ábécét.
+Password should contain atleast 1 capital letter.,Jelszó tartalmaznia kell atleast 1 nagybetűvel.
+Password should contain atleast 1 small letter.,Jelszó tartalmaznia kell atleast 1 kis levelet.
+Password should contain atleast 1 digit.,Jelszó tartalmaznia kell atleast 1 számjegy.
+Field cannot be empty.,Mező nem lehet üres.
+You can enter only numbers.,Akkor meg csak számokat.
+Number should be greater than 0.,"Száma nagyobb kell legyen, mint 0."
+Field cannot be greater than # characters.,"A mező nem lehet nagyobb, mint # karaktert."
+Field cannot be less than # character(s).,"A mező nem lehet kevesebb, mint # karakter (ek)."
+Please enter Email.,"Kérjük, adja meg e-mailben."
+Please enter a valid Email.,Kérlek létező email címet adj meg.
+Please enter country name.,"Kérjük, adja meg az ország nevét."
+Country cannot be greater than # characters.,"Ország nem lehet nagyobb, mint # karaktert."
+Country cannot be less than # characters.,"Ország nem lehet kevesebb, mint # karaktert."
+Please enter city name.,"Kérjük, írja be a város nevét."
+City cannot be greater than # characters.,"A város nem lehet nagyobb, mint # karaktert."
+City cannot be less than # characters.,"A város nem lehet kevesebb, mint # karaktert."
+Please enter state name.,"Kérjük, adja állam nevét."
+State cannot be greater than # characters.,"Az állam nem lehet nagyobb, mint # karaktert."
+State cannot be less than # characters.,"Az állam nem lehet kevesebb, mint # karaktert."
+Please enter product name.,"Kérjük, írja be a termék nevét."
+Product cannot be greater than # characters.,"A termék nem lehet nagyobb, mint # karaktert."
+Product cannot be less than # characters.,"A termék nem lehet kevesebb, mint # karaktert."
+Please enter category name.,"Kérjük, adja meg a kategória nevét."
+Category cannot be greater than # characters.,"Kategória nem lehet nagyobb, mint # karaktert."
+Category cannot be less than # characters.,"Kategória nem lehet kevesebb, mint # karaktert."
+Please enter zip code.,"Kérjük, adja meg az irányítószámot."
+Zip cannot be greater than # characters.,"Az irányítószám nem lehet nagyobb, mint # karaktert."
+Zip cannot be less than # characters.,"Az irányítószám nem lehet kevesebb, mint # karaktert."
+Please enter Username.,Adjon meg egy felhasználónevet.
+Username cannot be greater than # characters.,"A felhasználónév nem lehet nagyobb, mint # karaktert."
+Username cannot be less than # characters.,"A felhasználónév nem lehet kevesebb, mint # karaktert."
+Invalid date format.,Érvénytelen dátum formátumát.
+SKU cannot be greater than # characters.,"SKU nem lehet nagyobb, mint # karaktert."
+SKU cannot be less than # characters.,"SKU nem lehet kevesebb, mint # karaktert."
+Invalid SKU format.,Érvénytelen SKU formátumban.
+Please enter SKU.,"Kérjük, adja SKU."
+Number is not in the valid range. It should be betwen # and %,Szám nem az érvényes tartományon. Meg kell betwen # és%
+Please enter address.,"Kérjük, adja meg a címet."
+Address cannot be less than # characters.,"A cím nem lehet kevesebb, mint # karaktert."
+Address cannot be greater than # characters.,"A cím nem lehet nagyobb, mint # karaktert."
+Please enter company name.,"Kérjük, adja meg a cég nevét."
+Company name cannot be less than # characters.,"A cég neve nem lehet kevesebb, mint # karaktert."
+Company name cannot be greater than # characters.,"A cég neve nem lehet nagyobb, mint # karaktert."
+Phone number is invalid.,A telefonszám érvénytelen.
+Please enter phone number.,"Kérjük, adja meg telefonszámát."
+Phone number cannot be less than # characters.,"A telefonszám nem lehet kevesebb, mint # karaktert."
+Phone number cannot be greater than # characters.,"A telefonszám nem lehet nagyobb, mint # karaktert."
+Please enter brand name.,"Kérjük, írja be a márkanév."
+Brand name cannot be greater than # characters.,"Márka nem lehet nagyobb, mint # karaktert."
+Brand name cannot be less than # characters.,"Márka nem lehet kevesebb, mint # karaktert."
+Please enter Shimpment.,"Kérjük, adja Shimpment."
+Shipment cannot be greater than # characters.,"Szállítást nem lehet nagyobb, mint # karaktert."
+Shipment cannot be less than # characters.,"Szállítást nem lehet kevesebb, mint # karaktert."
+Invalid IP format.,Érvénytelen IP formátumban.
+Invalid URL format.,Érvénytelen URL-formátum.
+Please enter URL.,"Kérjük, adja meg az URL."
+Field should be numeric.,Field legyen numerikus.
+Field can have only upto two decimal values.,A mező csak legfeljebb két tizedes értékeket.
+Email cannot be greater than # characters.,"E-mail nem lehet nagyobb, mint # karaktert."
+Zip should not have special characters.,Zip nem kell speciális karaktereket.
+SKU should not have special characters.,SKU nem kell speciális karaktereket.
+URL cannot be greater than # characters.,"URL nem lehet nagyobb, mint # karaktert."
+Percentage should be in number.,Százalékos kell lennie számát.
+Percentage should be between 0 and 100.,Százalékot kell 0 és 100 között.
+Size cannot be greater than # characters.,"Mérete nem lehet nagyobb, mint # karaktert."
+Size should not have special characters.,Méret nem kell speciális karaktereket.
+UPC should not have special characters.,UPC nem kell speciális karaktereket.
+UPC cannot be greater than # characters.,"UPC nem lehet nagyobb, mint # karaktert."
+EAN should not have special characters.,EAN nem kell speciális karaktereket.
+EAN cannot be greater than # characters.,"EAN nem lehet nagyobb, mint # karaktert."
+Barcode should not have special characters.,Vonalkód nem kell speciális karaktereket.
+Barcode cannot be greater than # characters.,"Vonalkód nem lehet nagyobb, mint # karaktert."
+Field should be positive.,Field pozitívnak kell lennie.
+Color could not be greater than # characters.,"Szín nem lehet nagyobb, mint # karaktert."
+Color is not valid.,Szín nem érvényes.
+Special characters are not allowed.,Speciális karakterek használata nem lehetséges.
+Script tags are not allowed.,Script-címkék nem engedélyezett.
+Style tags are not allowed.,Stílus címkék használata nem megengedett.
+Iframe tags are not allowed.,Iframe címkék használata nem megengedett.
+Uploaded file is not an image,A feltöltött fájl nem kép
+Uploaded file size must be less than #.,A feltöltött fájl mérete nem haladhatja meg a #.
+Field should not contain HTML tags.,Mező nem tartalmazhat HTML-címkéket.
+You can enter only positive numbers.,Akkor meg csak pozitív számok.
+Invalid comma (#) separated values.,Érvénytelen vessző (#) elválasztott értékek.
+Spin and Win Free version,Spin és Win Free változat
+v1.0.0,v1.0.0
+Current Configuration Scope,Jelenlegi konfiguráció hatóköre
+Save Configurations,Save konfigurációk
+General Settings,Általános beállítások
+Look and Feel Settings,Nézd meg és érezd beállítások
+Go to Home Page,Menj a főoldalra
+Home,itthon
+Spin & Win,Spin & Win
+Enable the Extension,Engedélyezze a bővítmény
+Following features are not avalialble in free version.,Következő funkciók nem avalialble az ingyenes verzió.
+Click here ,Kattints ide
+to buy paid version of this module.,vásárolni fizetett változat ezt a modult.
+1-General setting tab,1 Általános beállítás fülre
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,"Megjelenítése húzza ki: A beállítás lehetővé teszi üzlet tulajdonosát, hogy biztosítja a lehetőséget, hogy húzza a kereket vissza a képernyőn a felhasználó által"
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"E-mail redundancia-ellenőrzés: Beállítás, hogy ellenőrizze az e-mail id az ügyfél érdekében, hogy nincs ismétlés mailek id"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Kerék megjelenítése Interval: Beállítás, hogy rögzítse a napok számát, amely után a kerék fog megjelenni a vevőnek."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,"Custom CSS és egyéni JS: Beállítás változtatni a kinézetét a modul, mint egy igényüket a belépő saját CSS és JS kódot egyéni"
+2-Display setting tab,2-Display beállítás fül
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Minimum képernyő mérete: Beállítás választani minimális képméret akivel a megjeleníteni kívánt ajánlatokat.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Maximum kijelző jelentése: Beállítás a frekvencia a kerék itt látható
+Where to Display : Setting to select the pages where you want to display the wheel from here,"Hol megjeleníteni: Beállítás válassza ki az oldalakat, ahol a megjeleníteni kívánt kerék innen"
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Ki kell tüntetni: beállítása válassza ki a látogatók körében szeretné megmutatni a spin kereket. Kiválaszthatja „Minden látogató”, „regisztrált látogatók” vagy ""Guest Látogatóközpont"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,"Mikor kell megjeleníteni: Beállítás választani pontosan mikor kívánja a kerék jelenik meg. Akkor sem jeleníti meg azonnal, amikor a vásárló a földeket a webhelyen vagy egy bizonyos idő után, vagy amikor a látogató legörget"
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,"Földrajzi hely: Beállítás, hogy kiválassza a kijelző kínál, mint egy a Geo helyét a látogatók."
+3-Look & Feel  setting tab ,3-Look & Feel beállítás fülre
+Setting to allow change the look of the wheel as it appears on the site,"Beállítás, hogy változtatni a kinézetét a kerék, ahogy jelenik meg az oldalon"
+4-Wheel setting tab,4-Wheel beállítás fül
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Beállítása változtatni a kinézetét a spin kerék által a konfiguráció megváltoztatása a „Wheel beállítás” opciót
+5-Slice setting tab,5 szelet beállítás fülre
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Beállításokat és a szöveg vagy ajánlatok jelennek meg a különböző szeleteit a kerék lehet változtatni a „szelet beállítása” opciót
+6-Email marketing setting tab,6-mail marketing beállítás fül
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,Az adminisztrátor engedélyezheti vagy letilthatja MailChimp és Klaviyo lehetőséget a „e-mail marketing” beállításokat. Egy e-mail értesítést küldünk az ügyfelek az e-mail id említett őket.
+7-Email tab,7-mail lapon
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Lehetővé teszi az adminisztrátor választani azokat a helyeket, ahol akar, hogy megjelenjen a kupont. Nevezetesen a „Csak Wheel”, „csak e-mail”, „E-mail és Wheel”"
+8-Statistics tab,8 Statisztika lap
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,"A teljes hozzáférést biztosít a statisztikai jelentést a látogatók, akik pörgetett a kereket, és azt állította, a kupon által generált ugyanaz. A jelentés keletkezik mind a grafikus és táblázatos formában."
+Display Image,kép megjelenítése
+Show image in the front end Spin Wheel interface,Kép megjelenítése a kezelőfelületen spin Vezérlőtárcsának
+Upload your Logo Image,Feltöltése Emblémakép
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Feltöltése megjelenítendő kép az elülső végén spin kerék felület (Max méret - 2 MB)
+Required Field,Kötelező mező
+Not a valid email,Nem érvényes email
+a discount,kedvezmény
+Code copied.,Kód másolni.
+Website Logo,Weboldal Logo
+Special bonus unlocked,Különleges bónusz kinyitotta
+Hurrah! You've got,Hurrá! Megvan
+. Lucky day!,. Szerencsés nap!
+The coupon code has been sent to you through the email.,A kuponkód küldtünk végig az e-mail.
+Better luck next time!,Legközelebb több szerencsét!
+You have a chance to win a nice big fat discount. Are you ready?,"Van egy esélyt, hogy nyerj egy szép nagy kövér kedvezmény. Kész vagy?"
+You can spin the wheel only once.,Akkor forgasd meg a kereket csak egyszer.
+"If you win, you can claim your coupon for 1 day only!","Ha nyersz, akkor azt állítják, a kupon 1 napig csak!"
+Don't forget to use the discount code at checkout!,Ne felejtsd el használni a kedvezmény kódot fizetéskor!
+Enter you email,Írja levelezik
+Try your luck,Próbálj szerencsét
+Next Time,Legközelebb
+"No, I do not feel lucky","Nem, nem érzem szerencsésnek"
+Continue,Folytatni
+Spin and Win Free,Spin és Win Free

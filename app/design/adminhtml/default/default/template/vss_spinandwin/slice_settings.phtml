@@ -1,0 +1,68 @@
+<?php
+/*
+ * File for rending the HTML content of Slice Settings tab
+ */
+$helper = Mage::helper("spinandwin");
+$number_of_slices = 12;
+$slice_settings = Mage::getSingleton('spinandwin/spinandwin')->getData('slice_settings');
+?>
+<div class="block">
+    <div class="vss_block">
+        <div class="page-header">
+            <h1><?php echo $helper->__("Slice Settings"); ?></h1>
+        </div>
+        <div class="vss_info">
+            <b><?php echo $helper->__("Note"); ?>: </b><br>
+            <?php echo $helper->__("1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin."); ?>
+            <br>
+            <?php echo $helper->__("2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1."); ?>
+        </div>
+        <table class="pure-table" id="vss_slice_settings_table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th><?php echo $helper->__("Slice Label"); ?></th>
+                    <th><?php echo $helper->__("Coupon Type"); ?></th>
+                    <th><?php echo $helper->__("Coupon Value"); ?></th>
+                    <th><?php echo $helper->__("Gravity (%)"); ?></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <?php for ($i = 1; $i <= 12; $i++) { 
+                    $class = '';
+                    $freeShipping = false;
+                    if (isset($slice_settings['slice_'.$i]['discount_type']) && $slice_settings['slice_'.$i]['discount_type'] == 'freeship') {
+                        $freeShipping = true;
+                    }
+                    if ($i % 2 == 0) {
+                        $class = 'even';
+                    } else {
+                        $class = 'odd';
+                    }
+                    ?>
+                <tr class="pure-table-<?php echo $class; ?>">
+                    <td><?php echo $i; ?></td>
+                    <td>
+                        <input type="text" name="vss_spinandwin[slice_settings][slice_<?php echo $i ?>][label]" value="<?php if (isset($slice_settings['slice_'.$i]['label'])) echo $slice_settings['slice_'.$i]['label']; ?>" class="form-control vss_slice_label"/>
+                    </td>
+                    <td>
+                        <select name="vss_spinandwin[slice_settings][slice_<?php echo $i ?>][discount_type]" class="form-control" onchange="changeCurrentValueState(this)">
+                            <option value="fixed" <?php if (isset($slice_settings['slice_'.$i]['discount_type']) && $slice_settings['slice_'.$i]['discount_type'] == 'fixed') echo 'selected="selected"'; ?>><?php echo $helper->__("Fixed"); ?></option>
+                            <option value="percent" <?php if (isset($slice_settings['slice_'.$i]['discount_type']) && $slice_settings['slice_'.$i]['discount_type'] == 'percent') echo 'selected="selected"'; ?>><?php echo $helper->__("Percentage"); ?></option>
+                            <option value="freeship" <?php if (isset($slice_settings['slice_'.$i]['discount_type']) && $slice_settings['slice_'.$i]['discount_type'] == 'freeship') echo 'selected="selected"'; ?>><?php echo $helper->__("Free Shipping"); ?></option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="vss_spinandwin[slice_settings][slice_<?php echo $i ?>][value]" value="<?php if (isset($slice_settings['slice_'.$i]['value'])) echo $slice_settings['slice_'.$i]['value']; ?>" class="form-control vss_slice_value"<?php if ($freeShipping ) { ?> readonly<?php }?>/>
+                    </td>
+                    <td class="vss_slice_gravity_td">
+                        <label name="vss_spinandwin[slice_settings][slice_<?php echo $i ?>][gravity]"  class="form-control vss_slice_gravity"><?php echo $slice_settings['slice_'.$i]['gravity']; ?></label>
+                        <input type="hidden" name="vss_spinandwin[slice_settings][slice_<?php echo $i ?>][gravity]" value="<?php if (isset($slice_settings['slice_'.$i]['gravity'])) echo $slice_settings['slice_'.$i]['gravity']; ?>" class="form-control vss_slice_gravity"/>
+                    </td>
+                </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+</div>

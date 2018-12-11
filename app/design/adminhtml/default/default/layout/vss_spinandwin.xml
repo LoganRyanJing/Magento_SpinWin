@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/bootstrap/bootstrap.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/font_awesome/css/font-awesome.min.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/bootstrap/justified-nav.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/chosen.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/switchery.min.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/prototype_colorpicker.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/jquery-ui.min.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/custom.css</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/tooltip.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/chosen.proto.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/event.simulate.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/switchery.min.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/prototype_colorpicker.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/custom.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery-1.7.1.min.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery-no-conflict.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery-ui.min.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery-ui-timepicker-addon.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery.autocomplete.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/select2.css</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/select2.min.js</name>
+                <params/>
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>            
+            <!--JS Files for Flot Charts-->            
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/flot/jquery.flot.min.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/flot/jquery.flot.axislabels.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/flot/jquery.flot.tooltip_0.5.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/flot/jquery.flot.pie.min.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/flot/excanvas.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/velovalidation.js</name>
+                <params />
+                <if />
+                <condition>vss_spinandwin_base_media_allowed</condition>
+            </action>
+        </reference>       
+    </default>
+    <spinandwin_adminhtml_index_index>
+        <reference name="content">
+            <block type="spinandwin/adminhtml_Renderer" name="spinandwin_base" template="vss_spinandwin/renderer.phtml">
+                <block type="spinandwin/adminhtml_Renderer" name="spinandwin_general_settings" template="vss_spinandwin/general_settings.phtml"/>              
+                <block type="spinandwin/adminhtml_Renderer" name="spinandwin_lookandfeel_settings" template="vss_spinandwin/look_and_wheel_settings.phtml"/>               
+                <block type="spinandwin/adminhtml_Renderer" name="spinandwin_slice_settings" template="vss_spinandwin/slice_settings.phtml"/>
+               
+            </block>
+        </reference>
+    </spinandwin_adminhtml_index_index>
+</layout>

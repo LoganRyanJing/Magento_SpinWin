@@ -1,0 +1,201 @@
+Jan,Jan
+Feb,Fév
+Mar,Mar
+Apr,Avr
+May,Mai
+Jun,juin
+Jul,Juil
+Aug,août
+Sep,Sep
+Oct,Oct
+Nov,Nov
+Dec,Déc
+Spin and Win,Spin et Win
+Module Configurations,Module Configurations
+Image has been uploaded successfully!,L'image a été téléchargé avec succès!
+There was some error while uploading the image for the front end.,Il y avait une erreur lors du téléchargement sur l'image pour l'avant.
+Module configuration have been saved successfully!,La configuration du module ont été enregistré avec succès!
+Not your lucky day today. Better Luck Next Time.,Pas votre jour de chance aujourd'hui. Plus de chance la prochaine fois.
+"Something went wrong while generating the coupon code, please try again.","Quelque chose a mal tourné tout en générant le code de coupon, s'il vous plaît essayer à nouveau."
+Slice Settings,Paramètres tranche
+Note,Remarque
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. La valeur que vous mettez dans la colonne Gravity déterminera la possibilité d'une tranche à sélectionner sur l'extrémité avant. Plus la valeur est élevée, plus les chances de la tranche à sélectionner lorsque le client utilise le plug-in."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. La valeur de la colonne par gravité pour chaque tranche ne peut pas être supérieur à 100 et la somme de toutes les 12 tranches ne peut pas être supérieur à 100 et inférieur à 1.
+Slice Label,Étiquette tranche
+Coupon Type,Type de coupon
+Coupon Value,Valeur du coupon
+Gravity (%),La gravité (%)
+Fixed,Fixé
+Percentage,Pourcentage
+Free Shipping,Livraison gratuite
+Please select atleast one page,S'il vous plaît sélectionner au moins une page
+Please select atleast one country,S'il vous plaît sélectionner au moins un pays
+Field cannot be empty,Le champ ne peut être vide
+Total Coupons Generated,Total des coupons générés
+Total Coupons Unused,Total des billets non utilisés
+Total Coupons Used,Total des coupons d'occasion
+`Active Date` cannot be greater than `Inactive Date`,`Active Date` ne peut pas être supérieure à` inactif Date`
+`From` Date cannot be greater than `To` Date,`From` date ne peut pas être supérieure à` To` date
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,La somme de gravité n'est pas dans la plage valide. Il devrait être 1 et 100 Situés entre
+Date & Time should be greater than current date time.,Date et heure doit être supérieure à date heure actuelle.
+Please enter First name.,S'il vous plaît entrez le nom d'abord.
+First name cannot be greater than # characters.,D'abord le nom ne peut pas être supérieure à caractères #.
+First name cannot be less than # characters.,D'abord le nom ne peut pas être inférieur à caractères #.
+Please enter middle name.,S'il vous plaît entrez le nom du milieu.
+Middle name cannot be greater than # characters.,prénom ne peut pas être supérieure à caractères #.
+Middle name cannot be less than # characters.,prénom ne peut pas être inférieur à caractères #.
+Only alphabets are allowed.,alphabets seulement sont autorisés.
+Please enter Last name.,S'il vous plaît entrer Nom.
+Last name cannot be greater than # characters.,Nom ne peut pas être supérieure à caractères #.
+Last name cannot be less than # characters.,Nom ne peut pas être inférieur à caractères #.
+Field should be alphanumeric.,Champ doit être alphanumérique.
+Please enter Password.,Veuillez entrer le mot de passe.
+Password cannot be greater than # characters.,Mot de passe ne peut pas être supérieure à caractères #.
+Password cannot be less than # characters.,Mot de passe ne peut pas être inférieure à caractères #.
+Password should contain atleast 1 special character.,Mot de passe doit contenir atleast 1 caractère spécial.
+Password should contain alphabets.,Mot de passe doit contenir alphabets.
+Password should contain atleast 1 capital letter.,Mot de passe doit contenir atleast 1 lettre majuscule.
+Password should contain atleast 1 small letter.,Mot de passe doit contenir atleast 1 petite lettre.
+Password should contain atleast 1 digit.,Mot de passe doit contenir atleast 1 chiffre.
+Field cannot be empty.,Le champ ne peut être vide.
+You can enter only numbers.,Vous pouvez entrer des chiffres.
+Number should be greater than 0.,Le nombre doit être supérieur à 0.
+Field cannot be greater than # characters.,Le champ ne peut être supérieure à caractères #.
+Field cannot be less than # character(s).,Le champ ne peut être inférieure à caractère # (s).
+Please enter Email.,S'il vous plaît entrer e-mail.
+Please enter a valid Email.,S'il vous plaît entrer un courriel valide.
+Please enter country name.,S'il vous plaît entrez le nom du pays.
+Country cannot be greater than # characters.,Pays ne peut pas être supérieure à caractères #.
+Country cannot be less than # characters.,Pays ne peut pas être inférieur à caractères #.
+Please enter city name.,S'il vous plaît entrez le nom de la ville.
+City cannot be greater than # characters.,Ville ne peut pas être supérieure à caractères #.
+City cannot be less than # characters.,Ville ne peut pas être inférieure à caractères #.
+Please enter state name.,S'il vous plaît entrez le nom de l'État.
+State cannot be greater than # characters.,État ne peut pas être supérieure à caractères #.
+State cannot be less than # characters.,État ne peut pas être inférieur à caractères #.
+Please enter product name.,S'il vous plaît entrez le nom du produit.
+Product cannot be greater than # characters.,Produit ne peut pas être supérieure à caractères #.
+Product cannot be less than # characters.,Produit ne peut pas être inférieur à caractères #.
+Please enter category name.,S'il vous plaît entrez le nom de la catégorie.
+Category cannot be greater than # characters.,Catégorie ne peut pas être supérieure à caractères #.
+Category cannot be less than # characters.,Catégorie ne peut pas être inférieure à caractères #.
+Please enter zip code.,S'il vous plaît entrer le code postal.
+Zip cannot be greater than # characters.,Zip ne peut pas être supérieure à caractères #.
+Zip cannot be less than # characters.,Zip ne peut pas être inférieure à caractères #.
+Please enter Username.,S'il vous plaît entrer Nom d'utilisateur.
+Username cannot be greater than # characters.,Nom d'utilisateur ne peut pas être supérieure à caractères #.
+Username cannot be less than # characters.,Nom d'utilisateur ne peut pas être inférieur à caractères #.
+Invalid date format.,Format de date non valide.
+SKU cannot be greater than # characters.,SKU ne peut pas être supérieure à caractères #.
+SKU cannot be less than # characters.,SKU ne peut pas être inférieure à caractères #.
+Invalid SKU format.,Format SKU non valide.
+Please enter SKU.,S'il vous plaît entrer SKU.
+Number is not in the valid range. It should be betwen # and %,Nombre n'est pas dans la plage valide. Il devrait être et #% Situés entre
+Please enter address.,S'il vous plaît entrer l'adresse.
+Address cannot be less than # characters.,Adresse ne peut pas être inférieure à caractères #.
+Address cannot be greater than # characters.,Adresse ne peut pas être supérieure à caractères #.
+Please enter company name.,S'il vous plaît entrez le nom de l'entreprise.
+Company name cannot be less than # characters.,Nom de l'entreprise ne peut pas être inférieure à caractères #.
+Company name cannot be greater than # characters.,Nom de l'entreprise ne peut pas être supérieure à caractères #.
+Phone number is invalid.,numéro de téléphone est invalide.
+Please enter phone number.,S'il vous plaît entrer le numéro de téléphone.
+Phone number cannot be less than # characters.,numéro de téléphone ne peut pas être inférieure à caractères #.
+Phone number cannot be greater than # characters.,numéro de téléphone ne peut pas être supérieure à caractères #.
+Please enter brand name.,S'il vous plaît entrez le nom de la marque.
+Brand name cannot be greater than # characters.,Nom de la marque ne peut pas être supérieure à caractères #.
+Brand name cannot be less than # characters.,Nom de la marque ne peut pas être inférieure à caractères #.
+Please enter Shimpment.,S'il vous plaît entrer Shimpment.
+Shipment cannot be greater than # characters.,Envoi ne peut pas être supérieure à caractères #.
+Shipment cannot be less than # characters.,Expédition ne peut pas être inférieur à caractères #.
+Invalid IP format.,format IP non valide.
+Invalid URL format.,Format d'URL non valide.
+Please enter URL.,S'il vous plaît entrer l'URL.
+Field should be numeric.,Champ doit être numérique.
+Field can have only upto two decimal values.,Le champs ne peut avoir jusqu'à deux valeurs décimales.
+Email cannot be greater than # characters.,Email ne peut pas être supérieure à caractères #.
+Zip should not have special characters.,Zip ne devrait pas avoir des caractères spéciaux.
+SKU should not have special characters.,SKU ne devrait pas avoir des caractères spéciaux.
+URL cannot be greater than # characters.,URL ne peut pas être supérieure à caractères #.
+Percentage should be in number.,Pourcentage devrait être en nombre.
+Percentage should be between 0 and 100.,Pourcentage devrait être compris entre 0 et 100.
+Size cannot be greater than # characters.,Taille ne peut pas être supérieure à caractères #.
+Size should not have special characters.,Taille ne devrait pas avoir des caractères spéciaux.
+UPC should not have special characters.,UPC ne devrait pas avoir des caractères spéciaux.
+UPC cannot be greater than # characters.,UPC ne peut pas être supérieure à caractères #.
+EAN should not have special characters.,EAN ne devrait pas avoir des caractères spéciaux.
+EAN cannot be greater than # characters.,EAN ne peut pas être supérieure à caractères #.
+Barcode should not have special characters.,Code-barres ne devrait pas avoir des caractères spéciaux.
+Barcode cannot be greater than # characters.,Code-barres ne peut pas être supérieure à caractères #.
+Field should be positive.,Terrain devrait être positif.
+Color could not be greater than # characters.,Couleur ne pouvait pas être plus grande que les caractères #.
+Color is not valid.,La couleur est pas valide.
+Special characters are not allowed.,Les caractères spéciaux ne sont pas autorisés.
+Script tags are not allowed.,balises de script ne sont pas autorisés.
+Style tags are not allowed.,Les balises de style ne sont pas autorisés.
+Iframe tags are not allowed.,tags iframe ne sont pas autorisés.
+Uploaded file is not an image,fichier téléchargé est pas une image
+Uploaded file size must be less than #.,Téléchargé taille du fichier doit être inférieur à #.
+Field should not contain HTML tags.,Champ ne doit pas contenir des balises HTML.
+You can enter only positive numbers.,Vous pouvez entrer uniquement des nombres positifs.
+Invalid comma (#) separated values.,virgule non valide (#) séparé valeurs.
+Spin and Win Free version,Spin et Win Version gratuite
+v1.0.0,v1.0.0
+Current Configuration Scope,Champ d'application de la configuration actuelle
+Save Configurations,Configurations Enregistrer
+General Settings,réglages généraux
+Look and Feel Settings,Look and Feel Settings
+Go to Home Page,Aller à la page d'accueil
+Home,Accueil
+Spin & Win,Spin & Win
+Enable the Extension,Activer l'extension
+Following features are not avalialble in free version.,Les fonctionnalités suivantes ne sont pas avalialble dans la version gratuite.
+Click here ,Cliquez ici
+to buy paid version of this module.,pour acheter la version payante de ce module.
+1-General setting tab,onglet réglage 1 général
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Afficher Tirer: paramètre pour permettre le propriétaire du magasin de fournir la possibilité de tirer la roue arrière à l'écran par l'utilisateur
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,Email Redundancy Check: Réglage de vérifier l'id e-mail du client afin d'assurer qu'il n'y a pas de répétition id emails
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Roue Intervalle d'affichage: Réglage de fixer le nombre de jours, après quoi la roue sera affichée au client."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,CSS personnalisé et personnalisé JS: Configuration pour changer l'apparence du module selon leur besoin en saisissant le CSS personnalisé et le code JS personnalisé
+2-Display setting tab,2 Affichage onglet Paramètres
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Taille de l'écran minimum: Réglage de choisir la taille minimale de l'écran que vous souhaitez afficher des offres.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Fréquence d'affichage maximale: Réglage pour sélectionner la fréquence de l'affichage de la roue ici
+Where to Display : Setting to select the pages where you want to display the wheel from here,Où Affichage: Réglage pour sélectionner les pages où vous souhaitez afficher la roue d'ici
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Qui à afficher: pour choisir les réglages visiteurs à qui vous voulez montrer la roue de rotation. Vous pouvez sélectionner ""Tous les visiteurs de« visiteurs enregistrés, ou de « » Invité"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,Quand afficher: Réglage de choisir exactement quand vous voulez la roue à afficher. Vous pouvez l'afficher immédiatement lorsque les terres des clients sur votre site ou après un certain temps ou lorsque les rouleaux de visiteurs vers le bas
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Emplacement géographique: Réglage pour sélectionner l'affichage offre selon l'emplacement géographique des visiteurs.
+3-Look & Feel  setting tab ,3-Look & Feel onglet réglage
+Setting to allow change the look of the wheel as it appears on the site,Pour permettre la mise en changer l'apparence de la roue tel qu'il apparaît sur le site
+4-Wheel setting tab,onglet de réglage 4 roues
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Configuration pour changer l'apparence de la roue de rotation en changeant la configuration dans l'option « molette de réglage »
+5-Slice setting tab,onglet réglage 5 tranches
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Paramètres et le texte ou les offres affichées dans les différentes tranches de la roue peuvent être modifiés de l'option « Tranche réglage »
+6-Email marketing setting tab,6 Email onglet Paramètres marketing
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,L'administrateur peut activer ou désactiver l'option MailChimp et Klaviyo des paramètres « Email Marketing ». Une notification par e-mail sera envoyé aux clients sur l'ID de courrier électronique comme mentionné par eux.
+7-Email tab,onglet 7 Email
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Permet à l'administrateur de choisir les lieux où il veut afficher le coupon. À savoir « Seulement sur roues », « Email Only », « Email & Wheel »"
+8-Statistics tab,8 Onglet Statistiques
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,Un accès complet au rapport statistique des visiteurs qui filée la roue et a réclamé le coupon généré par le même. Le rapport est généré sous forme de graphiques et de tableaux.
+Display Image,Afficher l'image
+Show image in the front end Spin Wheel interface,Afficher l'image à l'avant Spin interface roue
+Upload your Logo Image,Téléchargez votre logo image
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Ajouter une image à afficher dans l'interface Faites tourner la roue d'extrémité avant (Taille max - 2 Mo)
+Required Field,Champs requis
+Not a valid email,Pas un email valide
+a discount,un rabais
+Code copied.,Code copié.
+Website Logo,site Web Logo
+Special bonus unlocked,Bonus spécial déverrouillé
+Hurrah! You've got,Hourra! Tu as
+. Lucky day!,. Jour de chance!
+The coupon code has been sent to you through the email.,Le code promo vous a été envoyé par courrier électronique.
+Better luck next time!,Plus de chance la prochaine fois!
+You have a chance to win a nice big fat discount. Are you ready?,Vous avez une chance de gagner une belle grande remise en gras. Es-tu prêt?
+You can spin the wheel only once.,Vous pouvez faire tourner la roue une seule fois.
+"If you win, you can claim your coupon for 1 day only!","Si vous gagnez, vous pouvez demander votre coupon pour 1 jour seulement!"
+Don't forget to use the discount code at checkout!,Ne pas oublier d'utiliser le code de réduction à la caisse!
+Enter you email,Présentez-vous email
+Try your luck,Tente ta chance
+Next Time,La prochaine fois
+"No, I do not feel lucky","Non, je ne me sens pas la chance"
+Continue,Continuer
+Spin and Win Free,Spin et Win gratuit

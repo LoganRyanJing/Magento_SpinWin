@@ -1,0 +1,164 @@
+<?php
+    $helper = Mage::helper("spinandwin");
+    $slice_settings = $this->getModuleSettings('slice_settings');
+    $general_settings = $this->getModuleSettings('general_settings');
+    $lookandfeel_settings = $this->getModuleSettings('lookandfeel_settings');
+    $display_settings = $this->getModuleSettings('display_settings');
+?>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Merriweather|Roboto" rel="stylesheet">
+    <style>
+        #vss_try_your_luck_button {
+            background-color: #00c74c;
+            color: #ffffff;
+        }
+
+        #spinwheel_exit {
+            color: #fffbf8 !important;
+        }
+
+        #spinwheel_continue_btn {
+            background-color: #d6042e;
+        }
+
+        #vss_next_time_button {
+            background-color: #ff8400;
+        }
+        #velsof_wheel_main_container{
+            background-color: #007aa7;
+        }
+
+        
+        #velsof_offer_container{
+            color: #ffffff;
+        }
+        .wheelslices{
+            color: #ffffff;
+        }
+        
+        .spinwheel_close_icon {
+            position: relative;
+            right: 32px;
+            top: 32px;
+            width: 35px;
+            height: 35px;
+            opacity: 0.75;
+            float: right;
+        }
+        .spinwheel_close_icon:hover {
+            opacity: 1;
+        }
+        .spinwheel_close_icon:before, .spinwheel_close_icon:after {
+            position: absolute;
+            left: 15px;
+            content: ' ';
+            height: 33px;
+            width: 2px;
+            background-color: #fff;
+        }
+        .spinwheel_close_icon:before {
+            transform: rotate(45deg);
+        }
+        .spinwheel_close_icon:after {
+            transform: rotate(-45deg);
+        }
+
+    </style>
+</head>
+<script>
+    var velsofWheelHexCode = "#4497bb";
+    var when_exit = false;
+    var time_display = '';
+    var scroll_display = '';
+    var urlFrontAjax = "<?php echo $this->getUrl('spinandwin/index/frontAjax', array('_secure' => Mage::app()->getStore()->isCurrentlySecure())); ?>";
+ 
+    var display_settings = '<?php echo json_encode($display_settings, true); ?>';
+   
+    var coupon_display_options = '1';
+    var display_interval = '0';
+    var email_blank_error = "<?php echo $helper->__("Required Field"); ?>";
+    var fname_blank_error = "<?php echo $helper->__("Required Field"); ?>";
+    var lname_blank_error = "<?php echo $helper->__("Required Field"); ?>";
+    var email_error = "<?php echo $helper->__("Not a valid email"); ?>";
+    var coupon_discount_ph = "<?php echo $helper->__("a discount"); ?>";
+    var coupon_copied = "<?php echo $helper->__("Code copied."); ?>";
+    var wheel_sound = "0";
+    var mediapath = "<?php echo $this->getFrontMediaURL(); ?>";
+    var show_fireworks = "0";
+    var wheel_design = '1';//"<?php // echo $lookandfeel_settings['wheel_design']; ?>";
+//    var wheel_color = "<?php // echo $lookandfeel_settings['wheel_color']; ?>";
+</script>
+
+
+<div id="velsof_wheel_container" style="display: none;">
+    <div id="velsof_wheel_model"> </div>
+    <div id="vss_loader">
+        <img style="width: 35%;" src="<?php echo $this->getFrontMediaURL().'Loader.gif';?>"/>
+    </div>
+    <div id="velsof_wheel_main_container">
+          
+        <div id="velsof_offer_container">
+            <?php if (isset($lookandfeel_settings['show_image']) && $lookandfeel_settings['show_image'] == 1) {?>
+                <div id="spin_wheel_logo_container">
+                    <img src="<?php echo $lookandfeel_settings['image_url']; ?>" alt="<?php echo $helper->__("Website Logo"); ?>" id="spin_wheel_logo" onerror="hideImageBlock(this);" />
+                </div>
+                <div style="clear: both;"></div>
+            <?php } ?>
+            <div id="velsof_offer_main_container">
+                <div id="velsof_main_header" class="velsof_main_title"><?php echo $helper->__("Special bonus unlocked"); ?></div>
+                <div id="spin_successmessage" class="velsof_main_title" style="display: none;">
+                    <?php echo $helper->__("Hurrah! You've got"); ?> {discount} <?php echo $helper->__(". Lucky day!"); ?>
+                </div>
+                <div id="spin_sent_on_email" class="velsof_main_title" style="display: none;">
+                    <?php echo $helper->__("The coupon code has been sent to you through the email."); ?>
+                </div>
+                <div id="spin_falemsg" class="velsof_main_title" style="display: none;">
+                    <?php echo $helper->__("Better luck next time!"); ?>
+                </div>
+                <div>
+                    <div id="spinwheeltitle" class="velsof_subtitle"><?php echo $helper->__("You have a chance to win a nice big fat discount. Are you ready?"); ?></div>
+                    <ul class="velsof_ul">
+                        <li><?php echo $helper->__("You can spin the wheel only once."); ?></li>
+                        <li>
+                            <?php echo $helper->__("If you win, you can claim your coupon for 1 day only!"); ?>
+                        </li>
+                    </ul>
+                    <div id="sucmsgdes" class="velsof_subtitle" style="display:none;"><?php echo $helper->__("Don't forget to use the discount code at checkout!"); ?></div>
+                </div>
+                <div>
+                   
+                    <input type="text" name="vss_combined_input_field" id="vss_combined_input_field" class="velsof_input_field" placeholder="<?php echo $helper->__("Enter you email"); ?>">
+                    <input type="button" class="velsof_button" id="vss_try_your_luck_button" name="Rotate" value="<?php echo $helper->__("Try your luck"); ?>" onclick="rotateWheel()" />
+                    <input type="button" class="velsof_button" id="vss_next_time_button" name="next_time" value="<?php echo $helper->__("Next Time"); ?>" style="display: none;">
+                    <div id="spinwheel_exit" class="velsof_subtitle cancel_button">
+                        <?php echo $helper->__("No, I do not feel lucky"); ?>
+                        <span class="spinwheel_close_icon"></span>
+                    </div>
+                    <div id="spinwheel_continue_btn" class="velsof_button exit_button" style="display: none;">
+                        <?php echo $helper->__("Continue"); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="velsof_spinner_container">
+            <div id="velsof_spinners">
+                <div class="velsof_shadow"></div>
+                <div id="velsof_spinner" class="velsof_spinner2">                    
+                    <?php 
+                        $count = 0;
+                        foreach ($slice_settings as $slice) {
+                        $rotate_angle = ($count * (-30));
+                        ?>
+                        <div class="wheelslices" style="transform: rotate(<?php echo $rotate_angle; ?>deg) translate(0px, -50%);">
+                            <?php echo $slice['label']; ?>
+                        </div>
+                    <?php $count++; } ?>                    
+                </div>
+            </div>
+            <div id="velsof_wheel_pointer" class="velsof_wheel_pointer2"> </div>
+        </div>
+    </div>
+</div>
+    

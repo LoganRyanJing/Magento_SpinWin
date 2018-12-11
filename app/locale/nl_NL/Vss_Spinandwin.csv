@@ -1,0 +1,201 @@
+Jan,jan
+Feb,februari
+Mar,bederven
+Apr,april
+May,mei
+Jun,juni
+Jul,juli
+Aug,augustus
+Sep,september
+Oct,oktober
+Nov,november
+Dec,december
+Spin and Win,Draai en Win
+Module Configurations,moduleconfiguraties
+Image has been uploaded successfully!,Afbeelding is geüpload!
+There was some error while uploading the image for the front end.,Er was een fout tijdens het uploaden van de afbeelding voor de front-end.
+Module configuration have been saved successfully!,Module configuratie zijn met succes gered!
+Not your lucky day today. Better Luck Next Time.,Niet uw geluksdag vandaag. Volgende keer beter.
+"Something went wrong while generating the coupon code, please try again.","Er ging iets mis tijdens het genereren van de coupon code, probeer het opnieuw."
+Slice Settings,slice Instellingen
+Note,Notitie
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. De waarde die je in de kolom Gravity zal de mogelijkheid van een stukje vast te stellen om te worden geselecteerd op de front-end. Hoe hoger de waarde, hoe groter de kans voor het segment wordt geselecteerd wanneer de klant gebruikt de plug."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. De waarde van de zwaartekracht kolom voor elke schijf kan niet groter zijn dan 100 en de som van alle 12 segmenten kan groter zijn dan 100 en minder dan 1 niet.
+Slice Label,slice Label
+Coupon Type,coupon Type
+Coupon Value,coupon Value
+Gravity (%),Gravity (%)
+Fixed,vast
+Percentage,Percentage
+Free Shipping,Geen verzendkosten
+Please select atleast one page,Selecteer tenminste één pagina
+Please select atleast one country,Selecteer tenminste één land
+Field cannot be empty,Het gebied mag niet leeg zijn
+Total Coupons Generated,Totaal Coupons Generated
+Total Coupons Unused,Totaal Coupons Ongebruikte
+Total Coupons Used,Totaal Coupons Gebruikt
+`Active Date` cannot be greater than `Inactive Date`,`Active invuldatum kan niet groter zijn dan` Inactieve invuldatum zijn
+`From` Date cannot be greater than `To` Date,`From` datum kan niet groter zijn dan` To` Date
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,De som van Gravity is niet in het geldige bereik. Het moet TUSSEN 1 en 100
+Date & Time should be greater than current date time.,Datum en tijd moet groter zijn dan de huidige datum tijd.
+Please enter First name.,Vul Voornaam.
+First name cannot be greater than # characters.,Voornaam mag niet groter zijn dan # tekens.
+First name cannot be less than # characters.,Voornaam mag niet lager zijn dan # tekens.
+Please enter middle name.,Vul de tweede naam.
+Middle name cannot be greater than # characters.,Middelste naam kan niet groter zijn dan # tekens.
+Middle name cannot be less than # characters.,Middelste naam kan niet minder dan # tekens.
+Only alphabets are allowed.,Alleen letters zijn toegestaan.
+Please enter Last name.,Vul de achternaam.
+Last name cannot be greater than # characters.,Achternaam mag niet groter zijn dan # tekens.
+Last name cannot be less than # characters.,Laatste naam kan niet minder dan # tekens.
+Field should be alphanumeric.,Veld moet alfanumeriek zijn.
+Please enter Password.,Voer wachtwoord in alstublieft.
+Password cannot be greater than # characters.,Het wachtwoord kan niet groter zijn dan # tekens.
+Password cannot be less than # characters.,Het wachtwoord kan niet minder dan # tekens.
+Password should contain atleast 1 special character.,Wachtwoord moet minstens 1 speciaal teken bevatten.
+Password should contain alphabets.,Wachtwoord moet alfabetten bevatten.
+Password should contain atleast 1 capital letter.,Wachtwoord moet minstens 1 hoofdletter bevatten.
+Password should contain atleast 1 small letter.,Wachtwoord moet minstens 1 kleine letter bevatten.
+Password should contain atleast 1 digit.,Wachtwoord moet minstens 1 cijfer bevatten.
+Field cannot be empty.,Het gebied mag niet leeg zijn.
+You can enter only numbers.,U kunt alleen cijfers invoeren.
+Number should be greater than 0.,Nummer moet groter zijn dan 0.
+Field cannot be greater than # characters.,Het gebied mag niet groter zijn dan # tekens.
+Field cannot be less than # character(s).,Het gebied kan niet lager zijn dan # teken (s) zijn.
+Please enter Email.,Vul e-mail.
+Please enter a valid Email.,Gelieve een geldig e-mailadres in te vullen.
+Please enter country name.,Vul de naam van het land.
+Country cannot be greater than # characters.,Land mag niet groter zijn dan # tekens.
+Country cannot be less than # characters.,Land kan niet minder dan # tekens.
+Please enter city name.,Vul de naam van de stad.
+City cannot be greater than # characters.,Stad kan niet groter zijn dan # tekens.
+City cannot be less than # characters.,Stad kan niet minder dan # tekens.
+Please enter state name.,Voer je provincie naam.
+State cannot be greater than # characters.,Staat kan niet groter zijn dan # tekens.
+State cannot be less than # characters.,Staat kan niet minder dan # tekens.
+Please enter product name.,Vul de naam van het product.
+Product cannot be greater than # characters.,Het product kan niet groter zijn dan # tekens.
+Product cannot be less than # characters.,Het product kan niet minder dan # tekens.
+Please enter category name.,Vul hier de categorie naam.
+Category cannot be greater than # characters.,Categorie kan niet groter zijn dan # tekens.
+Category cannot be less than # characters.,Categorie kan niet minder dan # tekens.
+Please enter zip code.,Vul postcode.
+Zip cannot be greater than # characters.,Zip kan niet groter zijn dan # tekens.
+Zip cannot be less than # characters.,Zip kan niet minder dan # tekens.
+Please enter Username.,Vul gebruikersnaam.
+Username cannot be greater than # characters.,Gebruikersnaam mag niet groter zijn dan # tekens.
+Username cannot be less than # characters.,Gebruikersnaam kan niet minder dan # tekens.
+Invalid date format.,Ongeldige datum.
+SKU cannot be greater than # characters.,SKU kan niet groter zijn dan # tekens.
+SKU cannot be less than # characters.,SKU kan niet minder dan # tekens.
+Invalid SKU format.,Ongeldige SKU-formaat.
+Please enter SKU.,Vul SKU.
+Number is not in the valid range. It should be betwen # and %,Nummer is niet in het geldige bereik. Het moet ontlenen # en%
+Please enter address.,Vul adres.
+Address cannot be less than # characters.,Het adres kan niet minder dan # tekens.
+Address cannot be greater than # characters.,Adres kan niet groter zijn dan # tekens.
+Please enter company name.,Vul de naam van het bedrijf.
+Company name cannot be less than # characters.,Bedrijfsnaam mag niet lager zijn dan # tekens.
+Company name cannot be greater than # characters.,Bedrijfsnaam mag niet groter zijn dan # tekens.
+Phone number is invalid.,Telefoonnummer is ongeldig.
+Please enter phone number.,Vul telefoonnummer in.
+Phone number cannot be less than # characters.,Telefoonnummer mag niet lager zijn dan # tekens.
+Phone number cannot be greater than # characters.,Telefoonnummer mag niet groter zijn dan # tekens.
+Please enter brand name.,Vul merknaam.
+Brand name cannot be greater than # characters.,Merknaam mag niet groter zijn dan # tekens.
+Brand name cannot be less than # characters.,Merknaam kan niet minder dan # tekens.
+Please enter Shimpment.,Vul Shimpment.
+Shipment cannot be greater than # characters.,Verzending kan niet groter zijn dan # tekens.
+Shipment cannot be less than # characters.,Verzending kan niet minder dan # tekens.
+Invalid IP format.,Ongeldig IP-formaat.
+Invalid URL format.,Ongeldige URL-indeling.
+Please enter URL.,Voer een URL in.
+Field should be numeric.,Veld moet numeriek zijn.
+Field can have only upto two decimal values.,Het gebied kan alleen upto twee decimale waarden hebben.
+Email cannot be greater than # characters.,E-mail kan niet groter zijn dan # tekens.
+Zip should not have special characters.,Zip mag geen speciale tekens.
+SKU should not have special characters.,SKU mogen geen speciale tekens.
+URL cannot be greater than # characters.,URL kan niet groter zijn dan # tekens.
+Percentage should be in number.,Percentage moet zijn in aantal.
+Percentage should be between 0 and 100.,Percentage moet tussen 0 en 100.
+Size cannot be greater than # characters.,Grootte kan niet groter zijn dan # tekens.
+Size should not have special characters.,Maat zal geen speciale tekens.
+UPC should not have special characters.,UPC mag geen speciale tekens.
+UPC cannot be greater than # characters.,UPC kan niet groter zijn dan # tekens.
+EAN should not have special characters.,EAN mogen geen speciale tekens.
+EAN cannot be greater than # characters.,EAN kan niet groter zijn dan # tekens.
+Barcode should not have special characters.,Barcode mag geen speciale tekens.
+Barcode cannot be greater than # characters.,Barcode kan niet groter zijn dan # tekens.
+Field should be positive.,Het gebied moet positief zijn.
+Color could not be greater than # characters.,Color kon niet groter dan # tekens.
+Color is not valid.,Kleur is niet geldig.
+Special characters are not allowed.,Speciale karakters zijn niet toegestaan.
+Script tags are not allowed.,Script tags zijn niet toegestaan.
+Style tags are not allowed.,Style tags zijn niet toegestaan.
+Iframe tags are not allowed.,Iframe-tags zijn niet toegestaan.
+Uploaded file is not an image,Geüploade bestand is geen afbeelding
+Uploaded file size must be less than #.,Geuploade bestandsgrootte moet kleiner zijn dan # zijn.
+Field should not contain HTML tags.,Het gebied mag geen HTML-tags bevatten.
+You can enter only positive numbers.,U kunt alleen positieve getallen in te voeren.
+Invalid comma (#) separated values.,Ongeldige komma (#) gescheiden waarden.
+Spin and Win Free version,Spin en Win gratis versie
+v1.0.0,v1.0.0
+Current Configuration Scope,Huidige configuratie Scope
+Save Configurations,Save configuraties
+General Settings,Algemene instellingen
+Look and Feel Settings,Look and Feel Instellingen
+Go to Home Page,Ga naar homepagina
+Home,Huis
+Spin & Win,Spin & Win
+Enable the Extension,Schakel de Extension
+Following features are not avalialble in free version.,De volgende functies zijn niet avalialble in gratis versie.
+Click here ,Klik hier
+to buy paid version of this module.,betaalde versie van deze module te kopen.
+1-General setting tab,1-generaal tabblad instelling
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Show Trek: Instelling om eigenaar van de winkel om de optie om het wiel terug te trekken op het scherm door de gebruiker
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,E-mail Redundancy Check: instellen op de e-id van de klant controleren om ervoor te zorgen dat er geen herhaling van e-mail id
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,Wheel Weergave Interval: Instelling van het aantal dagen waarna het wiel wordt weergegeven aan de klant op te lossen.
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Eigen CSS en Custom JS: instellen om de look-and-feel van de module als per hun behoefte door het invoeren van de aangepaste CSS en aangepaste JS code
+2-Display setting tab,tab 2-Display-instelling
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Minimum Screen Size: instellen op de minimale grootte van het scherm waarmee u wilt aanbiedingen weer te geven te kiezen.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Maximum Display frequentie: instellen op de frequentie van het wiel hier tentoongesteld selecteren
+Where to Display : Setting to select the pages where you want to display the wheel from here,Waar wilt zien: instellen op de pagina's te selecteren waar u het wiel van hier weer te geven
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Wie naar Show: instellen op de bezoekers aan wie u wilt de spin wiel te tonen te selecteren. U kunt kiezen ‘Alle bezoekers’, ‘Registered Visitors’, of ‘Guest Visitors’"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,Als u wilt zien: instellen om precies te kiezen wanneer je wilt het wiel moet worden weergegeven. U kunt weer te geven onmiddellijk wanneer de klant landt op uw site of na verloop van tijd of wanneer de bezoeker scrollt
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Geo Locatie: instellen op de display biedt volgens de geo-locatie van de bezoekers.
+3-Look & Feel  setting tab ,3-Look & Feel instelling tab
+Setting to allow change the look of the wheel as it appears on the site,Instellen om het uiterlijk van het wiel zoals deze op de site wordt weergegeven
+4-Wheel setting tab,tab 4-Wheel-instelling
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Instellen om de look-and-feel van de spin wiel door het veranderen van de configuratie in de optie ‘Wheel Setting’
+5-Slice setting tab,5-Slice tabblad instelling
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Instellingen en de tekst of aanbiedingen weergegeven in de verschillende segmenten van het wiel kan worden gewijzigd via de optie ‘Slice instellen’
+6-Email marketing setting tab,6-tabblad E-mail marketing instelling
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,De beheerder kan in- of MailChimp en Klaviyo optie uit te schakelen van de ‘E-mail Marketing’ settings. Een e-mailbericht wordt op de e-id aan de klanten worden verzonden als genoemd door hen.
+7-Email tab,7-tabblad E-mail
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Hiermee kan de admin naar de plaatsen waar hij wil de coupon weer te geven te kiezen. Namelijk ‘Alleen op Wheel’, ‘E-Only’, ‘E-mail & Wheel’"
+8-Statistics tab,8-tabblad Statistieken
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,Een volledige toegang tot het statistisch verslag van de bezoekers die het wiel gedraaid en beweerde dat de coupon wordt gegenereerd door dezelfde. Het rapport wordt gegenereerd in zowel de grafische tabel formaat.
+Display Image,Beeld weergeven
+Show image in the front end Spin Wheel interface,Beeld tonen in de front-end Spin Wheel-interface
+Upload your Logo Image,Upload uw Logoafbeelding
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Upload een beeld dat moet worden weergegeven in de front-end Spin Wheel interface (Max Size - 2 MB)
+Required Field,Verplicht veld
+Not a valid email,Geen geldig e
+a discount,een korting
+Code copied.,Code gekopieerd.
+Website Logo,website Logo
+Special bonus unlocked,Speciale bonus ontgrendeld
+Hurrah! You've got,Hoera! Jij hebt
+. Lucky day!,. Geluksdag!
+The coupon code has been sent to you through the email.,De coupon code via de e-mail naar u verzonden.
+Better luck next time!,Volgende keer beter!
+You have a chance to win a nice big fat discount. Are you ready?,Je hebt een kans om een ​​mooie dikke korting te winnen. Ben je klaar?
+You can spin the wheel only once.,U kunt het wiel maar één keer draaien.
+"If you win, you can claim your coupon for 1 day only!","Als je wint, kunt u uw coupon claimen voor slechts 1 dag!"
+Don't forget to use the discount code at checkout!,Vergeet niet om de korting code te gebruiken bij de kassa!
+Enter you email,Voer je e-mail
+Try your luck,Probeer je geluk
+Next Time,De volgende keer
+"No, I do not feel lucky","Nee, ik voel me niet gelukkig"
+Continue,Doorgaan met
+Spin and Win Free,Spin en Win gratis

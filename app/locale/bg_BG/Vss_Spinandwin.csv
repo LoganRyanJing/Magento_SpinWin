@@ -1,0 +1,201 @@
+Jan,Jan
+Feb,февруари
+Mar,развалям
+Apr,април
+May,Може
+Jun,юни
+Jul,юли
+Aug,август
+Sep,септември
+Oct,октомври
+Nov,ноември
+Dec,декември
+Spin and Win,Spin и Win
+Module Configurations,Модул Конфигурации
+Image has been uploaded successfully!,Изображението е качен успешно!
+There was some error while uploading the image for the front end.,Имаше някаква грешка при качването на изображението за предния край.
+Module configuration have been saved successfully!,конфигурация модул са били спасени успешно!
+Not your lucky day today. Better Luck Next Time.,Не си днес щастлив ден. По-добър късмет следващия път.
+"Something went wrong while generating the coupon code, please try again.","Нещо се обърка при генериране на кода на талона, моля опитайте отново."
+Slice Settings,Slice Настройки
+Note,Забележка
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Стойността, която поставя в графата Gravity ще определи възможността за парче, за да бъде избран на предния край. Колкото по-висока е стойността, толкова по-високи са шансовете за парчето да бъде избран, когато потребителят използва приставката."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. Стойността на колоната тежестта на всяко парче не може да бъде по-голяма от 100 и сумата от всички 12 парчета не може да бъде по-голямо от 100 и по-малко от 1.
+Slice Label,Slice Label
+Coupon Type,Купон Тип
+Coupon Value,Стойността на купона
+Gravity (%),Земно притегляне (%)
+Fixed,определен
+Percentage,Процент
+Free Shipping,Безплатна доставка
+Please select atleast one page,"Моля, изберете поне една страница"
+Please select atleast one country,"Моля, изберете поне една държава"
+Field cannot be empty,Невярно е може да е празно
+Total Coupons Generated,Брой талони генерирани
+Total Coupons Unused,Брой талони Неизползвани
+Total Coupons Used,Използвани брой талони
+`Active Date` cannot be greater than `Inactive Date`,`Active Date` не може да бъде по-голяма от` Inactive Date`
+`From` Date cannot be greater than `To` Date,`From` дата не може да бъде по-голяма от` To` Дата
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Сумата от Gravity не е в сила диапазон. Тя трябва да бъде линии между 1 и 100
+Date & Time should be greater than current date time.,Дата и час трябва да бъде по-голяма от текущата дата и час.
+Please enter First name.,"Моля, въведете Име."
+First name cannot be greater than # characters.,Собствено име не може да бъде по-голяма от # знака.
+First name cannot be less than # characters.,Собствено име не може да бъде по-малко от # знака.
+Please enter middle name.,"Моля, въведете бащино име."
+Middle name cannot be greater than # characters.,Бащино име не може да бъде по-голяма от # знака.
+Middle name cannot be less than # characters.,Бащино име не може да бъде по-малко от # знака.
+Only alphabets are allowed.,Само азбуки са позволени.
+Please enter Last name.,"Моля, въведете Фамилия."
+Last name cannot be greater than # characters.,Фамилия не може да бъде по-голяма от # знака.
+Last name cannot be less than # characters.,Фамилия не може да бъде по-малко от # знака.
+Field should be alphanumeric.,Невярно трябва да бъде буквено-цифрови.
+Please enter Password.,"Моля, въведете паролата."
+Password cannot be greater than # characters.,Паролата не може да бъде повече от # знака.
+Password cannot be less than # characters.,Паролата не може да е под # знака.
+Password should contain atleast 1 special character.,Паролата трябва да съдържа поне един специален знак.
+Password should contain alphabets.,Паролата трябва да съдържа азбуки.
+Password should contain atleast 1 capital letter.,Паролата трябва да съдържа поне една главна буква.
+Password should contain atleast 1 small letter.,Паролата трябва да съдържа поне една малка буква.
+Password should contain atleast 1 digit.,Паролата трябва да съдържа поне една цифра.
+Field cannot be empty.,Полето не може да бъде празно.
+You can enter only numbers.,Можете да въведете само цифри.
+Number should be greater than 0.,Числото трябва да е по-голямо от 0.
+Field cannot be greater than # characters.,"Полето не може да бъде по-голяма, отколкото # знака."
+Field cannot be less than # character(s).,"Полето не може да бъде по-малко, отколкото # характер (а)."
+Please enter Email.,"Моля, въведете имейл."
+Please enter a valid Email.,"Моля, въведете валиден имейл."
+Please enter country name.,"Моля, въведете име на държава."
+Country cannot be greater than # characters.,Държава не може да бъде по-голяма от # знака.
+Country cannot be less than # characters.,Държава не може да бъде по-малко от # знака.
+Please enter city name.,"Моля, въведете име на град."
+City cannot be greater than # characters.,Сити не може да бъде по-голяма от # знака.
+City cannot be less than # characters.,Сити не може да бъде по-малко от # знака.
+Please enter state name.,"Моля, въведете име на щат."
+State cannot be greater than # characters.,Членка не може да бъде по-голяма от # знака.
+State cannot be less than # characters.,Членка не може да бъде по-малко от # знака.
+Please enter product name.,"Моля, въведете име на продукта."
+Product cannot be greater than # characters.,Продуктът не може да бъде по-голяма от # знака.
+Product cannot be less than # characters.,Продуктът не може да бъде по-малко от # знака.
+Please enter category name.,"Моля, въведете име категория."
+Category cannot be greater than # characters.,Категория не може да бъде по-голяма от # знака.
+Category cannot be less than # characters.,Категория не може да бъде по-малко от # знака.
+Please enter zip code.,"Моля, въведете пощенски код."
+Zip cannot be greater than # characters.,Zip не може да бъде по-голяма от # знака.
+Zip cannot be less than # characters.,Zip не може да бъде по-малко от # знака.
+Please enter Username.,"Моля, въведете потребителско име."
+Username cannot be greater than # characters.,Потребителско име не може да бъде по-голяма от # знака.
+Username cannot be less than # characters.,Потребителско име не може да бъде по-малко от # знака.
+Invalid date format.,Невалиден формат на дата.
+SKU cannot be greater than # characters.,Код не може да бъде по-голяма от # знака.
+SKU cannot be less than # characters.,Код не може да бъде по-малко от # знака.
+Invalid SKU format.,Невалиден формат Код.
+Please enter SKU.,"Моля, въведете Код."
+Number is not in the valid range. It should be betwen # and %,Номерът не е в сила диапазон. Тя трябва да бъде линии между # и%
+Please enter address.,"Моля, въведете адрес."
+Address cannot be less than # characters.,Адресът не може да бъде по-малко от # знака.
+Address cannot be greater than # characters.,Адресът не може да бъде по-голяма от # знака.
+Please enter company name.,"Моля, въведете име на компанията."
+Company name cannot be less than # characters.,"Име на фирма, не може да бъде по-малко от # знака."
+Company name cannot be greater than # characters.,"Име на фирма, не може да бъде по-голяма от # знака."
+Phone number is invalid.,Телефонният номер е невалиден.
+Please enter phone number.,"Моля, въведете телефонен номер."
+Phone number cannot be less than # characters.,Телефонният номер не може да бъде по-малко от # знака.
+Phone number cannot be greater than # characters.,Телефонният номер не може да бъде по-голяма от # знака.
+Please enter brand name.,"Моля, въведете име на марката."
+Brand name cannot be greater than # characters.,Името на марката не може да бъде по-голяма от # знака.
+Brand name cannot be less than # characters.,Името на марката не може да бъде по-малко от # знака.
+Please enter Shimpment.,"Моля, въведете Shimpment."
+Shipment cannot be greater than # characters.,Пратка не може да бъде по-голяма от # знака.
+Shipment cannot be less than # characters.,Пратка не може да бъде по-малко от # знака.
+Invalid IP format.,Невалиден IP формат.
+Invalid URL format.,Невалиден формат на URL адрес.
+Please enter URL.,"Моля, въведете URL адрес."
+Field should be numeric.,Невярно трябва да е цифра.
+Field can have only upto two decimal values.,Невярно може да има само до запълването два десетични стойности.
+Email cannot be greater than # characters.,Email не може да бъде по-голяма от # знака.
+Zip should not have special characters.,Zip не трябва да има специални знаци.
+SKU should not have special characters.,Код не трябва да има специални знаци.
+URL cannot be greater than # characters.,URL не може да бъде по-голяма от # знака.
+Percentage should be in number.,Процент трябва да бъде в брой.
+Percentage should be between 0 and 100.,Процент трябва да бъде между 0 и 100.
+Size cannot be greater than # characters.,Размер не може да бъде по-голяма от # знака.
+Size should not have special characters.,Размерът не трябва да има специални знаци.
+UPC should not have special characters.,UPC не трябва да има специални знаци.
+UPC cannot be greater than # characters.,UPC не може да бъде по-голяма от # знака.
+EAN should not have special characters.,EAN не трябва да има специални знаци.
+EAN cannot be greater than # characters.,EAN не може да бъде по-голяма от # знака.
+Barcode should not have special characters.,Баркод не трябва да има специални знаци.
+Barcode cannot be greater than # characters.,Баркод не може да бъде по-голяма от # знака.
+Field should be positive.,Невярно трябва да бъде положителен.
+Color could not be greater than # characters.,Цвят не може да бъде по-голяма от # знака.
+Color is not valid.,Цвят не е валиден.
+Special characters are not allowed.,Специални знаци не са разрешени.
+Script tags are not allowed.,Script тагове не са позволени.
+Style tags are not allowed.,Стил тагове не са позволени.
+Iframe tags are not allowed.,Маркери за вградени рамки не се допускат.
+Uploaded file is not an image,Каченият файл не е изображение
+Uploaded file size must be less than #.,Качено на размера на файла трябва да е по-малко от #.
+Field should not contain HTML tags.,Невярно не трябва да съдържа HTML тагове.
+You can enter only positive numbers.,Можете да въведете само положителни числа.
+Invalid comma (#) separated values.,"Невалиден запетая (#), разделени стойности."
+Spin and Win Free version,Spin и Win Безплатна версия
+v1.0.0,v1.0.0
+Current Configuration Scope,Текущ Обхват Configuration
+Save Configurations,Запазване Конфигурации
+General Settings,Основни настройки
+Look and Feel Settings,Облик Настройки
+Go to Home Page,Отидете в началната страница
+Home,У дома
+Spin & Win,Spin & Win
+Enable the Extension,Активирате разширението
+Following features are not avalialble in free version.,"Следните функции, не са avalialble в безплатната версия."
+Click here ,Натисни тук
+to buy paid version of this module.,да купят платената версия на този модул.
+1-General setting tab,1-раздел Общи настройка
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,"Покажи Издърпайте: Setting за да позволи собственик магазин, за да се осигури възможност да дръпнем колело обратно на екрана от страна на потребителя"
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"Email за Излишък: Настройка за проверка на имейл адреса на клиента, за да се гарантира, че няма повторение на имейли идентификатор"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Колелото дисплей Интервал: Настройка за да се определи броя на дните, след което колелото ще бъдат показани на клиента."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Персонализирана CSS и JS по поръчка: Настройка за промяна на външния вид на модула според техните нужди чрез въвеждане на потребителски CSS и JS потребителски код
+2-Display setting tab,раздел 2-Display обстановка
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,"Минимален размер на екрана: Създаване да избере минималния размер на екрана, които искате да покажете оферти."
+Maximum Display frequency : Setting to select the frequency of the wheel display here,"Максимална честота на дисплея: Настройка, за да изберете честотата на дисплея на колело тук"
+Where to Display : Setting to select the pages where you want to display the wheel from here,"Къде да Посочете: Настройка, за да изберете страниците, на които искате да покажете на колелото от тук"
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","На кого да показва: Настройка, за да изберете за гостите, на които искате да покажете на завъртане колелото. Можете да изберете ""Всички посетители"", ""Регистрирани посетители"" или ""гости за посетители"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,"Когато за показване: Създаване да изберете точно когато искате колелото, за да бъдат показани. Можете да го покаже веднага, когато земите на клиентите на вашия сайт или след известно време или когато посетителите се превърта надолу"
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,"Гео Местоположение: Настройка, за да изберете на дисплея предлага по местонахождението Гео от посетителите."
+3-Look & Feel  setting tab ,3-Погледни & Feel определяне раздела
+Setting to allow change the look of the wheel as it appears on the site,"Настройка за да може промените външния вид на колелото, както е изписано на сайта"
+4-Wheel setting tab,раздел 4-Wheel обстановка
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,"Настройка, за да промените външния вид на завъртане колелото чрез промяна на конфигурацията на опцията ""Колелото Setting"""
+5-Slice setting tab,5-Slice раздела настройка
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Настройки и текста или оферти показани в различните резена колелото могат да бъдат променяни от "Slice настройката" опция
+6-Email marketing setting tab,6-мейл раздела настройка маркетинг
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,"Администраторът може да разрешите или забраните MailChimp и Klaviyo опция от настройките на ""имейл маркетинг. известие по имейл ще бъде изпратен на клиентите на имейла, както е посочено от тях."
+7-Email tab,Раздел 7-мейл
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Позволява на администратора да избират местата, където той иска да покаже на купона. А именно ""Само Wheel"", ""само по имейл"", ""Електронна поща & Wheel"""
+8-Statistics tab,8-Статистика раздела
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,"Пълен достъп до статистическия отчет на посетителите, които се завъртат колелото и твърдяха талона, генерирани от един и същ. В доклада се генерира и в двете графични и табличен формат."
+Display Image,Екранно изображение
+Show image in the front end Spin Wheel interface,Покажи изображението в интерфейса Spin колело на предния край
+Upload your Logo Image,Качете Графично лого
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Качете изображение да се показва в интерфейса на предния край Spin Wheel (максимален размер - 2 MB)
+Required Field,Задължително поле
+Not a valid email,Не е валиден имейл
+a discount,намаление
+Code copied.,Код копира.
+Website Logo,Сайт Лого
+Special bonus unlocked,Специален бонус отключена
+Hurrah! You've got,Ура! Имаш
+. Lucky day!,", Късметлийски ден!"
+The coupon code has been sent to you through the email.,"Кодът на талона, е изпратена до вас чрез електронна поща."
+Better luck next time!,По-добър късмет следващия път!
+You have a chance to win a nice big fat discount. Are you ready?,Имате шанс да спечелите хубав голям мазнини отстъпка. Готов ли си?
+You can spin the wheel only once.,Можете да завъртите колелото само веднъж.
+"If you win, you can claim your coupon for 1 day only!","Ако спечелите, можете да заявите талон за едва 1 ден!"
+Don't forget to use the discount code at checkout!,Не забравяйте да използвате кода отстъпка при плащане!
+Enter you email,Въведете имейли
+Try your luck,Опитай късмета си
+Next Time,Следващият път
+"No, I do not feel lucky","Не, аз не се чувствам щастлив"
+Continue,продължи
+Spin and Win Free,Spin и Win Безплатен

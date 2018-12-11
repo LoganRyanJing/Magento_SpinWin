@@ -1,0 +1,290 @@
+<?php
+
+/**
+ * Created by Velsof.
+ * @author Bhupendra Singh Bisht
+ * Created at 09/18/2018(mm/dd/yyyy)
+ *
+ */
+
+/*
+ * This is the main PHTML file for the admin panel, all the tabs and there contents are rendered using this file only
+ */
+$helper = Mage::helper('spinandwin');
+$scope = Mage::getSingleton('spinandwin/spinandwin')->getData('scope');
+?>
+
+<script>
+    var selected_pages_error = "<?php echo $helper->__('Please select atleast one page'); ?>";
+    var selected_country_error = "<?php echo $helper->__('Please select atleast one country'); ?>";
+    var empty_field = "<?php echo $helper->__('Field cannot be empty'); ?>";
+    var c_g_label = "<?php echo $helper->__('Total Coupons Generated'); ?>";
+    var c_un_label = "<?php echo $helper->__('Total Coupons Unused'); ?>";
+    var c_u_label = "<?php echo $helper->__('Total Coupons Used'); ?>";
+    var date_range_error ="<?php echo $helper->__('`Active Date` cannot be greater than `Inactive Date`'); ?>";
+    var stats_date_range_error ="<?php echo $helper->__('`From` Date cannot be greater than `To` Date'); ?>";
+    var gravity_range_error = "<?php echo $helper->__('The sum of Gravity is not in the valid range. It should be betwen 1 and 100'); ?>";
+    var ajax_url = "<?php echo $this->getUrl('*/*/sendTestEmail'); ?>";
+    var updateemail_content_ajax_url = "<?php echo $this->getUrl('*/*/getEmailContent'); ?>";
+    var lists_ajax_url = "<?php echo $this->getUrl('*/*/getEmailsList'); ?>";
+    var stats_ajax_url = "<?php echo $this->getUrl('*/*/getLineChartData'); ?>";
+    var current_date_time = "<?php echo date('Y-m-d H:i:s', time()); ?>";
+    var datetime_greterthan_current_time = "<?php echo $helper->__('Date & Time should be greater than current date time.'); ?>";
+    var prev_image_path = "<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'vss_spinandwin'.DS; ?>";
+    
+    jQuery(document).ready(function (){
+        velovalidation.setErrorLanguage({
+            empty_fname: '<?php echo $helper->__('Please enter First name.'); ?>' ,
+            maxchar_fname: '<?php echo $helper->__('First name cannot be greater than # characters.'); ?>' ,
+            minchar_fname: '<?php echo $helper->__('First name cannot be less than # characters.'); ?>' ,
+            empty_mname: '<?php echo $helper->__('Please enter middle name.'); ?>' ,
+            maxchar_mname: '<?php echo $helper->__('Middle name cannot be greater than # characters.'); ?>' ,
+            minchar_mname: '<?php echo $helper->__('Middle name cannot be less than # characters.'); ?>' ,
+            only_alphabet: '<?php echo $helper->__('Only alphabets are allowed.'); ?>' ,
+            empty_lname: '<?php echo $helper->__('Please enter Last name.'); ?>' ,
+            maxchar_lname: '<?php echo $helper->__('Last name cannot be greater than # characters.'); ?>' ,
+            minchar_lname: '<?php echo $helper->__('Last name cannot be less than # characters.'); ?>' ,
+            alphanumeric: '<?php echo $helper->__('Field should be alphanumeric.'); ?>' ,
+            empty_pass: '<?php echo $helper->__('Please enter Password.'); ?>' ,
+            maxchar_pass: '<?php echo $helper->__('Password cannot be greater than # characters.'); ?>' ,
+            minchar_pass: '<?php echo $helper->__('Password cannot be less than # characters.'); ?>' ,
+            specialchar_pass: '<?php echo $helper->__('Password should contain atleast 1 special character.'); ?>' ,
+            alphabets_pass: '<?php echo $helper->__('Password should contain alphabets.'); ?>' ,
+            capital_alphabets_pass: '<?php echo $helper->__('Password should contain atleast 1 capital letter.'); ?>' ,
+            small_alphabets_pass: '<?php echo $helper->__('Password should contain atleast 1 small letter.'); ?>' ,
+            digit_pass: '<?php echo $helper->__('Password should contain atleast 1 digit.'); ?>' ,
+            empty_field: '<?php echo $helper->__('Field cannot be empty.'); ?>' ,
+            number_field: '<?php echo $helper->__('You can enter only numbers.'); ?>' ,            
+            positive_number: '<?php echo $helper->__('Number should be greater than 0.'); ?>' ,
+            maxchar_field: '<?php echo $helper->__('Field cannot be greater than # characters.'); ?>' ,
+            minchar_field: '<?php echo $helper->__('Field cannot be less than # character(s).'); ?>' ,
+            empty_email: '<?php echo $helper->__('Please enter Email.'); ?>' ,
+            validate_email: '<?php echo $helper->__('Please enter a valid Email.'); ?>' ,
+            empty_country: '<?php echo $helper->__('Please enter country name.'); ?>' ,
+            maxchar_country: '<?php echo $helper->__('Country cannot be greater than # characters.'); ?>' ,
+            minchar_country: '<?php echo $helper->__('Country cannot be less than # characters.'); ?>' ,
+            empty_city: '<?php echo $helper->__('Please enter city name.'); ?>' ,
+            maxchar_city: '<?php echo $helper->__('City cannot be greater than # characters.'); ?>' ,
+            minchar_city: '<?php echo $helper->__('City cannot be less than # characters.'); ?>' ,
+            empty_state: '<?php echo $helper->__('Please enter state name.'); ?>' ,
+            maxchar_state: '<?php echo $helper->__('State cannot be greater than # characters.'); ?>' ,
+            minchar_state: '<?php echo $helper->__('State cannot be less than # characters.'); ?>' ,
+            empty_proname: '<?php echo $helper->__('Please enter product name.'); ?>' ,
+            maxchar_proname: '<?php echo $helper->__('Product cannot be greater than # characters.'); ?>' ,
+            minchar_proname: '<?php echo $helper->__('Product cannot be less than # characters.'); ?>' ,
+            empty_catname: '<?php echo $helper->__('Please enter category name.'); ?>' ,
+            maxchar_catname: '<?php echo $helper->__('Category cannot be greater than # characters.'); ?>' ,
+            minchar_catname: '<?php echo $helper->__('Category cannot be less than # characters.'); ?>' ,
+            empty_zip: '<?php echo $helper->__('Please enter zip code.'); ?>' ,
+            maxchar_zip: '<?php echo $helper->__('Zip cannot be greater than # characters.'); ?>' ,
+            minchar_zip: '<?php echo $helper->__('Zip cannot be less than # characters.'); ?>' ,
+            empty_username: '<?php echo $helper->__('Please enter Username.'); ?>' ,
+            maxchar_username: '<?php echo $helper->__('Username cannot be greater than # characters.'); ?>' ,
+            minchar_username: '<?php echo $helper->__('Username cannot be less than # characters.'); ?>' ,
+            invalid_date: '<?php echo $helper->__('Invalid date format.'); ?>' ,
+            maxchar_sku: '<?php echo $helper->__('SKU cannot be greater than # characters.'); ?>' ,
+            minchar_sku: '<?php echo $helper->__('SKU cannot be less than # characters.'); ?>' ,
+            invalid_sku: '<?php echo $helper->__('Invalid SKU format.'); ?>' ,
+            empty_sku: '<?php echo $helper->__('Please enter SKU.'); ?>' ,
+            validate_range: '<?php echo $helper->__('Number is not in the valid range. It should be betwen # and %'); ?>' ,
+            empty_address: '<?php echo $helper->__('Please enter address.'); ?>' ,
+            minchar_address: '<?php echo $helper->__('Address cannot be less than # characters.'); ?>' ,
+            maxchar_address: '<?php echo $helper->__('Address cannot be greater than # characters.'); ?>' ,
+            empty_company: '<?php echo $helper->__('Please enter company name.'); ?>' ,
+            minchar_company: '<?php echo $helper->__('Company name cannot be less than # characters.'); ?>' ,
+            maxchar_company: '<?php echo $helper->__('Company name cannot be greater than # characters.'); ?>' ,
+            invalid_phone: '<?php echo $helper->__('Phone number is invalid.'); ?>' ,
+            empty_phone: '<?php echo $helper->__('Please enter phone number.'); ?>' ,
+            minchar_phone: '<?php echo $helper->__('Phone number cannot be less than # characters.'); ?>' ,
+            maxchar_phone: '<?php echo $helper->__('Phone number cannot be greater than # characters.'); ?>' ,
+            empty_brand: '<?php echo $helper->__('Please enter brand name.'); ?>' ,
+            maxchar_brand: '<?php echo $helper->__('Brand name cannot be greater than # characters.'); ?>' ,
+            minchar_brand: '<?php echo $helper->__('Brand name cannot be less than # characters.'); ?>' ,
+            empty_shipment: '<?php echo $helper->__('Please enter Shimpment.'); ?>' ,
+            maxchar_shipment: '<?php echo $helper->__('Shipment cannot be greater than # characters.'); ?>' ,
+            minchar_shipment: '<?php echo $helper->__('Shipment cannot be less than # characters.'); ?>' ,
+            invalid_ip: '<?php echo $helper->__('Invalid IP format.'); ?>' ,
+            invalid_url: '<?php echo $helper->__('Invalid URL format.'); ?>' ,
+            empty_url: '<?php echo $helper->__('Please enter URL.'); ?>' ,
+            valid_amount: '<?php echo $helper->__('Field should be numeric.'); ?>' ,
+            valid_decimal: '<?php echo $helper->__('Field can have only upto two decimal values.'); ?>' ,
+            max_email: '<?php echo $helper->__('Email cannot be greater than # characters.'); ?>' ,
+            specialchar_zip: '<?php echo $helper->__('Zip should not have special characters.'); ?>' ,
+            specialchar_sku: '<?php echo $helper->__('SKU should not have special characters.'); ?>' ,
+            max_url: '<?php echo $helper->__('URL cannot be greater than # characters.'); ?>' ,
+            valid_percentage: '<?php echo $helper->__('Percentage should be in number.'); ?>' ,
+            between_percentage: '<?php echo $helper->__('Percentage should be between 0 and 100.'); ?>' ,
+            maxchar_size: '<?php echo $helper->__('Size cannot be greater than # characters.'); ?>' ,
+            specialchar_size: '<?php echo $helper->__('Size should not have special characters.'); ?>' ,
+            specialchar_upc: '<?php echo $helper->__('UPC should not have special characters.'); ?>' ,
+            maxchar_upc: '<?php echo $helper->__('UPC cannot be greater than # characters.'); ?>' ,
+            specialchar_ean: '<?php echo $helper->__('EAN should not have special characters.'); ?>' ,
+            maxchar_ean: '<?php echo $helper->__('EAN cannot be greater than # characters.'); ?>' ,
+            specialchar_bar: '<?php echo $helper->__('Barcode should not have special characters.'); ?>' ,
+            maxchar_bar: '<?php echo $helper->__('Barcode cannot be greater than # characters.'); ?>' ,
+            positive_amount: '<?php echo $helper->__('Field should be positive.'); ?>' ,
+            maxchar_color: '<?php echo $helper->__('Color could not be greater than # characters.'); ?>' ,
+            invalid_color: '<?php echo $helper->__('Color is not valid.'); ?>' ,
+            specialchar: '<?php echo $helper->__('Special characters are not allowed.'); ?>' ,
+            script: '<?php echo $helper->__('Script tags are not allowed.'); ?>' ,
+            style: '<?php echo $helper->__('Style tags are not allowed.'); ?>' ,
+            iframe: '<?php echo $helper->__('Iframe tags are not allowed.'); ?>' ,
+            not_image: '<?php echo $helper->__('Uploaded file is not an image'); ?>' ,
+            image_size: '<?php echo $helper->__('Uploaded file size must be less than #.'); ?>' ,
+            html_tags: '<?php echo $helper->__('Field should not contain HTML tags.'); ?>' ,
+            number_pos: '<?php echo $helper->__('You can enter only positive numbers.'); ?>' ,
+            invalid_separator: '<?php echo $helper->__('Invalid comma (#) separated values.'); ?>'
+        });
+    });
+</script>
+<!-- Main Container Fluid -->
+<div class="container-960 fluid">
+    <form action="<?php echo Mage::getUrl('*/*/save') ?>" method="post" enctype="multipart/form-data" id="spinandwin_form">
+        <input type="hidden" name="scope" value="<?php echo $scope['scope']; ?>" />
+        <input type="hidden" name="scope_id" value="<?php echo $scope['scope_id']; ?>" />
+        <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>"  />
+        <!-- Top navbar -->
+        <div class="navbar navbar-default">
+            <h4 class="vss_page_title"><?php echo $helper->__('Spin and Win Free version') . ' ' . $helper->__('v1.0.0'); ?></h4>
+            <!-- Brand & save buttons -->
+            <div class="topbuttons form-group">
+                <label for="store_switcher"><?php echo $helper->__('Current Configuration Scope') ?>:</label>
+                <select id="store_switcher" name="store_switcher" class="system-config-store-switcher spinandwin-chosen-select" onchange="location.href = this.options[this.selectedIndex].getAttribute('url')">
+                    <?php foreach ($this->getStoreSelectOptions() as $_value => $_option): ?>
+                        <?php if (isset($_option['is_group'])): ?>
+                            <?php if ($_option['is_close']): ?>
+                                </optgroup>
+                            <?php else: ?>
+                                <optgroup label="<?php echo $this->escapeHtml($_option['label']) ?>" style="<?php echo $_option['style'] ?>">
+                                <?php endif; ?>
+                                <?php continue ?>
+                            <?php endif; ?>
+                            <option value="<?php echo $this->escapeHtml($_value) ?>" url="<?php echo $_option['url'] ?>" <?php echo $_option['selected'] ? 'selected="selected"' : '' ?> style="<?php echo $_option['style'] ?>">
+                                <?php echo $this->escapeHtml($_option['label']) ?>
+                            </option>
+                        <?php endforeach; ?>
+                </select>
+                <a onclick="submitSpinandWinForm();" id="vss_save_spinwin_form_button" class="btn btn-success">
+                    <span><?php echo $helper->__('Save Configurations') ?></span>
+                </a>&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <!-- Top navbar END -->
+
+        <!-- Sidebar menu & content wrapper -->
+        <div id="wrapper">
+            <!-- Sidebar Menu -->
+            <div class="vss_sidebar sidebar">
+                <!-- Scrollable menu wrapper with Maximum height -->
+                <div class="slim-scroll">
+                    <!-- Regular Size Menu -->
+                    <ul id="velsof-tabs" class="velsof-tabs nav nav-justified">
+                        <!-- Menu Regular Item -->
+                        <li class="active tab" id="tab_general_settings">
+                            <a href="javascript:void(0)">
+                                <i class="glyphicon glyphicon-wrench"></i>
+                                <span><?php echo $helper->__("General Settings"); ?></span>
+                                <i class="glyphicon glyphicon-exclamation-sign error-icon" style="display:none;"></i>
+                            </a>
+                        </li>
+                       
+                        <li class="tab" id="tab_look_and_feel_settings">
+                            <a href="javascript:void(0)">
+                                <i class="glyphicon glyphicon-certificate"></i>
+                                <span><?php echo $helper->__("Look and Feel Settings"); ?></span>
+                                <i class="glyphicon glyphicon-exclamation-sign error-icon" style="display:none;"></i>
+                            </a>
+                        </li>
+                        <li class="tab" id="tab_slice_settings">
+                            <a href="javascript:void(0)">
+                                <i class="glyphicon glyphicon-list"></i>
+                                <span><?php echo $helper->__("Slice Settings"); ?></span>
+                                <i class="glyphicon glyphicon-exclamation-sign error-icon" style="display:none;"></i>
+                            </a>
+                        </li>
+                      
+                        <!-- // Menu Regular Items END -->
+                    </ul>
+                    <!-- // Regular Size Menu END -->
+                    <div class="clearfix"></div>
+                    <div class="separator bottom"></div>
+                </div>
+                <!-- // Scrollable Menu wrapper with Maximum Height END -->
+            </div>
+            <!-- // Sidebar Menu END -->
+            <!-- Content -->
+            <div id="content">
+                <div class="breadcrumb">
+                    <div class="layout">
+                        <a title="<?php echo $helper->__('Go to Home Page') ?>" href="<?php echo Mage::getUrl('adminhtml/dashboard'); ?>"><?php echo $helper->__('Home') ?></a>
+                        :: <?php echo $helper->__('Spin & Win') ?>
+                    </div>
+                </div>
+                <div class="box"> 
+                    <div class="content tabs">
+                        <div class="layout">
+                            <div class="tab-content even-height">
+                                <div id="tab_general_settings_contents" class="tab-pane active">
+                                    <?php echo $this->getChildHtml('spinandwin_general_settings'); ?>
+                                </div>
+                               
+                                <div id="tab_look_and_feel_settings_contents" class="tab-pane active">
+                                    <?php echo $this->getChildHtml('spinandwin_lookandfeel_settings'); ?>
+                                </div>
+                                <div id="tab_slice_settings_contents" class="tab-pane active">
+                                    <?php echo $this->getChildHtml('spinandwin_slice_settings'); ?>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- layout-->
+                    </div>
+                    <!-- content tabs--> 
+                </div>
+                <!-- box -->
+                <!-- // Content END -->
+            </div>
+            <!-- Sidebar menu & content wrapper End -->
+            <div class="clearfix"></div>
+            <!-- // Sidebar menu & content wrapper END -->   
+        </div>
+    </form>
+</div>
+
+<!-- // Main Container Fluid END -->
+
+<script type="text/javascript">
+    /* Code for handling the tabs of this module's admin panel */
+    Varien.Tabs = Class.create();
+    Varien.Tabs.prototype = {
+        initialize: function (selector) {
+            var self = this;
+            $$(selector + ' a').each(this.initTab.bind(this));
+        },
+        initTab: function (el) {
+            el.href = 'javascript:void(0)';
+            if ($(el.parentNode).hasClassName('active')) {
+                this.showContent(el);
+            }
+            el.observe('click', this.showContent.bind(this, el));
+        },
+        showContent: function (a) {
+            var li = $(a.parentNode), ul = $(li.parentNode);
+            ul.getElementsBySelector('li', 'ol').each(function (el) {
+                try {
+                    var contents = $(el.id + '_contents');
+                    if (el == li) {
+                        el.addClassName('active');
+                        contents.show();
+                    } else {
+                        el.removeClassName('active');
+                        contents.hide();
+                    }
+                } catch (e) {
+
+                }
+            });
+        }
+    }
+    new Varien.Tabs('.velsof-tabs');
+</script>

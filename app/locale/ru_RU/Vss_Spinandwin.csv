@@ -1,0 +1,201 @@
+Jan,январь
+Feb,февраль
+Mar,март
+Apr,апрель
+May,май
+Jun,июнь
+Jul,июль
+Aug,август
+Sep,сентябрь
+Oct,октябрь
+Nov,ноябрь
+Dec,декабрь
+Spin and Win,Спин и Win
+Module Configurations,Конфигурации модулей
+Image has been uploaded successfully!,Изображение было загружено успешно!
+There was some error while uploading the image for the front end.,Был какой-то ошибка при загрузке изображения на переднем конце.
+Module configuration have been saved successfully!,Конфигурация модуля были успешно сохранены!
+Not your lucky day today. Better Luck Next Time.,Не ваш счастливый день сегодня. Повезет в следующий раз.
+"Something went wrong while generating the coupon code, please try again.","Что-то пошло не так, генерируя код купона, пожалуйста, попробуйте еще раз."
+Slice Settings,Настройки Slice
+Note,Заметка
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Значения, которое вы положили в колонке силы тяжести будет определять возможность ломтика быть выбрано на переднем конце. Чем выше значение, тем выше шансы на срез должны быть выбраны, когда клиент использует плагин."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,"2. Значение колонки силы тяжести для каждого среза не может быть больше, чем 100, и сумма всех 12 срезов не может быть больше чем 100 и менее 1."
+Slice Label,Кусочек этикетки
+Coupon Type,Купон Тип
+Coupon Value,Купон Значение
+Gravity (%),Сила тяжести (%)
+Fixed,Исправлена
+Percentage,процент
+Free Shipping,Бесплатная доставка
+Please select atleast one page,"Пожалуйста, выберите по крайней мере одну страницу"
+Please select atleast one country,"Пожалуйста, выберите по крайней мере одну страну"
+Field cannot be empty,Поле не может быть пустым
+Total Coupons Generated,Всего купоны Сформированы
+Total Coupons Unused,Всего купоны Неиспользованный
+Total Coupons Used,Всего купоны Подержанные
+`Active Date` cannot be greater than `Inactive Date`,"`Активный date` не может быть больше, чем` неактивной date`"
+`From` Date cannot be greater than `To` Date,"`От` Дата не может быть больше, чем` в` Дата"
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Сумма тяжести не находится в допустимом диапазоне. Это должно быть betwen 1 и 100
+Date & Time should be greater than current date time.,"Дата и время должна быть больше, чем текущее время даты."
+Please enter First name.,"Пожалуйста, введите Ваше имя."
+First name cannot be greater than # characters.,"Имя не может быть больше, чем # символов."
+First name cannot be less than # characters.,"Имя не может быть меньше, чем # символов."
+Please enter middle name.,"Пожалуйста, введите отчество."
+Middle name cannot be greater than # characters.,"Отчество не может быть больше, чем # символов."
+Middle name cannot be less than # characters.,"Отчество не может быть меньше, чем # символов."
+Only alphabets are allowed.,Только алфавитов допускается.
+Please enter Last name.,"Пожалуйста, введите Фамилию."
+Last name cannot be greater than # characters.,"Фамилия не может быть больше, чем # символов."
+Last name cannot be less than # characters.,"Фамилия не может быть меньше, чем # символов."
+Field should be alphanumeric.,Поле должно быть буквенно-цифровым.
+Please enter Password.,Пожалуйста введите пароль.
+Password cannot be greater than # characters.,"Пароль не может быть больше, чем # символов."
+Password cannot be less than # characters.,"Пароль не может быть меньше, чем # символов."
+Password should contain atleast 1 special character.,Пароль должен содержать по крайней мере 1 специального символа.
+Password should contain alphabets.,Пароль должен содержать алфавиты.
+Password should contain atleast 1 capital letter.,Пароль должен содержать по крайней мере 1 заглавную букву.
+Password should contain atleast 1 small letter.,Пароль должен содержать по крайней мере 1 небольшого письма.
+Password should contain atleast 1 digit.,Пароль должен содержать по крайней мере 1 цифру.
+Field cannot be empty.,Поле не может быть пустым.
+You can enter only numbers.,Можно ввести только цифры.
+Number should be greater than 0.,Количество должно быть больше 0.
+Field cannot be greater than # characters.,"Поле не может быть больше, чем # символов."
+Field cannot be less than # character(s).,"Поле не может быть меньше, чем # символ (ы)."
+Please enter Email.,"Пожалуйста, введите e-mail."
+Please enter a valid Email.,"Введите, пожалуйста, действительный адрес электронной почты."
+Please enter country name.,"Пожалуйста, введите название страны."
+Country cannot be greater than # characters.,"Страна не может быть больше, чем # символов."
+Country cannot be less than # characters.,"Страна не может быть меньше, чем # символов."
+Please enter city name.,"Пожалуйста, введите название города."
+City cannot be greater than # characters.,"Город не может быть больше, чем # символов."
+City cannot be less than # characters.,"Город не может быть меньше, чем # символов."
+Please enter state name.,"Пожалуйста, введите название штата."
+State cannot be greater than # characters.,"Государство не может быть больше, чем # символов."
+State cannot be less than # characters.,"Государство не может быть меньше, чем # символов."
+Please enter product name.,"Пожалуйста, введите название продукта."
+Product cannot be greater than # characters.,"Продукт не может быть больше, чем # символов."
+Product cannot be less than # characters.,"Продукт не может быть меньше, чем # символов."
+Please enter category name.,"Пожалуйста, введите название категории."
+Category cannot be greater than # characters.,"Категория не может быть больше, чем # символов."
+Category cannot be less than # characters.,"Категория не может быть меньше, чем # символов."
+Please enter zip code.,"Пожалуйста, введите почтовый индекс."
+Zip cannot be greater than # characters.,"Страна не может быть больше, чем # символов."
+Zip cannot be less than # characters.,"Страна не может быть меньше, чем # символов."
+Please enter Username.,"Пожалуйста, введите имя пользователя."
+Username cannot be greater than # characters.,"Имя пользователя не может быть больше, чем # символов."
+Username cannot be less than # characters.,"Имя пользователя не может быть меньше, чем # символов."
+Invalid date format.,Неверный формат даты.
+SKU cannot be greater than # characters.,"SKU не может быть больше, чем # символов."
+SKU cannot be less than # characters.,"SKU не может быть меньше, чем # символов."
+Invalid SKU format.,Неверный формат SKU.
+Please enter SKU.,"Пожалуйста, введите SKU."
+Number is not in the valid range. It should be betwen # and %,Номер не в допустимом диапазоне. Это должно быть betwen # и%
+Please enter address.,"Пожалуйста, введите адрес."
+Address cannot be less than # characters.,"Адрес не может быть меньше, чем # символов."
+Address cannot be greater than # characters.,"Адрес не может быть больше, чем # символов."
+Please enter company name.,"Пожалуйста, введите название компании."
+Company name cannot be less than # characters.,"Название компании не может быть меньше, чем # символов."
+Company name cannot be greater than # characters.,"Название компании не может быть больше, чем # символов."
+Phone number is invalid.,Номер телефона является недействительным.
+Please enter phone number.,"Пожалуйста, введите номер телефона."
+Phone number cannot be less than # characters.,"Номер телефона не может быть меньше, чем # символов."
+Phone number cannot be greater than # characters.,"Номер телефона не может быть больше, чем # символов."
+Please enter brand name.,"Пожалуйста, введите имя бренда."
+Brand name cannot be greater than # characters.,"Фирменное наименование не может быть больше, чем # символов."
+Brand name cannot be less than # characters.,"Фирменное наименование не может быть меньше, чем # символов."
+Please enter Shimpment.,"Пожалуйста, введите Shimpment."
+Shipment cannot be greater than # characters.,"Пересылка не может быть больше, чем # символов."
+Shipment cannot be less than # characters.,"Пересылка не может быть меньше, чем # символов."
+Invalid IP format.,Неверный формат IP.
+Invalid URL format.,Неверный формат URL.
+Please enter URL.,"Пожалуйста, введите URL-адрес."
+Field should be numeric.,Поле должно быть числовым.
+Field can have only upto two decimal values.,Поле может иметь только ДО двух десятичных значений.
+Email cannot be greater than # characters.,"Email не может быть больше, чем # символов."
+Zip should not have special characters.,Zip не должен иметь специальные символы.
+SKU should not have special characters.,SKU не должен иметь специальные символы.
+URL cannot be greater than # characters.,"URL не может быть больше, чем # символов."
+Percentage should be in number.,Процент должен быть числом.
+Percentage should be between 0 and 100.,Процент должен быть в пределах от 0 до 100.
+Size cannot be greater than # characters.,"Размер не может быть больше, чем # символов."
+Size should not have special characters.,Размер не должен иметь специальные символы.
+UPC should not have special characters.,СКП не должен иметь специальные символы.
+UPC cannot be greater than # characters.,"СКП не может быть больше, чем # символов."
+EAN should not have special characters.,EAN не должен иметь специальные символы.
+EAN cannot be greater than # characters.,"EAN не может быть больше, чем # символов."
+Barcode should not have special characters.,Штрих-код не должен иметь специальные символы.
+Barcode cannot be greater than # characters.,"Штрих-код не может быть больше, чем # символов."
+Field should be positive.,Поле должно быть положительным.
+Color could not be greater than # characters.,"Цвет не может быть больше, чем # символов."
+Color is not valid.,Цвет не является действительным.
+Special characters are not allowed.,Спецсимволы не допустимы.
+Script tags are not allowed.,теги сценария не допускаются.
+Style tags are not allowed.,теги Стиль не допускаются.
+Iframe tags are not allowed.,Iframe-теги не допускаются.
+Uploaded file is not an image,Загруженный файл не является изображением
+Uploaded file size must be less than #.,Загруженный размер файла должен быть меньше #.
+Field should not contain HTML tags.,Поле не должно содержать HTML-тегов.
+You can enter only positive numbers.,Вы можете ввести только положительные числа.
+Invalid comma (#) separated values.,"Недопустимая запятая (#), разделенные значения."
+Spin and Win Free version,Спин и Win Бесплатная версия
+v1.0.0,v1.0.0
+Current Configuration Scope,Текущая Область конфигурации
+Save Configurations,Сохранение конфигурации
+General Settings,общие настройки
+Look and Feel Settings,Внешний вид и настройки
+Go to Home Page,Вернуться на домашнюю страницу
+Home,Главная
+Spin & Win,Спин & Win
+Enable the Extension,Включить расширение
+Following features are not avalialble in free version.,Эти функции не avalialble в бесплатной версии.
+Click here ,кликните сюда
+to buy paid version of this module.,купить платную версию этого модуля.
+1-General setting tab,Общие 1-вкладка настройки
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,"Показать Вытащите: Установка, чтобы владелец магазина, чтобы обеспечить возможность тянуть колесо назад на экране пользователя"
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"Email Redundancy Check: Установка для проверки электронной почты, идентификатор клиента, чтобы гарантировать, что нет никакого повторения электронных писем ид"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Интервал дисплея Колеса: Установка для фиксации числа дней, после чего колесо будет отображаться клиенту."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,"Пользовательские C и пользовательские JS: Настройка, чтобы изменить внешний вид модуля в соответствии с их потребностью, введя пользовательский CSS и пользовательский код JS"
+2-Display setting tab,Вкладка настройки 2-Display
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Минимальный размер экрана: Установка для выбора минимального размера экрана которого вы хотите отобразить предложения.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Максимальная частота дисплея: Установка для выбора частоты дисплея колеса здесь
+Where to Display : Setting to select the pages where you want to display the wheel from here,"Где Дисплей: Установка для выбора страниц, где вы хотите, чтобы отобразить колесо от сюда"
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Кто Показать: Установка для выбора посетителей, которым вы хотите, чтобы показать вращение колеса. Вы можете выбрать «Все посетители», «зарегистрированных посетителей» или «гостей» посетителей"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,"Когда Дисплей: Установка для выбора, когда именно вы хотите, чтобы колесо, которое будет отображаться. Вы можете отобразить его сразу же, когда земли клиента на вашем сайте или через некоторое время или когда посетитель прокручивает вниз"
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Географическое положение: Установка для выбора дисплея предлагает в соответствии с Geo расположения посетителей.
+3-Look & Feel  setting tab ,3-Look & Feel вкладки настройки
+Setting to allow change the look of the wheel as it appears on the site,"Настройка, чтобы изменить внешний вид колеса, как он появится на сайте"
+4-Wheel setting tab,Вкладка настройки 4-колеса
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,"Настройка, чтобы изменить внешний вид и спин колеса путем изменения конфигурации в опции «Установка колеса»"
+5-Slice setting tab,5-фрагмент вкладка настройки
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,"Настройки и текст или предложения, отображаемые в различных срезах колеса можно изменить опции «Кусочек Setting»"
+6-Email marketing setting tab,6-Email вкладка Настройки маркетинга
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,"Администратор может включить или отключить MailChimp и Klaviyo опцию в настройках «Email Маркетинг». Уведомление по электронной почте будет отправлено клиентам на электронный идентификатор, как указано на них."
+7-Email tab,Вкладка 7-Email
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Позволяет администратору выбирать места, где он хочет, чтобы отобразить купон. А именно «Только на колесе», «Электронная почта только», «E-mail & Wheel»"
+8-Statistics tab,8-закладка Статистики
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,"Полный доступ к статистическому отчету посетителей, которые центрифугировали колесо и заявляемых купон, порожденную тем же самым. Отчет формируется как в графическом и табличном формате."
+Display Image,Показать изображение
+Show image in the front end Spin Wheel interface,Показать изображение в интерфейсе пробуксовки переднего конца
+Upload your Logo Image,Загрузить изображение логотипа
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),"Загрузите изображение, которое будет показано в интерфейсе колеса передний конец Спин (Максимальный размер - 2 MB)"
+Required Field,Обязательное поле
+Not a valid email,Не действительный адрес электронной почты
+a discount,скидка
+Code copied.,Код скопирован.
+Website Logo,Сайт Логотип
+Special bonus unlocked,Специальный бонус разблокированы
+Hurrah! You've got,Ура! У тебя есть
+. Lucky day!,", Счастливый день!"
+The coupon code has been sent to you through the email.,Код купона был послан к вам через электронную почту.
+Better luck next time!,Повезет в следующий раз!
+You have a chance to win a nice big fat discount. Are you ready?,У вас есть шанс выиграть хорошую большой жир скидку. Вы готовы?
+You can spin the wheel only once.,Вы можете вращать колесо только один раз.
+"If you win, you can claim your coupon for 1 day only!","Если вы выиграете, вы можете претендовать купон всего за 1 день!"
+Don't forget to use the discount code at checkout!,Не забудьте использовать код скидки при оформлении заказа!
+Enter you email,Введите адрес электронной
+Try your luck,Испытай удачу
+Next Time,В следующий раз
+"No, I do not feel lucky","Нет, я не считаю, повезло"
+Continue,Продолжать
+Spin and Win Free,Спин и выиграть бесплатные

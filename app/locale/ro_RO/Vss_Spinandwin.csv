@@ -1,0 +1,201 @@
+Jan,Jan
+Feb,februarie
+Mar,strica
+Apr,Aprilie
+May,Mai
+Jun,Iunie
+Jul,iulie
+Aug,august
+Sep,septembrie
+Oct,octombrie
+Nov,noiembrie
+Dec,decembrie
+Spin and Win,Spin și Win
+Module Configurations,Configurațiile modulului
+Image has been uploaded successfully!,Imagine a fost încărcat cu succes!
+There was some error while uploading the image for the front end.,A apărut o eroare la încărcarea imaginii pentru capătul din față.
+Module configuration have been saved successfully!,Modul de configurare au fost salvate cu succes!
+Not your lucky day today. Better Luck Next Time.,Nu este ziua ta norocoasă astăzi. Mai mult noroc data viitoare.
+"Something went wrong while generating the coupon code, please try again.","Ceva a mers prost în timp ce generarea codului de cupon, vă rugăm să încercați din nou."
+Slice Settings,Setări Slice
+Note,Notă
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Valoarea pe care ați pus în coloana Gravity va determina posibilitatea unei felii de a fi selectat pe front-end. Cu cât valoarea, cu atât șansele de felia care urmează să fie selectat în cazul în care clientul utilizează plugin-ul."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. Valoarea coloanei Gravity pentru fiecare felie nu poate fi mai mare decât 100 și suma tuturor 12 felii nu poate fi mai mare decât 100 și mai puțin de 1.
+Slice Label,Slice Label
+Coupon Type,Tip cupon
+Coupon Value,Valoarea cuponului
+Gravity (%),Gravitatie (%)
+Fixed,Fix
+Percentage,Procent
+Free Shipping,Transport gratuit
+Please select atleast one page,Vă rugăm să selectați atleast o pagină
+Please select atleast one country,Vă rugăm să selectați atleast o țară
+Field cannot be empty,Câmpul nu poate fi gol
+Total Coupons Generated,Total de cupoane generate
+Total Coupons Unused,Total de cupoane neutilizate
+Total Coupons Used,Total de cupoane de ocazie
+`Active Date` cannot be greater than `Inactive Date`,`Active Date` nu poate fi mai mare decât` inactiv Date`
+`From` Date cannot be greater than `To` Date,`Din` Data nu poate fi mai mare decât` a` Data
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Suma de greutate nu este în intervalul valid. Ar trebui să fie 1 și 100 Intre
+Date & Time should be greater than current date time.,Data și ora trebuie să fie mai mare decât timpul de data curentă.
+Please enter First name.,Vă rugăm să introduceți Prenume.
+First name cannot be greater than # characters.,Primul nume nu poate fi mai mare decât # caractere.
+First name cannot be less than # characters.,Primul nume nu poate fi mai mică de # de caractere.
+Please enter middle name.,Vă rugăm să introduceți numele de mijloc.
+Middle name cannot be greater than # characters.,Al doilea prenume nu poate fi mai mare decât # caractere.
+Middle name cannot be less than # characters.,Al doilea prenume nu poate fi mai mică decât # caractere.
+Only alphabets are allowed.,Doar alfabete sunt permise.
+Please enter Last name.,Vă rugăm să introduceți Nume.
+Last name cannot be greater than # characters.,Ultimul nume nu poate fi mai mare decât # caractere.
+Last name cannot be less than # characters.,Ultimul nume nu poate fi mai mică de # de caractere.
+Field should be alphanumeric.,Câmpul trebuie să fie alfanumerice.
+Please enter Password.,Te rog introdu parola.
+Password cannot be greater than # characters.,Parola nu poate fi mai mare decât # caractere.
+Password cannot be less than # characters.,Parola nu poate fi mai mică de # caractere.
+Password should contain atleast 1 special character.,Parola trebuie să conțină atleast 1 caracter special.
+Password should contain alphabets.,Parola trebuie să conțină alfabete.
+Password should contain atleast 1 capital letter.,Parola trebuie să conțină atleast scrisoarea 1 de capital.
+Password should contain atleast 1 small letter.,Parola trebuie să conțină atleast 1 literă mică.
+Password should contain atleast 1 digit.,Parola trebuie să conțină atleast 1 cifră.
+Field cannot be empty.,Câmpul nu poate fi gol.
+You can enter only numbers.,Puteți introduce doar numere.
+Number should be greater than 0.,Numărul trebuie să fie mai mare decât 0.
+Field cannot be greater than # characters.,Câmpul nu poate fi mai mare decât # caractere.
+Field cannot be less than # character(s).,Câmpul nu poate fi mai mică decât # caracter (e).
+Please enter Email.,Vă rugăm să introduceți adresa de email.
+Please enter a valid Email.,Te rog introdu un email valid.
+Please enter country name.,Vă rugăm să introduceți numele țării.
+Country cannot be greater than # characters.,Țara nu poate fi mai mare decât # caractere.
+Country cannot be less than # characters.,Țara nu poate fi mai mică de # caractere.
+Please enter city name.,Vă rugăm să introduceți numele orașului.
+City cannot be greater than # characters.,City nu poate fi mai mare decât # caractere.
+City cannot be less than # characters.,City nu poate fi mai mică de # de caractere.
+Please enter state name.,Vă rugăm introduceți numele de stat.
+State cannot be greater than # characters.,Statul nu poate fi mai mare decât # caractere.
+State cannot be less than # characters.,Statul nu poate fi mai mică decât # caractere.
+Please enter product name.,Vă rugăm să introduceți numele produsului.
+Product cannot be greater than # characters.,Produsul nu poate fi mai mare decât # caractere.
+Product cannot be less than # characters.,Produsul nu poate fi mai mică de # de caractere.
+Please enter category name.,Vă rugăm să introduceți numele categoriei.
+Category cannot be greater than # characters.,Categoria nu poate fi mai mare decât # caractere.
+Category cannot be less than # characters.,Categoria nu poate fi mai mică de # caractere.
+Please enter zip code.,Vă rugăm să introduceți codul poștal.
+Zip cannot be greater than # characters.,Zip nu poate fi mai mare decât # caractere.
+Zip cannot be less than # characters.,Zip nu poate fi mai mică decât # caractere.
+Please enter Username.,Vă rugăm să introduceți Utilizator.
+Username cannot be greater than # characters.,Numele de utilizator nu poate fi mai mare decât # caractere.
+Username cannot be less than # characters.,Numele de utilizator nu poate fi mai mică de # caractere.
+Invalid date format.,Format de dată nevalid.
+SKU cannot be greater than # characters.,SKU nu poate fi mai mare decât # caractere.
+SKU cannot be less than # characters.,SKU nu poate fi mai mică de # caractere.
+Invalid SKU format.,Format SKU nevalid.
+Please enter SKU.,Vă rugăm să introduceți SKU.
+Number is not in the valid range. It should be betwen # and %,Numărul nu este în intervalul valid. Ar trebui să fie # și% Intre
+Please enter address.,Vă rugăm să introduceți adresa.
+Address cannot be less than # characters.,Adresa nu poate fi mai mică de # de caractere.
+Address cannot be greater than # characters.,Adresa nu poate fi mai mare decât # caractere.
+Please enter company name.,Vă rugăm să introduceți numele companiei.
+Company name cannot be less than # characters.,Numele companiei nu poate fi mai mică decât # caractere.
+Company name cannot be greater than # characters.,Numele companiei nu poate fi mai mare decât # caractere.
+Phone number is invalid.,Numărul de telefon este nevalid.
+Please enter phone number.,Vă rugăm să introduceți numărul de telefon.
+Phone number cannot be less than # characters.,Numărul de telefon nu poate fi mai mică de # caractere.
+Phone number cannot be greater than # characters.,Numărul de telefon nu poate fi mai mare decât # caractere.
+Please enter brand name.,Vă rugăm introduceți numele de marcă.
+Brand name cannot be greater than # characters.,Numele de brand nu poate fi mai mare decât # caractere.
+Brand name cannot be less than # characters.,Numele de brand nu poate fi mai mică de # de caractere.
+Please enter Shimpment.,Vă rugăm să introduceți Shimpment.
+Shipment cannot be greater than # characters.,Livrarea nu poate fi mai mare decât # caractere.
+Shipment cannot be less than # characters.,Livrarea nu poate fi mai mică decât # caractere.
+Invalid IP format.,Format IP nevalid.
+Invalid URL format.,Format de adresă URL nevalid.
+Please enter URL.,Vă rugăm să introduceți adresa URL.
+Field should be numeric.,Câmp trebuie să fie numeric.
+Field can have only upto two decimal values.,Domeniul poate avea doar până la două valori zecimale.
+Email cannot be greater than # characters.,E-mail nu poate fi mai mare decât # caractere.
+Zip should not have special characters.,Zip nu ar trebui să aibă caractere speciale.
+SKU should not have special characters.,SKU nu ar trebui să aibă caractere speciale.
+URL cannot be greater than # characters.,Adresa URL nu poate fi mai mare decât # caractere.
+Percentage should be in number.,Procentul trebuie să fie în număr.
+Percentage should be between 0 and 100.,Procentajul trebuie să fie între 0 și 100.
+Size cannot be greater than # characters.,Dimensiunea nu poate fi mai mare decât # caractere.
+Size should not have special characters.,Dimensiunea nu ar trebui să aibă caractere speciale.
+UPC should not have special characters.,UPC nu ar trebui să aibă caractere speciale.
+UPC cannot be greater than # characters.,UPC nu poate fi mai mare decât # caractere.
+EAN should not have special characters.,EAN nu ar trebui să aibă caractere speciale.
+EAN cannot be greater than # characters.,EAN nu poate fi mai mare decât # caractere.
+Barcode should not have special characters.,Coduri de bare nu ar trebui să aibă caractere speciale.
+Barcode cannot be greater than # characters.,Coduri de bare nu poate fi mai mare decât # caractere.
+Field should be positive.,Câmpul ar trebui să fie pozitiv.
+Color could not be greater than # characters.,Culoarea nu poate fi mai mare decât # caractere.
+Color is not valid.,Culoarea nu este validă.
+Special characters are not allowed.,Caracterele speciale nu sunt permise.
+Script tags are not allowed.,tag-uri Script nu sunt permise.
+Style tags are not allowed.,tag-uri Style nu sunt permise.
+Iframe tags are not allowed.,Etichetele iframe nu sunt permise.
+Uploaded file is not an image,Fișierul încărcat nu este o imagine
+Uploaded file size must be less than #.,dimensiunea fișierului încărcat trebuie să fie mai mică decât #.
+Field should not contain HTML tags.,Câmpul nu trebuie să conțină tag-uri HTML.
+You can enter only positive numbers.,Puteți introduce doar numere pozitive.
+Invalid comma (#) separated values.,virgulă invalid (#) valori separate.
+Spin and Win Free version,Spin și Win versiunea gratuită
+v1.0.0,v1.0.0
+Current Configuration Scope,Domeniul de aplicare Configurația curentă
+Save Configurations,Salvarea Configurațiile
+General Settings,setari generale
+Look and Feel Settings,Look and feel Setări
+Go to Home Page,"Mergi la pagina principală, mergi la pagina de început"
+Home,Acasă
+Spin & Win,Spin & Win
+Enable the Extension,Activați extensia
+Following features are not avalialble in free version.,Următoarele caracteristici nu sunt avalialble în versiunea liberă.
+Click here ,Click aici
+to buy paid version of this module.,pentru a cumpăra versiunea lucrativă a acestui modul.
+1-General setting tab,1 General tab setare
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Arată Trageți: setare pentru a permite proprietarului magazinului pentru a oferi posibilitatea de a trage roata din spate de pe ecran de către utilizator
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,E-mail verificare a redundanței: Setarea pentru a verifica ID-ul de e-mail a clientului pentru a se asigura că nu există nici o repetare de e-mailuri id
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,Roata de afișare Interval: Setarea de a stabili numărul de zile după care roata va fi afișat la client.
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,CSS personalizate și personalizate JS: Setarea pentru a schimba aspectul modulului ca pe nevoia lor prin introducerea unui cod CSS personalizat și cod JS personalizat
+2-Display setting tab,Fila setare 2-display
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Dimensiune ecran minimă: Setarea pentru a alege dimensiunea minimă de ecran pe care doriți să le afișați oferte.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Frecvența maximă de afișare: Setarea pentru a selecta frecvența de afișare roată aici
+Where to Display : Setting to select the pages where you want to display the wheel from here,În cazul în care pentru a afișa: Setarea pentru a selecta paginile în care doriți să se afișeze roata de aici
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Cine la Show: Setarea pentru a selecta vizitatorii pe care doriți să arate roata de spin. Puteți selecta ""Toate vizitatorilor„vizitatorilor înregistrați“, sau„Vizitatori Guest“"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,Atunci când pentru a afișa: Setarea pentru a alege exact atunci când doriți roata să fie afișată. Puteți fie să fie afișat imediat atunci când terenurile client pe site-ul sau după un anumit timp sau când sulurile de vizitatori în jos
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Geo Locul de amplasare: Setarea pentru a selecta afișajul oferă ca pe locația geografică a vizitatorilor.
+3-Look & Feel  setting tab ,3-look & feel fila setare
+Setting to allow change the look of the wheel as it appears on the site,"Setarea pentru a permite schimba aspectul roții, așa cum apare pe site-ul"
+4-Wheel setting tab,Fila setare 4-Wheel
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Setarea pentru a schimba aspectul și simt al roții de spin prin schimbarea configurației în opțiunea „rozeta de reglare“
+5-Slice setting tab,5-Slice filă setare
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Setări și textul sau ofertele afișate în diferitele felii ale roții pot fi schimbate din „felie de setare“ opțiune
+6-Email marketing setting tab,6-mail file setare de marketing
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,Administratorul poate activa sau dezactiva opțiunea MailChimp și Klaviyo din setările "E-mail marketing. O notificare e-mail va fi trimis clienților pe ID-ul de e-mail așa cum este menționat de acestea.
+7-Email tab,Fila 7-mail
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Permite administratorului să aleagă locurile în care acesta dorește să afișeze cuponul. Și anume „Numai la roată“, „Numai e-mail“, „E-mail & Wheel“"
+8-Statistics tab,8-fila Statistici
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,Un acces complet la raportul statistic al vizitatorilor care au invartit roata și revendicate cuponul generate de același. Raportul este generat în ambele format grafic și tabelar.
+Display Image,afișare a imaginii
+Show image in the front end Spin Wheel interface,Afișare imagine în interfața Spin Wheel front-end
+Upload your Logo Image,Încarcă logo-ul Image
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Încărcați o imagine pentru a fi afișate în interfața roții din față end Spin (Dimensiune maximă - 2 MB)
+Required Field,Câmp necesar
+Not a valid email,Nu este un e-mail validă
+a discount,o reducere
+Code copied.,Codul de copiat.
+Website Logo,Site-ul Logo
+Special bonus unlocked,Bonus special deblocat
+Hurrah! You've got,Ura! Ai primit
+. Lucky day!,. Zi norocoasa!
+The coupon code has been sent to you through the email.,Codul promoțional a fost trimis prin e-mail.
+Better luck next time!,Mai mult noroc data viitoare!
+You have a chance to win a nice big fat discount. Are you ready?,Ai o șansă de a câștiga un frumos discount mare de grăsime. Sunteţi gata?
+You can spin the wheel only once.,Puteți învârti roata doar o singură dată.
+"If you win, you can claim your coupon for 1 day only!","Dacă veți câștiga, puteți solicita cupon pentru doar 1 zi!"
+Don't forget to use the discount code at checkout!,Nu uitați să folosiți codul de reducere la finalizarea comenzii!
+Enter you email,Introdu e-mail
+Try your luck,Incearca-ti norocul
+Next Time,Data viitoare
+"No, I do not feel lucky","Nu, nu mă simt norocos"
+Continue,Continua
+Spin and Win Free,Spin și Win gratuit

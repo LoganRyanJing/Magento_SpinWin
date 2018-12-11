@@ -1,0 +1,201 @@
+Jan,Jan
+Feb,Feb
+Mar,Mar
+Apr,Apr
+May,May
+Jun,Jun
+Jul,Jul
+Aug,Aug
+Sep,Sep
+Oct,Oct
+Nov,Nov
+Dec,Dec
+Spin and Win,Spin and Win
+Module Configurations,Module Configurations
+Image has been uploaded successfully!,Image has been uploaded successfully!
+There was some error while uploading the image for the front end.,There was some error while uploading the image for the front end.
+Module configuration have been saved successfully!,Module configuration have been saved successfully!
+Not your lucky day today. Better Luck Next Time.,Not your lucky day today. Better Luck Next Time.
+"Something went wrong while generating the coupon code, please try again.","Something went wrong while generating the coupon code, please try again."
+Slice Settings,Slice Settings
+Note,Note
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.
+Slice Label,Slice Label
+Coupon Type,Coupon Type
+Coupon Value,Coupon Value
+Gravity (%),Gravity (%)
+Fixed,Fixed
+Percentage,Percentage
+Free Shipping,Free Shipping
+Please select atleast one page,Please select atleast one page
+Please select atleast one country,Please select atleast one country
+Field cannot be empty,Field cannot be empty
+Total Coupons Generated,Total Coupons Generated
+Total Coupons Unused,Total Coupons Unused
+Total Coupons Used,Total Coupons Used
+`Active Date` cannot be greater than `Inactive Date`,`Active Date` cannot be greater than `Inactive Date`
+`From` Date cannot be greater than `To` Date,`From` Date cannot be greater than `To` Date
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,The sum of Gravity is not in the valid range. It should be betwen 1 and 100
+Date & Time should be greater than current date time.,Date & Time should be greater than current date time.
+Please enter First name.,Please enter First name.
+First name cannot be greater than # characters.,First name cannot be greater than # characters.
+First name cannot be less than # characters.,First name cannot be less than # characters.
+Please enter middle name.,Please enter middle name.
+Middle name cannot be greater than # characters.,Middle name cannot be greater than # characters.
+Middle name cannot be less than # characters.,Middle name cannot be less than # characters.
+Only alphabets are allowed.,Only alphabets are allowed.
+Please enter Last name.,Please enter Last name.
+Last name cannot be greater than # characters.,Last name cannot be greater than # characters.
+Last name cannot be less than # characters.,Last name cannot be less than # characters.
+Field should be alphanumeric.,Field should be alphanumeric.
+Please enter Password.,Please enter Password.
+Password cannot be greater than # characters.,Password cannot be greater than # characters.
+Password cannot be less than # characters.,Password cannot be less than # characters.
+Password should contain atleast 1 special character.,Password should contain atleast 1 special character.
+Password should contain alphabets.,Password should contain alphabets.
+Password should contain atleast 1 capital letter.,Password should contain atleast 1 capital letter.
+Password should contain atleast 1 small letter.,Password should contain atleast 1 small letter.
+Password should contain atleast 1 digit.,Password should contain atleast 1 digit.
+Field cannot be empty.,Field cannot be empty.
+You can enter only numbers.,You can enter only numbers.
+Number should be greater than 0.,Number should be greater than 0.
+Field cannot be greater than # characters.,Field cannot be greater than # characters.
+Field cannot be less than # character(s).,Field cannot be less than # character(s).
+Please enter Email.,Please enter Email.
+Please enter a valid Email.,Please enter a valid Email.
+Please enter country name.,Please enter country name.
+Country cannot be greater than # characters.,Country cannot be greater than # characters.
+Country cannot be less than # characters.,Country cannot be less than # characters.
+Please enter city name.,Please enter city name.
+City cannot be greater than # characters.,City cannot be greater than # characters.
+City cannot be less than # characters.,City cannot be less than # characters.
+Please enter state name.,Please enter state name.
+State cannot be greater than # characters.,State cannot be greater than # characters.
+State cannot be less than # characters.,State cannot be less than # characters.
+Please enter product name.,Please enter product name.
+Product cannot be greater than # characters.,Product cannot be greater than # characters.
+Product cannot be less than # characters.,Product cannot be less than # characters.
+Please enter category name.,Please enter category name.
+Category cannot be greater than # characters.,Category cannot be greater than # characters.
+Category cannot be less than # characters.,Category cannot be less than # characters.
+Please enter zip code.,Please enter zip code.
+Zip cannot be greater than # characters.,Zip cannot be greater than # characters.
+Zip cannot be less than # characters.,Zip cannot be less than # characters.
+Please enter Username.,Please enter Username.
+Username cannot be greater than # characters.,Username cannot be greater than # characters.
+Username cannot be less than # characters.,Username cannot be less than # characters.
+Invalid date format.,Invalid date format.
+SKU cannot be greater than # characters.,SKU cannot be greater than # characters.
+SKU cannot be less than # characters.,SKU cannot be less than # characters.
+Invalid SKU format.,Invalid SKU format.
+Please enter SKU.,Please enter SKU.
+Number is not in the valid range. It should be betwen # and %,Number is not in the valid range. It should be betwen # and %
+Please enter address.,Please enter address.
+Address cannot be less than # characters.,Address cannot be less than # characters.
+Address cannot be greater than # characters.,Address cannot be greater than # characters.
+Please enter company name.,Please enter company name.
+Company name cannot be less than # characters.,Company name cannot be less than # characters.
+Company name cannot be greater than # characters.,Company name cannot be greater than # characters.
+Phone number is invalid.,Phone number is invalid.
+Please enter phone number.,Please enter phone number.
+Phone number cannot be less than # characters.,Phone number cannot be less than # characters.
+Phone number cannot be greater than # characters.,Phone number cannot be greater than # characters.
+Please enter brand name.,Please enter brand name.
+Brand name cannot be greater than # characters.,Brand name cannot be greater than # characters.
+Brand name cannot be less than # characters.,Brand name cannot be less than # characters.
+Please enter Shimpment.,Please enter Shimpment.
+Shipment cannot be greater than # characters.,Shipment cannot be greater than # characters.
+Shipment cannot be less than # characters.,Shipment cannot be less than # characters.
+Invalid IP format.,Invalid IP format.
+Invalid URL format.,Invalid URL format.
+Please enter URL.,Please enter URL.
+Field should be numeric.,Field should be numeric.
+Field can have only upto two decimal values.,Field can have only upto two decimal values.
+Email cannot be greater than # characters.,Email cannot be greater than # characters.
+Zip should not have special characters.,Zip should not have special characters.
+SKU should not have special characters.,SKU should not have special characters.
+URL cannot be greater than # characters.,URL cannot be greater than # characters.
+Percentage should be in number.,Percentage should be in number.
+Percentage should be between 0 and 100.,Percentage should be between 0 and 100.
+Size cannot be greater than # characters.,Size cannot be greater than # characters.
+Size should not have special characters.,Size should not have special characters.
+UPC should not have special characters.,UPC should not have special characters.
+UPC cannot be greater than # characters.,UPC cannot be greater than # characters.
+EAN should not have special characters.,EAN should not have special characters.
+EAN cannot be greater than # characters.,EAN cannot be greater than # characters.
+Barcode should not have special characters.,Barcode should not have special characters.
+Barcode cannot be greater than # characters.,Barcode cannot be greater than # characters.
+Field should be positive.,Field should be positive.
+Color could not be greater than # characters.,Color could not be greater than # characters.
+Color is not valid.,Color is not valid.
+Special characters are not allowed.,Special characters are not allowed.
+Script tags are not allowed.,Script tags are not allowed.
+Style tags are not allowed.,Style tags are not allowed.
+Iframe tags are not allowed.,Iframe tags are not allowed.
+Uploaded file is not an image,Uploaded file is not an image
+Uploaded file size must be less than #.,Uploaded file size must be less than #.
+Field should not contain HTML tags.,Field should not contain HTML tags.
+You can enter only positive numbers.,You can enter only positive numbers.
+Invalid comma (#) separated values.,Invalid comma (#) separated values.
+Spin and Win Free version,Spin and Win Free version
+v1.0.0,v1.0.0
+Current Configuration Scope,Current Configuration Scope
+Save Configurations,Save Configurations
+General Settings,General Settings
+Look and Feel Settings,Look and Feel Settings
+Go to Home Page,Go to Home Page
+Home,Home
+Spin & Win,Spin & Win
+Enable the Extension,Enable the Extension
+Following features are not avalialble in free version.,Following features are not avalialble in free version.
+Click here ,Click here 
+to buy paid version of this module.,to buy paid version of this module.
+1-General setting tab,1-General setting tab
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code
+2-Display setting tab,2-Display setting tab
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Maximum Display frequency : Setting to select the frequency of the wheel display here
+Where to Display : Setting to select the pages where you want to display the wheel from here,Where to Display : Setting to select the pages where you want to display the wheel from here
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Geo Location :  Setting to select the display offers as per the Geo location of the visitors.
+3-Look & Feel  setting tab ,3-Look & Feel  setting tab 
+Setting to allow change the look of the wheel as it appears on the site,Setting to allow change the look of the wheel as it appears on the site
+4-Wheel setting tab,4-Wheel setting tab
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option
+5-Slice setting tab,5-Slice setting tab
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option
+6-Email marketing setting tab,6-Email marketing setting tab
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.
+7-Email tab,7-Email tab
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’"
+8-Statistics tab,8-Statistics tab
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.
+Display Image,Display Image
+Show image in the front end Spin Wheel interface,Show image in the front end Spin Wheel interface
+Upload your Logo Image,Upload your Logo Image
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB)
+Required Field,Required Field
+Not a valid email,Not a valid email
+a discount,a discount
+Code copied.,Code copied.
+Website Logo,Website Logo
+Special bonus unlocked,Special bonus unlocked
+Hurrah! You've got,Hurrah! You've got
+. Lucky day!,. Lucky day!
+The coupon code has been sent to you through the email.,The coupon code has been sent to you through the email.
+Better luck next time!,Better luck next time!
+You have a chance to win a nice big fat discount. Are you ready?,You have a chance to win a nice big fat discount. Are you ready?
+You can spin the wheel only once.,You can spin the wheel only once.
+"If you win, you can claim your coupon for 1 day only!","If you win, you can claim your coupon for 1 day only!"
+Don't forget to use the discount code at checkout!,Don't forget to use the discount code at checkout!
+Enter you email,Enter you email
+Try your luck,Try your luck
+Next Time,Next Time
+"No, I do not feel lucky","No, I do not feel lucky"
+Continue,Continue
+Spin and Win Free,Spin and Win Free

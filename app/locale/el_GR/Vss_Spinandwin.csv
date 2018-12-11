@@ -1,0 +1,201 @@
+Jan,Jan
+Feb,Φεβρουάριος
+Mar,Παραμορφώνω
+Apr,Απρίλιος
+May,Ενδέχεται
+Jun,Ιούνιος
+Jul,Ιουλ
+Aug,Αύγουστο
+Sep,Σεπτέμβριος
+Oct,Οκτώβριος
+Nov,Νοέμβριος
+Dec,Δεκέμβριος
+Spin and Win,Spin και κερδίστε
+Module Configurations,Συνθέσεις Ενότητα
+Image has been uploaded successfully!,Εικόνα έχει φορτωθεί με επιτυχία!
+There was some error while uploading the image for the front end.,Υπήρξε κάποια σφάλμα κατά τη μεταφόρτωση της εικόνας για το εμπρόσθιο άκρο.
+Module configuration have been saved successfully!,Η διαμόρφωση της μονάδας έχουν αποθηκευτεί με επιτυχία!
+Not your lucky day today. Better Luck Next Time.,Δεν είναι η τυχερή σου μέρα σήμερα. Καλύτερη τύχη την επόμενη φορά.
+"Something went wrong while generating the coupon code, please try again.","Κάτι πήγε στραβά κατά τη δημιουργία του κώδικα κουπονιού, παρακαλώ προσπαθήστε ξανά."
+Slice Settings,Ρυθμίσεις Φέτα
+Note,Σημείωση
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Η τιμή που βάζετε στη στήλη Βαρύτητα θα καθορίσει την πιθανότητα μιας φέτας που θα επιλεγούν στο μπροστινό άκρο. Όσο υψηλότερη είναι η τιμή, τόσο μεγαλύτερες είναι οι πιθανότητες για το κομμάτι που θα επιλεγεί, όταν ο πελάτης χρησιμοποιεί το plugin."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. Η τιμή της στήλης βαρύτητας για κάθε φέτα δεν μπορεί να είναι μεγαλύτερη από 100 και το άθροισμα όλων των 12 φέτες δεν μπορεί να είναι μεγαλύτερο από 100 και λιγότερο από 1.
+Slice Label,Φέτα Label
+Coupon Type,κουπόνι Τύπος
+Coupon Value,κουπόνι αξίας
+Gravity (%),Σοβαρότητα (%)
+Fixed,Σταθερός
+Percentage,Ποσοστό
+Free Shipping,Δωρεάν αποστολή
+Please select atleast one page,Επιλέξτε atleast μία σελίδα
+Please select atleast one country,Επιλέξτε atleast μία χώρα
+Field cannot be empty,Το πεδίο δεν μπορεί να είναι κενό
+Total Coupons Generated,Σύνολο κουπόνια που δημιουργείται
+Total Coupons Unused,Σύνολο Κουπόνια Αχρησιμοποίητα
+Total Coupons Used,Σύνολο Κουπόνια Μεταχειρισμένο
+`Active Date` cannot be greater than `Inactive Date`,"`Active πρόσφατη ημερομηνία δεν μπορεί να είναι μεγαλύτερη από ό, τι` Ανενεργό πρόσφατη ημερομηνία"
+`From` Date cannot be greater than `To` Date,"`From` ημερομηνία δεν μπορεί να είναι μεγαλύτερη από ό, τι` To` Ημερομηνία"
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Το ποσό της βαρύτητας δεν είναι σε έγκυρο εύρος. Θα πρέπει να είναι Περιοδο 1 και 100
+Date & Time should be greater than current date time.,Ημερομηνία και ώρα θα πρέπει να είναι μεγαλύτερη από την τρέχουσα ημερομηνία και ώρα.
+Please enter First name.,Παρακαλώ εισάγετε το όνομα.
+First name cannot be greater than # characters.,"Πρώτο όνομα δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+First name cannot be less than # characters.,Πρώτο όνομα δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter middle name.,Παρακαλώ εισάγετε το μεσαίο όνομα.
+Middle name cannot be greater than # characters.,"Μέση όνομα δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Middle name cannot be less than # characters.,Μέση όνομα δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Only alphabets are allowed.,Μόνο αλφάβητα επιτρέπονται.
+Please enter Last name.,Παρακαλώ εισάγετε Επώνυμο.
+Last name cannot be greater than # characters.,"Τελευταίο όνομα δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Last name cannot be less than # characters.,Τελευταίο όνομα δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Field should be alphanumeric.,Το πεδίο πρέπει να είναι αλφαριθμητικό.
+Please enter Password.,Παρακαλούμε εισάγετε τον κωδικό πρόσβασης.
+Password cannot be greater than # characters.,"Ο κωδικός πρόσβασης δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Password cannot be less than # characters.,Ο κωδικός πρόσβασης δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Password should contain atleast 1 special character.,Κωδικός πρόσβασης πρέπει να περιέχει atleast 1 ειδικό χαρακτήρα.
+Password should contain alphabets.,Κωδικός πρόσβασης πρέπει να περιέχει αλφάβητα.
+Password should contain atleast 1 capital letter.,Κωδικός πρόσβασης πρέπει να περιέχει atleast 1 κεφαλαίο γράμμα.
+Password should contain atleast 1 small letter.,Κωδικός πρόσβασης πρέπει να περιέχει atleast 1 μικρό γράμμα.
+Password should contain atleast 1 digit.,Κωδικός πρόσβασης πρέπει να περιέχει atleast 1 ψηφίο.
+Field cannot be empty.,Το πεδίο δεν μπορεί να είναι κενό.
+You can enter only numbers.,Μπορείτε να εισάγετε μόνο αριθμούς.
+Number should be greater than 0.,Ο αριθμός πρέπει να είναι μεγαλύτερος από 0.
+Field cannot be greater than # characters.,"Το πεδίο δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Field cannot be less than # character(s).,Το πεδίο δεν μπορεί να είναι μικρότερη από # χαρακτήρα (ες).
+Please enter Email.,Παρακαλώ εισάγετε το Email.
+Please enter a valid Email.,Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.
+Please enter country name.,Παρακαλώ εισάγετε το όνομα της χώρας.
+Country cannot be greater than # characters.,"Η χώρα δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Country cannot be less than # characters.,Η χώρα δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter city name.,Παρακαλώ εισάγετε το όνομα της πόλης.
+City cannot be greater than # characters.,"City δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+City cannot be less than # characters.,City δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter state name.,Παρακαλώ εισάγετε το όνομα του κράτους.
+State cannot be greater than # characters.,"Κράτος δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+State cannot be less than # characters.,Κράτος δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter product name.,Παρακαλώ εισάγετε το όνομα του προϊόντος.
+Product cannot be greater than # characters.,"Το προϊόν δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Product cannot be less than # characters.,Το προϊόν δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter category name.,Παρακαλώ εισάγετε το όνομα της κατηγορίας.
+Category cannot be greater than # characters.,"Κατηγορία δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Category cannot be less than # characters.,Κατηγορία δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter zip code.,Παρακαλώ εισάγετε τον ταχυδρομικό κώδικα.
+Zip cannot be greater than # characters.,"Zip δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Zip cannot be less than # characters.,Zip δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter Username.,Παρακαλούμε πληκτρολογήστε το όνομα χρήστη.
+Username cannot be greater than # characters.,"Όνομα Χρήστη δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Username cannot be less than # characters.,Όνομα Χρήστη δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Invalid date format.,Μη έγκυρη μορφή ημερομηνίας.
+SKU cannot be greater than # characters.,"Κωδικός προϊόντος δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+SKU cannot be less than # characters.,Κωδικός προϊόντος δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Invalid SKU format.,Μη έγκυρη μορφή SKU.
+Please enter SKU.,Παρακαλώ εισάγετε Κωδικός.
+Number is not in the valid range. It should be betwen # and %,Ο αριθμός δεν είναι στην έγκυρη περιοχή. Θα πρέπει να είναι Περιοδο # και%
+Please enter address.,Παρακαλώ εισάγετε τη διεύθυνση.
+Address cannot be less than # characters.,Η διεύθυνση δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Address cannot be greater than # characters.,"Διεύθυνση δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Please enter company name.,Παρακαλώ εισάγετε το όνομα της εταιρείας.
+Company name cannot be less than # characters.,Το όνομα της εταιρείας δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Company name cannot be greater than # characters.,"Το όνομα της εταιρείας δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Phone number is invalid.,Αριθμός τηλεφώνου δεν είναι έγκυρος.
+Please enter phone number.,Παρακαλώ εισάγετε τον αριθμό τηλεφώνου.
+Phone number cannot be less than # characters.,Αριθμός τηλεφώνου δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Phone number cannot be greater than # characters.,"Αριθμός τηλεφώνου δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Please enter brand name.,Παρακαλώ εισάγετε το όνομα της μάρκας.
+Brand name cannot be greater than # characters.,"Μάρκα δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Brand name cannot be less than # characters.,Μάρκα δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Please enter Shimpment.,Παρακαλώ εισάγετε Shimpment.
+Shipment cannot be greater than # characters.,"Η αποστολή δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Shipment cannot be less than # characters.,Η αποστολή δεν μπορεί να είναι μικρότερη από # χαρακτήρες.
+Invalid IP format.,Μη έγκυρη μορφή IP.
+Invalid URL format.,Μη έγκυρη μορφή URL.
+Please enter URL.,Παρακαλώ εισάγετε τη διεύθυνση URL.
+Field should be numeric.,Το πεδίο πρέπει να είναι αριθμητικό.
+Field can have only upto two decimal values.,Το πεδίο μπορεί να έχει μόνο μέχρι δύο δεκαδικά τιμές.
+Email cannot be greater than # characters.,"Email δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Zip should not have special characters.,Zip δεν θα πρέπει να έχει ειδικούς χαρακτήρες.
+SKU should not have special characters.,Κωδικός προϊόντος δεν θα πρέπει να έχει ειδικούς χαρακτήρες.
+URL cannot be greater than # characters.,"Η διεύθυνση URL δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Percentage should be in number.,Ποσοστό πρέπει να είναι σε αριθμό.
+Percentage should be between 0 and 100.,Ποσοστό πρέπει να είναι μεταξύ 0 και 100.
+Size cannot be greater than # characters.,Το μέγεθος δεν μπορεί να είναι μεγαλύτερη από # χαρακτήρες.
+Size should not have special characters.,Το μέγεθος δεν πρέπει να έχει ειδικούς χαρακτήρες.
+UPC should not have special characters.,UPC δεν πρέπει να έχει ειδικούς χαρακτήρες.
+UPC cannot be greater than # characters.,"UPC δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+EAN should not have special characters.,EAN δεν θα πρέπει να έχει ειδικούς χαρακτήρες.
+EAN cannot be greater than # characters.,"EAN δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Barcode should not have special characters.,Barcode δεν θα πρέπει να έχει ειδικούς χαρακτήρες.
+Barcode cannot be greater than # characters.,"Barcode δεν μπορεί να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Field should be positive.,Το πεδίο πρέπει να είναι θετική.
+Color could not be greater than # characters.,"Το χρώμα δεν θα μπορούσε να είναι μεγαλύτερη από ό, τι # χαρακτήρες."
+Color is not valid.,Το χρώμα δεν είναι έγκυρη.
+Special characters are not allowed.,Ειδικοί χαρακτήρες δεν επιτρέπονται.
+Script tags are not allowed.,ετικέτες Σενάριο δεν επιτρέπονται.
+Style tags are not allowed.,ετικέτες στυλ δεν επιτρέπονται.
+Iframe tags are not allowed.,ετικέτες iframe δεν επιτρέπονται.
+Uploaded file is not an image,Το αρχείο δεν είναι μια εικόνα
+Uploaded file size must be less than #.,Φορτωμένα μέγεθος του αρχείου πρέπει να είναι μικρότερο από το #.
+Field should not contain HTML tags.,Το πεδίο δεν πρέπει να περιέχουν ετικέτες HTML.
+You can enter only positive numbers.,Μπορείτε να εισάγετε μόνο θετικούς αριθμούς.
+Invalid comma (#) separated values.,Μη έγκυρη κόμμα (#) διαχωρίζεται τιμές.
+Spin and Win Free version,Spin και κερδίστε δωρεάν έκδοση
+v1.0.0,v1.0.0
+Current Configuration Scope,Τρέχουσα Πεδίο Διαμόρφωση
+Save Configurations,Αποθήκευση Συνθέσεις
+General Settings,Γενικές Ρυθμίσεις
+Look and Feel Settings,Εμφάνιση και αισθητική Ρυθμίσεις
+Go to Home Page,ΠΗΓΑΙΝΕ ΣΤΗΝ ΑΡΧΙΚΗ ΣΕΛΙΔΑ
+Home,Σπίτι
+Spin & Win,Spin & Win
+Enable the Extension,Ενεργοποίηση της επέκτασης
+Following features are not avalialble in free version.,Μετά λειτουργίες δεν avalialble στη δωρεάν έκδοση.
+Click here ,Κάντε κλικ ΕΔΩ
+to buy paid version of this module.,να αγοράσουν πληρωμένη έκδοση αυτής της ενότητας.
+1-General setting tab,1 Γενική καρτέλα ρύθμιση
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Εμφάνιση Τραβήξτε προς τα έξω: Ρύθμιση για να επιτρέψει ιδιοκτήτη του καταστήματος να παρέχει τη δυνατότητα να τραβήξει τον τροχό πίσω στην οθόνη από το χρήστη
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"Email έλεγχος πλεονασμού: Ρύθμιση για την επαλήθευση της ταυτότητας ηλεκτρονικού ταχυδρομείου του πελάτη, προκειμένου να διασφαλιστεί ότι δεν υπάρχει επανάληψη των μηνυμάτων ηλεκτρονικού ταχυδρομείου id"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,Wheel οθόνης Διάστημα: Ρύθμιση για να καθορίσει τον αριθμό των ημερών μετά την οποία θα εμφανιστεί ο τροχός για τον πελάτη.
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Προσαρμοσμένη CSS και Custom JS: Ρύθμιση για να αλλάξετε την εμφάνιση και την αίσθηση της μονάδας σύμφωνα με την ανάγκη τους εισάγοντας το έθιμο CSS και προσαρμοσμένο κώδικα JS
+2-Display setting tab,καρτέλα ρύθμιση 2-Display
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,Ελάχιστο Μέγεθος οθόνης: Ρύθμιση για να επιλέξετε το ελάχιστο μέγεθος της οθόνης τους οποίους θέλετε να εμφανίσετε προσφορές.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Μέγιστη συχνότητα εμφάνισης: Ρύθμιση για να επιλέξετε τη συχνότητα της εμφάνισης των τροχών εδώ
+Where to Display : Setting to select the pages where you want to display the wheel from here,Πού να Προβολή: Ρύθμιση για να επιλέξετε τις σελίδες που θέλετε να εμφανίσετε τον τροχό από εδώ
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Ποιος να Εμφάνιση: Ρύθμιση για την επιλογή τους επισκέπτες στους οποίους θέλετε να δείξετε το σπινάρισμα των τροχών. Μπορείτε να επιλέξετε «όλους τους επισκέπτες», «Εγγεγραμμένοι επισκέπτες», ή «Σχόλια Επισκεπτών"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,Όταν εμφάνισης: Ρύθμιση για να επιλέξετε πότε ακριβώς θέλετε ο τροχός να εμφανίζεται. Μπορείτε είτε να εμφανιστεί αμέσως όταν τα εδάφη των πελατών στην περιοχή σας ή μετά από κάποιο χρονικό διάστημα ή όταν τα κύλιση προς τα κάτω επισκέπτης
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,"Geo Τοποθεσία: Ρύθμιση για να επιλέξετε την οθόνη προσφέρει, σύμφωνα με τον Geo θέση των επισκεπτών."
+3-Look & Feel  setting tab ,3-Look & Feel καρτέλα ρύθμιση
+Setting to allow change the look of the wheel as it appears on the site,"Ρύθμιση για να επιτρέψει να αλλάξετε την εμφάνιση του τροχού, όπως εμφανίζεται στην ιστοσελίδα"
+4-Wheel setting tab,καρτέλα ρυθμίσεων 4-Wheel
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Ρύθμιση για να αλλάξετε την εμφάνιση και την αίσθηση του τροχού γύρισμα με την αλλαγή της ρύθμισης παραμέτρων στην επιλογή «Τροχός ρύθμισης»
+5-Slice setting tab,5-φέτα καρτέλα ρύθμιση
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Ρυθμίσεις και το κείμενο ή προσφορές που εμφανίζονται στις διάφορες τομές του τροχού μπορεί να αλλάξει από το «Φέτα Ρύθμιση» επιλογή
+6-Email marketing setting tab,καρτέλα ρύθμιση της εμπορίας 6-Email
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,"Ο διαχειριστής μπορεί να ενεργοποιήσει ή να απενεργοποιήσει MailChimp και Klaviyo επιλογή από τις ρυθμίσεις «μάρκετινγκ ηλεκτρονικού ταχυδρομείου. Μια ειδοποίηση μέσω ηλεκτρονικού ταχυδρομείου θα αποσταλεί στους πελάτες σχετικά με την ταυτότητα ηλεκτρονικού ταχυδρομείου, όπως αναφέρεται από αυτούς."
+7-Email tab,καρτέλα 7-Email
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Επιτρέπει το διαχειριστή για να επιλέξετε τα μέρη όπου θέλει για να εμφανιστεί το κουπόνι. Δηλαδή «Μόνο για αναπηρικό», «Email Μόνο», «E-mail & Wheel»"
+8-Statistics tab,8-Στατιστικά καρτέλα
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,Μια πλήρης πρόσβαση στο στατιστική έκθεση των επισκεπτών που γυρίζονται τον τροχό και διεκδίκησε το κουπόνι που παράγεται από τον ίδιο. Η έκθεση δημιουργείται τόσο γραφικά και μορφή πίνακα.
+Display Image,οθόνη Εικόνα
+Show image in the front end Spin Wheel interface,Εμφάνιση της εικόνας στο εμπρόσθιο άκρο διεπαφή σπινάρισμα των τροχών
+Upload your Logo Image,Ανεβάστε το λογότυπο σας Εικόνα
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),Ανεβάστε μια εικόνα που θα εμφανίζεται στη διεπαφή τροχού εμπρόσθιο άκρο Spin (Μέγιστο μέγεθος - 2 MB)
+Required Field,Υποχρεωτικό πεδίο
+Not a valid email,Δεν είναι μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου
+a discount,έκπτωση
+Code copied.,Κωδικός αντιγραφεί.
+Website Logo,Ιστοσελίδα Logo
+Special bonus unlocked,Ειδικό επίδομα ξεκλειδωθεί
+Hurrah! You've got,Ζήτω! Εχετε
+. Lucky day!,. Τυχερή μέρα!
+The coupon code has been sent to you through the email.,Ο κωδικός κουπονιού έχει σταλεί σε σας μέσω του ηλεκτρονικού ταχυδρομείου.
+Better luck next time!,Καλύτερη τύχη την επόμενη φορά!
+You have a chance to win a nice big fat discount. Are you ready?,Έχετε την ευκαιρία να κερδίσετε ένα ωραίο μεγάλο λίπος έκπτωση. Είσαι έτοιμος?
+You can spin the wheel only once.,Μπορείτε να γυρίσετε τον τροχό μόνο μία φορά.
+"If you win, you can claim your coupon for 1 day only!","Αν κερδίσετε, μπορείτε να διεκδικήσετε το κουπόνι σας για 1 μόνο ημέρα!"
+Don't forget to use the discount code at checkout!,Μην ξεχάσετε να χρησιμοποιήσετε τον κωδικό έκπτωσης στο ταμείο!
+Enter you email,Εισάγετε το email σας
+Try your luck,Δοκίμασε την τύχη σου
+Next Time,Την επόμενη φορά
+"No, I do not feel lucky","Όχι, δεν αισθάνομαι τυχερός"
+Continue,Να συνεχίσει
+Spin and Win Free,Spin και κερδίστε δωρεάν

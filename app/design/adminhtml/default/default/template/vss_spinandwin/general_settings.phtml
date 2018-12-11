@@ -1,0 +1,111 @@
+<?php
+/**
+ * Created by Velsof.
+ * @author Bhupendra Singh Bisht
+ * Created at 09/18/2018(mm/dd/yyyy)
+ *
+ */
+/*
+ * File for rending the HTML content of General Settings tab
+ */
+$helper = Mage::helper("spinandwin");
+$general_settings = Mage::getSingleton('spinandwin/spinandwin')->getData('general_settings');
+?>
+<div class="block">
+    <div class="vss_block">        
+        <div class="vss_head">
+            <h3 class="heading"><?php echo $helper->__("General Settings"); ?></h3>
+        </div>
+        <div class="vss_block_body">
+            <ul>
+                <li>
+                    <div class="col-md-12">
+                        <span class="col-md-4">
+                            <?php echo $helper->__("Enable the Extension"); ?>                            
+                        </span>
+                        <span class="col-md-7">
+                            <?php if (isset($general_settings['enabled']) && $general_settings['enabled'] == 1) { ?>
+                                <div class="on_off">
+                                    <input type="checkbox" value="1" name="vss_spinandwin[general][enabled]" checked="checked" class="js-switch"/>
+                                    <label></label>
+                                </div>
+                            <?php } else { ?>
+                                <div class="on_off">
+                                    <input type="checkbox" value="1" name="vss_spinandwin[general][enabled]" class="js-switch"/>
+                                    <label></label>
+                                </div>
+                            <?php } ?>                    
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <input type="hidden" name="vss_spinandwin[display][display_frequency]" value="1"/>
+            <input type="hidden" name="vss_spinandwin[display][hide_after]" value="1"/>
+            <input type="hidden" name="vss_spinandwin[display][display_position]" value="1"/>
+        </div>
+
+  </div>
+        <div class="form-group" style="margin-top: 15px">
+            <div class="col-lg-12" style="padding: 0px;">
+                <div class="alert alert-warning">
+                    <strong><?php echo $helper->__('Following features are not avalialble in free version.'); ?> <a href="https://www.knowband.com/magento-spin-and-win" target="_blank"><?php echo $helper->__('Click here '); ?></a><?php echo $helper->__('to buy paid version of this module.'); ?></strong>
+                    <br>
+                    <div>
+                        <section>
+                            <br>
+                            <strong><?php echo $helper->__('1-General setting tab'); ?> </strong>
+                            <ul>
+                                <li><?php echo $helper->__('Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user'); ?></li>
+                                <li><?php echo $helper->__('Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id'); ?></li>
+                                <li><?php echo $helper->__('Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.'); ?></li>
+                                <li><?php echo $helper->__('Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('2-Display setting tab'); ?></strong>
+                            <ul>
+                                <li><?php echo $helper->__('Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.'); ?></li>
+                                <li><?php echo $helper->__('Maximum Display frequency : Setting to select the frequency of the wheel display here'); ?></li>
+                                <li><?php echo $helper->__('Where to Display : Setting to select the pages where you want to display the wheel from here'); ?></li>
+                                <li><?php echo $helper->__('Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’'); ?></li>
+                                <li><?php echo $helper->__('When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down'); ?></li>
+                                <li><?php echo $helper->__('Geo Location :  Setting to select the display offers as per the Geo location of the visitors.'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('3-Look & Feel  setting tab '); ?></strong>
+                            <ul>
+                                <li><?php echo $helper->__('Setting to allow change the look of the wheel as it appears on the site'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('4-Wheel setting tab'); ?> </strong>
+                            <ul>
+                                <li><?php echo $helper->__('Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('5-Slice setting tab'); ?></strong>
+                            <ul>
+                                <li><?php echo $helper->__('Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('6-Email marketing setting tab'); ?></strong>
+                            <ul>
+                                <li><?php echo $helper->__('The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('7-Email tab'); ?></strong>
+                            <ul>
+                                <li><?php echo $helper->__('Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’'); ?></li>
+                            </ul>
+                            <br>
+                            <strong><?php echo $helper->__('8-Statistics tab'); ?></strong>
+
+                            <ul>
+                                <li><?php echo $helper->__('A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.'); ?></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  
+</div>

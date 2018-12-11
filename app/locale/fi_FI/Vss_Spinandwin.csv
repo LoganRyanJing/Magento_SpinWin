@@ -1,0 +1,201 @@
+Jan,tammikuu
+Feb,helmikuu
+Mar,maaliskuu
+Apr,huhtikuu
+May,saattaa
+Jun,kesäkuu
+Jul,heinäkuu
+Aug,elokuu
+Sep,syyskuu
+Oct,lokakuu
+Nov,marraskuu
+Dec,joulukuu
+Spin and Win,Spin ja Win
+Module Configurations,moduuli kokoonpanot
+Image has been uploaded successfully!,Kuva on ladattu onnistuneesti!
+There was some error while uploading the image for the front end.,Siellä oli jokin virhe ladattaessa kuvan etupään.
+Module configuration have been saved successfully!,Konfiguraatiota on tallennettu!
+Not your lucky day today. Better Luck Next Time.,Ei onnen päivä tänään. Parempi onni ensi kerralla.
+"Something went wrong while generating the coupon code, please try again.","Jokin meni vikaan luotaessa kuponkikoodi, yritä uudelleen."
+Slice Settings,siivu Asetukset
+Note,Huomautus
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Arvo, joka laittaa Gravity sarakkeessa selvittävänsä mahdollisuutta siivu valitaan etupäähän. Mitä suurempi arvo on, sitä suuremmalla todennäköisyydellä, että viipale voidaan valita, kun asiakas käyttää laajennuksen."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,"2. arvo vakavuus sarake kutakin viipale ei voi olla suurempi kuin 100, ja summa kaikkien 12 viipaletta ei voi olla suurempi kuin 100 ja vähemmän kuin 1."
+Slice Label,siivu Label
+Coupon Type,Kupongin tyyppi
+Coupon Value,Kupongin arvo
+Gravity (%),Painovoima (%)
+Fixed,kiinteä
+Percentage,prosenttimäärä
+Free Shipping,Ilmainen toimitus
+Please select atleast one page,Valitse atleast yksi sivu
+Please select atleast one country,Valitse atleast yksi maa
+Field cannot be empty,Kenttä ei voi olla tyhjä
+Total Coupons Generated,Yhteensä kuponkeja Luotu
+Total Coupons Unused,Yhteensä kuponkeja Käyttämättömät
+Total Coupons Used,Yhteensä kuponkeja Käytetty
+`Active Date` cannot be greater than `Inactive Date`,`Aktiivinen täyttöajankohdassa ei voi olla suurempi kuin` Toimeton täyttöajankohdassa
+`From` Date cannot be greater than `To` Date,`Lta Päivämäärä ei voi olla suurempi kuin` To` Päivämäärä
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Summa Gravity ei ole kelvollisella alueella. Sen pitäisi olla betwen 1 100
+Date & Time should be greater than current date time.,Päivä ja aika tulisi olla suurempi kuin nykyinen päivämäärä kellonaika.
+Please enter First name.,Anna etunimi.
+First name cannot be greater than # characters.,Ensimmäinen nimi ei voi olla suurempi kuin # merkkiä.
+First name cannot be less than # characters.,Etunimi ei voi olla pienempi kuin # merkkiä.
+Please enter middle name.,Anna toinen nimi.
+Middle name cannot be greater than # characters.,Keskimmäinen nimi ei voi olla suurempi kuin # merkkiä.
+Middle name cannot be less than # characters.,Toinen nimi ei voi olla pienempi kuin # merkkiä.
+Only alphabets are allowed.,Vain aakkosia ovat sallittuja.
+Please enter Last name.,Anna sukunimi.
+Last name cannot be greater than # characters.,Sukunimi ei voi olla suurempi kuin # merkkiä.
+Last name cannot be less than # characters.,Sukunimi ei voi olla pienempi kuin # merkkiä.
+Field should be alphanumeric.,Kentän tulisi olla aakkosnumeerinen.
+Please enter Password.,Anna salasana.
+Password cannot be greater than # characters.,Salasana ei voi olla suurempi kuin # merkkiä.
+Password cannot be less than # characters.,Salasana ei voi olla pienempi kuin # merkkiä.
+Password should contain atleast 1 special character.,Salasanan pitäisi sisältää atleast 1 erityisluonne.
+Password should contain alphabets.,Salasanan tulisi sisältää kirjaimia.
+Password should contain atleast 1 capital letter.,Salasanan pitäisi sisältää atleast 1 kirjain.
+Password should contain atleast 1 small letter.,Salasanan pitäisi sisältää atleast 1 pieni kirjain.
+Password should contain atleast 1 digit.,Salasanan pitäisi sisältää atleast 1 numero.
+Field cannot be empty.,Kenttä ei voi olla tyhjä.
+You can enter only numbers.,Voit kirjoittaa vain numeroita.
+Number should be greater than 0.,Numeron on oltava suurempi kuin 0.
+Field cannot be greater than # characters.,Kenttä ei voi olla suurempi kuin # merkkiä.
+Field cannot be less than # character(s).,Kenttä ei voi olla pienempi kuin # merkki (s).
+Please enter Email.,Anna sähköposti.
+Please enter a valid Email.,Anna kelvollinen sähköposti.
+Please enter country name.,Anna maan nimi.
+Country cannot be greater than # characters.,Maa ei voi olla suurempi kuin # merkkiä.
+Country cannot be less than # characters.,Maa ei voi olla pienempi kuin # merkkiä.
+Please enter city name.,Anna kaupungin nimi.
+City cannot be greater than # characters.,Kaupunki ei voi olla suurempi kuin # merkkiä.
+City cannot be less than # characters.,Kaupunki ei voi olla pienempi kuin # merkkiä.
+Please enter state name.,Anna tilan nimi.
+State cannot be greater than # characters.,Valtio ei voi olla suurempi kuin # merkkiä.
+State cannot be less than # characters.,Valtio ei voi olla pienempi kuin # merkkiä.
+Please enter product name.,Anna tuotteen nimi.
+Product cannot be greater than # characters.,Tuote voi olla suurempi kuin # merkkiä.
+Product cannot be less than # characters.,Tuote voi olla pienempi kuin # merkkiä.
+Please enter category name.,Anna luokan nimi.
+Category cannot be greater than # characters.,Luokka ei voi olla suurempi kuin # merkkiä.
+Category cannot be less than # characters.,Luokka ei voi olla pienempi kuin # merkkiä.
+Please enter zip code.,Anna postinumeron.
+Zip cannot be greater than # characters.,Zip ei voi olla suurempi kuin # merkkiä.
+Zip cannot be less than # characters.,Zip ei voi olla pienempi kuin # merkkiä.
+Please enter Username.,Anna käyttäjätunnus.
+Username cannot be greater than # characters.,Käyttäjätunnus ei voi olla suurempi kuin # merkkiä.
+Username cannot be less than # characters.,Käyttäjätunnus ei voi olla pienempi kuin # merkkiä.
+Invalid date format.,Virheellinen päivämäärän muoto.
+SKU cannot be greater than # characters.,SKU ei voi olla suurempi kuin # merkkiä.
+SKU cannot be less than # characters.,SKU ei voi olla pienempi kuin # merkkiä.
+Invalid SKU format.,Virheellinen SKU muodossa.
+Please enter SKU.,Anna SKU.
+Number is not in the valid range. It should be betwen # and %,Numero ei ole kelvollisella alueella. Sen pitäisi olla betwen # ja%
+Please enter address.,Anna osoite.
+Address cannot be less than # characters.,Osoitetta ei voi olla pienempi kuin # merkkiä.
+Address cannot be greater than # characters.,Osoite ei voi olla suurempi kuin # merkkiä.
+Please enter company name.,Anna yrityksen nimi.
+Company name cannot be less than # characters.,Yrityksen nimi ei voi olla pienempi kuin # merkkiä.
+Company name cannot be greater than # characters.,Yrityksen nimi ei voi olla suurempi kuin # merkkiä.
+Phone number is invalid.,Puhelinnumero on virheellinen.
+Please enter phone number.,Anna puhelinnumero.
+Phone number cannot be less than # characters.,Puhelinnumero ei voi olla pienempi kuin # merkkiä.
+Phone number cannot be greater than # characters.,Puhelinnumero ei voi olla suurempi kuin # merkkiä.
+Please enter brand name.,Anna tuotemerkillä.
+Brand name cannot be greater than # characters.,Tuotemerkki ei voi olla suurempi kuin # merkkiä.
+Brand name cannot be less than # characters.,Tuotemerkki ei voi olla pienempi kuin # merkkiä.
+Please enter Shimpment.,Anna Shimpment.
+Shipment cannot be greater than # characters.,Siirtoa ei voi olla suurempi kuin # merkkiä.
+Shipment cannot be less than # characters.,Siirtoa ei voi olla pienempi kuin # merkkiä.
+Invalid IP format.,Virheellinen IP-muodossa.
+Invalid URL format.,Virheellinen URL-muoto.
+Please enter URL.,Anna URL-osoite.
+Field should be numeric.,Kenttä on oltava numeerinen.
+Field can have only upto two decimal values.,Kenttä voi olla vain enintään kahden desimaalin arvoja.
+Email cannot be greater than # characters.,Sähköposti ei voi olla suurempi kuin # merkkiä.
+Zip should not have special characters.,Zip pitäisi olla erikoismerkkejä.
+SKU should not have special characters.,SKU pitäisi olla erikoismerkkejä.
+URL cannot be greater than # characters.,URL-osoite voi olla suurempi kuin # merkkiä.
+Percentage should be in number.,Prosenttiosuuden tulisi olla numero.
+Percentage should be between 0 and 100.,Prosenttiosuus tulisi olla välillä 0 ja 100.
+Size cannot be greater than # characters.,Koko ei voi olla suurempi kuin # merkkiä.
+Size should not have special characters.,Koon tulisi olla erikoismerkkejä.
+UPC should not have special characters.,UPC pitäisi olla erikoismerkkejä.
+UPC cannot be greater than # characters.,UPC ei voi olla suurempi kuin # merkkiä.
+EAN should not have special characters.,EAN pitäisi olla erikoismerkkejä.
+EAN cannot be greater than # characters.,EAN ei voi olla suurempi kuin # merkkiä.
+Barcode should not have special characters.,Viivakoodi pitäisi olla erikoismerkkejä.
+Barcode cannot be greater than # characters.,Viivakoodi ei voi olla suurempi kuin # merkkiä.
+Field should be positive.,Kentän tulisi olla positiivinen.
+Color could not be greater than # characters.,Väri ei voisi olla suurempi kuin # merkkiä.
+Color is not valid.,Väri ei kelpaa.
+Special characters are not allowed.,Erikoismerkit eivät ole sallittuja.
+Script tags are not allowed.,Koodit eivät ole sallittuja.
+Style tags are not allowed.,Tyyli koodit eivät ole sallittuja.
+Iframe tags are not allowed.,Iframe-tunnisteet eivät ole sallittuja.
+Uploaded file is not an image,Lähetetty tiedosto ei ole kuva
+Uploaded file size must be less than #.,Ladattu tiedostokoko on oltava alle #.
+Field should not contain HTML tags.,Kenttä ei saa sisältää HTML-tunnisteita.
+You can enter only positive numbers.,Voit antaa ainoastaan ​​positiivisia lukuja.
+Invalid comma (#) separated values.,Virheellinen pilkku (#) separated values.
+Spin and Win Free version,Spin ja voittaa ilmaisen version
+v1.0.0,v1.0.0
+Current Configuration Scope,Nykyinen kokoonpano laajuus
+Save Configurations,Tallenna kokoonpanot
+General Settings,Yleiset asetukset
+Look and Feel Settings,Näyttävät ja tuntuvat Asetukset
+Go to Home Page,Mene kotisivulle
+Home,Koti
+Spin & Win,Spin & Win
+Enable the Extension,Ota laajennus
+Following features are not avalialble in free version.,Seuraavat ominaisuudet eivät avalialble ilmaisessa versiossa.
+Click here ,Klikkaa tästä
+to buy paid version of this module.,ostaa maksettu versio Tämän moduulin.
+1-General setting tab,1-Yleiset-välilehti
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,Näytä Vedä: Asetus mahdollistaa kauppiaan tarjoavat mahdollisuuden vetää pyörää taaksepäin ruudulla käyttäjä
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"Sähköposti redundanssitarkastuksen: Setting tarkistaa email id asiakkaan, jotta voidaan varmistaa, ettei toistoa sähköposteja id"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Pyörän Esitysnopeuden: Asetus vahvistaa päivien määrä, jonka jälkeen pyörä näytetään asiakkaalle."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Custom CSS ja custom JS: asetus muuttaa ulkoasua moduulin kohti niiden tarve antamalla oman CSS ja muokattu JS-koodi
+2-Display setting tab,2-Näyttö asetusvälilehdessä
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,"Minimi näytön koko: Asetus valita pienin näytön koon, jolle haluat näyttää tarjouksia."
+Maximum Display frequency : Setting to select the frequency of the wheel display here,"Maksimi Näyttö taajuus: Määritä, kuinka usein pyörän tähän näytön"
+Where to Display : Setting to select the pages where you want to display the wheel from here,"Mistä Näyttö: -asetuksella sivuille, joilla haluat näyttää pyörän täältä"
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Jotka osoittavat: -asetuksella kävijöitä, jolle haluat näyttää spin pyörä. Voit valita ’All Visitors’, ’rekisteröityneille käyttäjille’, tai ""Guest Kävijöiden"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,"Milloin näytetään: Asetus valita milloin haluat pyörän näytettävän. Voit joko näyttää sen heti, kun asiakas päätyy sivuston tai jonkin ajan kuluttua tai kun vierailija selaa alas"
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Maantieteellinen sijainti: -asetuksella näytön tarjoaa kohti maantieteellisen sijainnin kävijät.
+3-Look & Feel  setting tab ,3-ulkoasu välilehti
+Setting to allow change the look of the wheel as it appears on the site,Asetus mahdollistaa muuttaa ulkonäköä pyörä kuin se näkyy sivustolla
+4-Wheel setting tab,4-Wheel asetusvälilehdessä
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,Asetus muuttaa ulkoasua spin pyörän muuttamalla konfiguraatio ’Wheel Setting’ vaihtoehto
+5-Slice setting tab,5-Slice välilehti
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,Asetukset ja teksti tai tarjoukset näkyvät eri siivuja pyörän voidaan muuttaa päässä ’Slice Setting’ vaihtoehto
+6-Email marketing setting tab,6-Email markkinointi asetusvälilehdessä
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,Ylläpitäjä voi ottaa käyttöön tai poistaa MailChimp ja Klaviyo vaihtoehto "Email Marketing asetuksista. Ilmoituksen sähköpostiisi lähetetään asiakkaille on email id mainitsema niitä.
+7-Email tab,7-sähköposti-välilehti
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Mahdollistaa admin valita paikat, joihin hän haluaa näyttää kuponki. Eli ’Vain Wheel’, ’sähköposti Vain’, ’Sähköposti ja Wheel’"
+8-Statistics tab,8-tilastot-välilehti
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,Täydellinen pääsy tilastollisen raportin kävijöistä spinned pyörän ja vaati kupongin tuottamat sama. Luodaan raportti sekä graafisesti taulukon muodossa.
+Display Image,Näytä Kuva
+Show image in the front end Spin Wheel interface,Näytäkuvan etupään Spin Wheel käyttöliittymä
+Upload your Logo Image,Lataa Logon kuvan
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),"Siirrä kuva, joka näkyy etupäässä Spin Wheel käyttöliittymä (Max Size - 2 Mt)"
+Required Field,Vaadittu kenttä
+Not a valid email,Ole kelvollinen sähköpostiosoite
+a discount,alennus
+Code copied.,Koodi kopioitu.
+Website Logo,website logo
+Special bonus unlocked,Erikoisbonuksista lukitsematon
+Hurrah! You've got,Hurraa! Sinulla on
+. Lucky day!,. Onnenpäivä!
+The coupon code has been sent to you through the email.,Kuponkikoodi on lähetetty läpi sähköpostitse.
+Better luck next time!,Parempi onni ensi kerralla!
+You have a chance to win a nice big fat discount. Are you ready?,Sinulla on mahdollisuus voittaa mukava iso rasvaa alennus. Oletko valmis?
+You can spin the wheel only once.,Voit pyöräyttää pyörää vain kerran.
+"If you win, you can claim your coupon for 1 day only!","Jos voitat, voit lunastaa kupongin 1 päivän vain!"
+Don't forget to use the discount code at checkout!,Älä unohda käyttää alennus koodi kassalla!
+Enter you email,Anna sinulle sähköpostia
+Try your luck,Kokeile onneasi
+Next Time,Seuraavalla kerralla
+"No, I do not feel lucky","Ei, en tunne onnekas"
+Continue,Jatkaa
+Spin and Win Free,Spin ja voittaa ilmaisen

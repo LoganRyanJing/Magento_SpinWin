@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * Created by Velsof.
+ * @author Bhupendra Singh Bisht
+ * Created at 09/18/2018(mm/dd/yyyy)
+ *
+ */
+
+/*
+ * File for rending the HTML content of Look and Feel Settings tab
+ */
+    $helper = Mage::helper("spinandwin");
+    $lookandfeel_settings = Mage::getSingleton('spinandwin/spinandwin')->getData('lookandfeel_settings');
+?>
+<div class="block">
+    <div class="vss_block">        
+        <div class="vss_head">
+            <h3 class="heading"><?php echo $helper->__("Look and Feel Settings"); ?></h3>
+        </div>
+        <div class="vss_block_body">
+              
+            <ul>
+                
+                <li>
+                    <div class="col-md-12">
+                        <span class="col-md-4">
+                            <?php echo $helper->__("Display Image"); ?>
+                            <div class="vss_info">
+                                <?php echo $helper->__("Show image in the front end Spin Wheel interface"); ?>
+                            </div>
+                        </span>
+                        <span class="col-md-7">
+                            <?php if (isset($lookandfeel_settings['show_image']) && $lookandfeel_settings['show_image'] == 1) { ?>
+                                <div class="on_off">
+                                    <input type="checkbox" value="1" name="vss_spinandwin[lookandfeel][show_image]" checked="checked" class="js-switch"/>
+                                    <label></label>
+                                </div>
+                            <?php } else { ?>
+                                <div class="on_off">
+                                    <input type="checkbox" value="1" name="vss_spinandwin[lookandfeel][show_image]" class="js-switch"/>
+                                    <label></label>
+                                </div>
+                            <?php } ?>                    
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-md-12">
+                        <span class="col-md-4">
+                            
+                        </span>
+                        <span class="col-md-7">                            
+                            <img id='image_preview' src='<?php if (isset($lookandfeel_settings['image_url'])) echo $lookandfeel_settings['image_url']; ?>' width="200"/>
+                        </span>
+                    </div>
+                </li>
+                <li id="vss_upload_image_section">
+                    <div class="col-md-12">
+                        <span class="col-md-4">
+                            <?php echo $helper->__("Upload your Logo Image"); ?>                            
+                            <div class="vss_info">
+                                <?php echo $helper->__("Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB)"); ?>
+                            </div>
+                        </span>
+                        <span class="col-md-7">                            
+                            <input type="file" name="front_image_upload" id="front_image_upload" value="" />
+                            <input type="hidden" name="front_image_upload_hidden" id="front_image_upload_hidden" value="0" />
+                        </span>
+                    </div>
+                </li>                         
+            </ul>
+        </div>
+    </div>
+</div>

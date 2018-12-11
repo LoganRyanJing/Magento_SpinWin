@@ -1,0 +1,201 @@
+Jan,január
+Feb,februára
+Mar,Mar
+Apr,apríla
+May,Smieť
+Jun,júna
+Jul,júla
+Aug,auguste
+Sep,septembra
+Oct,október
+Nov,november
+Dec,decembra
+Spin and Win,Spin a Win
+Module Configurations,Konfigurácia modul
+Image has been uploaded successfully!,Obrázok bol úspešne nahraný!
+There was some error while uploading the image for the front end.,Tam bola nejaká chyba pri nahrávaní obrázka na prednej strane.
+Module configuration have been saved successfully!,konfigurácia modulu boli úspešne uložené!
+Not your lucky day today. Better Luck Next Time.,Nie je to tvoja dnes šťastný deň. Nabudúce viac šťastia.
+"Something went wrong while generating the coupon code, please try again.","Niečo pokazilo pri generovaní kodu, skúste to znova."
+Slice Settings,nastavenie plátok
+Note,Poznámka
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.","1. Hodnota, ktorú dal v stĺpci Gravity určí možnosť rezu, ktoré budú vybrané na prednom konci. Čím vyššia hodnota, tým vyššia šanca na reze, ktoré budú vybrané, kedy zákazník využíva plugin."
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. Hodnota stĺpec gravitácie pre každý rez nemôže byť väčšia ako 100 a súčet všetkých 12 plátky nemôže byť väčšia ako 100 a menšie ako 1.
+Slice Label,plátok Label
+Coupon Type,kupón Type
+Coupon Value,hodnota kupónu
+Gravity (%),Gravitácia (%)
+Fixed,fixné
+Percentage,percento
+Free Shipping,Doprava zdarma
+Please select atleast one page,Prosím vyberte aspon jednu stránku
+Please select atleast one country,Vyberte aspoň jednu krajinu
+Field cannot be empty,Pole nemôže byť prázdne
+Total Coupons Generated,Celkom kupóny Vygenerovaný
+Total Coupons Unused,Celkom kupóny Nevyužitá
+Total Coupons Used,Celkom kupóny Použité
+`Active Date` cannot be greater than `Inactive Date`,`Active Date` nemôže byť väčšia než` neaktívne Date`
+`From` Date cannot be greater than `To` Date,`From` Dátum nemôže byť väčšia než` To` Dátum
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,Súčet gravitácie nie je v platnom rozsahu. Malo by byť betwen 1 a 100
+Date & Time should be greater than current date time.,Dátum a čas musí byť väčší ako aktuálny dátum a čas.
+Please enter First name.,"Prosím, zadajte krstné meno."
+First name cannot be greater than # characters.,Krstné meno nemôže byť väčšia ako # znakov.
+First name cannot be less than # characters.,Krstné meno nemôže byť nižšia ako # znakov.
+Please enter middle name.,"Prosím, zadajte krstné meno."
+Middle name cannot be greater than # characters.,Prostredné meno nemôže byť väčšia ako # znakov.
+Middle name cannot be less than # characters.,Prostredné meno nemôže byť nižšia ako # znakov.
+Only alphabets are allowed.,Iba abecedy sú povolené.
+Please enter Last name.,Zadajte priezvisko.
+Last name cannot be greater than # characters.,Priezvisko nemôže byť väčšia ako # znakov.
+Last name cannot be less than # characters.,Priezvisko nemôže byť nižšia ako # znakov.
+Field should be alphanumeric.,Pole by malo byť alfanumerická.
+Please enter Password.,"Prosím, zadajte heslo."
+Password cannot be greater than # characters.,Heslo nesmie byť väčšia ako # znakov.
+Password cannot be less than # characters.,Heslo nesmie byť kratšia ako # znakov.
+Password should contain atleast 1 special character.,Heslo musí obsahovať aspoň 1 špeciálny znak.
+Password should contain alphabets.,Heslo by malo obsahovať abecedy.
+Password should contain atleast 1 capital letter.,Heslo musí obsahovať aspoň jedno veľké písmeno.
+Password should contain atleast 1 small letter.,Heslo musí obsahovať aspoň 1 malé písmená.
+Password should contain atleast 1 digit.,Heslo musí obsahovať aspoň 1 číslicu.
+Field cannot be empty.,Pole nemôže byť prázdne.
+You can enter only numbers.,Môžete zadať iba čísla.
+Number should be greater than 0.,Číslo by malo byť väčšie ako 0.
+Field cannot be greater than # characters.,Pole nemôže byť väčšia ako # znakov.
+Field cannot be less than # character(s).,Pole nemôže byť nižšia ako # znak (y).
+Please enter Email.,Zadajte prosím e-mail.
+Please enter a valid Email.,Prosím zadajte platný e-mail.
+Please enter country name.,Zadajte prosím názov krajiny.
+Country cannot be greater than # characters.,Krajina nemôže byť väčšia ako # znakov.
+Country cannot be less than # characters.,Krajina nemôže byť nižšia ako # znakov.
+Please enter city name.,"Prosím, zadajte názov mesta."
+City cannot be greater than # characters.,Mesto nemôže byť väčšia ako # znakov.
+City cannot be less than # characters.,Mesto nemôže byť nižšia ako # znakov.
+Please enter state name.,"Prosím, zadajte meno štátu."
+State cannot be greater than # characters.,Štát nemôže byť väčšia ako # znakov.
+State cannot be less than # characters.,Štát nemôže byť menšia ako # znakov.
+Please enter product name.,Zadajte prosím názov produktu.
+Product cannot be greater than # characters.,Výrobok nemôže byť väčšia ako # znakov.
+Product cannot be less than # characters.,Výrobok nemôže byť menšia ako # znakov.
+Please enter category name.,"Prosím, zadajte názov kategórie."
+Category cannot be greater than # characters.,Kategória nemôže byť väčšia ako # znakov.
+Category cannot be less than # characters.,Kategória nemôže byť nižšia ako # znakov.
+Please enter zip code.,"Prosím, zadajte poštové smerovacie číslo."
+Zip cannot be greater than # characters.,Zip nemôže byť väčšia ako # znakov.
+Zip cannot be less than # characters.,Zip nemôže byť nižšia ako # znakov.
+Please enter Username.,"Prosím, zadajte meno."
+Username cannot be greater than # characters.,Užívateľské meno nemôže byť väčšia ako # znakov.
+Username cannot be less than # characters.,Užívateľské meno nemôže byť nižšia ako # znakov.
+Invalid date format.,Neplatný formát dátumu.
+SKU cannot be greater than # characters.,SKU nemôže byť väčšia ako # znakov.
+SKU cannot be less than # characters.,SKU nemôže byť nižšia ako # znakov.
+Invalid SKU format.,Neplatný formát SKU.
+Please enter SKU.,"Prosím, zadajte SKU."
+Number is not in the valid range. It should be betwen # and %,Číslo nie je v platnom rozsahu. Malo by byť betwen # a%
+Please enter address.,Zadajte prosím adresu.
+Address cannot be less than # characters.,Adresa nemôže byť menšia ako # znakov.
+Address cannot be greater than # characters.,Adresa nemôže byť väčšia ako # znakov.
+Please enter company name.,Zadajte prosím názov spoločnosti.
+Company name cannot be less than # characters.,Názov spoločnosti nemôže byť nižšia ako # znakov.
+Company name cannot be greater than # characters.,Názov spoločnosti nemôže byť väčšia ako # znakov.
+Phone number is invalid.,Telefónne číslo je neplatné.
+Please enter phone number.,"Prosím, zadajte telefónne číslo."
+Phone number cannot be less than # characters.,Telefónne číslo nesmie byť menšia ako # znakov.
+Phone number cannot be greater than # characters.,Telefónne číslo nesmie byť vyššia ako # znakov.
+Please enter brand name.,"Prosím, zadajte názov značky."
+Brand name cannot be greater than # characters.,značka nemôže byť väčšia ako # znakov.
+Brand name cannot be less than # characters.,Značka nesmie byť menšia ako # znakov.
+Please enter Shimpment.,"Prosím, zadajte Shimpment."
+Shipment cannot be greater than # characters.,Preprava nemôže byť väčšia ako # znakov.
+Shipment cannot be less than # characters.,Preprava nemôže byť menšia ako # znakov.
+Invalid IP format.,Neplatný formát IP.
+Invalid URL format.,Neplatný formát adresy URL.
+Please enter URL.,Zadajte prosím adresu URL.
+Field should be numeric.,Pole by malo byť číslo.
+Field can have only upto two decimal values.,Pole môže mať iba aľ dve desatinné čísla.
+Email cannot be greater than # characters.,E-mail nemôže byť väčšia ako # znakov.
+Zip should not have special characters.,Zips by nemala mať špeciálne znaky.
+SKU should not have special characters.,Kód by nemal mať špeciálne znaky.
+URL cannot be greater than # characters.,URL nemôže byť väčšia ako # znakov.
+Percentage should be in number.,Percento by malo byť v rade.
+Percentage should be between 0 and 100.,Percento by mala byť medzi 0 a 100.
+Size cannot be greater than # characters.,Veľkosť nemôže byť väčšia ako # znakov.
+Size should not have special characters.,Veľkosť by nemala mať špeciálne znaky.
+UPC should not have special characters.,UPC by nemala mať špeciálne znaky.
+UPC cannot be greater than # characters.,UPC nemôže byť väčšia ako # znakov.
+EAN should not have special characters.,EAN by nemala mať špeciálne znaky.
+EAN cannot be greater than # characters.,EAN nemôže byť väčšia ako # znakov.
+Barcode should not have special characters.,Čiarový kód by nemal mať špeciálne znaky.
+Barcode cannot be greater than # characters.,Čiarový kód nemôže byť väčšia ako # znakov.
+Field should be positive.,Pole by mala byť pozitívna.
+Color could not be greater than # characters.,Farba by nemala byť väčšia ako # znakov.
+Color is not valid.,Farba nie je platný.
+Special characters are not allowed.,Špeciálne znaky nie sú povolené.
+Script tags are not allowed.,Script tagy nie sú povolené.
+Style tags are not allowed.,Štýl značky nie sú povolené.
+Iframe tags are not allowed.,Značky iframe nie sú povolené.
+Uploaded file is not an image,Nahraný súbor nie je obrázok
+Uploaded file size must be less than #.,Nahraný veľkosť súboru musí byť menšia než #.
+Field should not contain HTML tags.,Pole nesmie obsahovať HTML tagy.
+You can enter only positive numbers.,Môžete zadať iba kladné čísla.
+Invalid comma (#) separated values.,Neplatný čiarka (#) hodnoty oddelené.
+Spin and Win Free version,Spin a Win verzia zdarma
+v1.0.0,v1.0.0
+Current Configuration Scope,Aktuálne konfigurácia Rozsah
+Save Configurations,ukladať konfigurácia
+General Settings,Všeobecné nastavenia
+Look and Feel Settings,Vzhľad a správanie Nastavenie
+Go to Home Page,Prejdi na domovskú stránku
+Home,Domov
+Spin & Win,Spin & Win
+Enable the Extension,povoliť rozšírenie
+Following features are not avalialble in free version.,Nasledujúce funkcie nie sú avalialble vo voľnej verzii.
+Click here ,Kliknite tu
+to buy paid version of this module.,kúpiť platenú verziu tohto modulu.
+1-General setting tab,1 Karta Všeobecné nastavenia
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,"Show Vytiahnite: Nastavenie, aby majiteľ obchodu poskytnúť možnosť vytiahnuť bicykel späť na obrazovke užívateľom"
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,"Email redundantné kontrola: Nastavenie pre overenie e-mailovej id zákazníka, aby sa zabezpečilo, že nie je opakovanie emaily id"
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,"Koliesko Display Interval: Nastavenie stanoviť počet dní, počas ktorých bude koleso zobrazených k zákazníkovi."
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,Vlastné CSS a JS Custom: Nastavenie zmeniť vzhľad a dojem z modulu podľa ich potreby zadaním vlastnej CSS a JS vlastný kód
+2-Display setting tab,Karta nastavenie 2-Display
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,"Minimálna veľkosť obrazovky: Nastavenie vybrať minimálna veľkosť obrazovky, ktorého chcete zobrazovať ponuky."
+Maximum Display frequency : Setting to select the frequency of the wheel display here,Maximálna frekvencia Displej: Nastavenie pre voľbu frekvencie displeja kola tu
+Where to Display : Setting to select the pages where you want to display the wheel from here,"Kde Displej: Nastavenie pre výber stránky, kde chcete zobraziť kolo odtiaľ"
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’","Koho Zobraziť: Nastavenie pre výber návštevníkov, ktorým chcete ukázať spin koleso. Môžete si vybrať, Všetci návštevníci ',, registrovaných návštevníkov' alebo ""Host hosťuje"
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,"Kedy Displej: Nastavenie vybrať si presne, kedy chcete, aby sa koleso, ktoré majú byť zobrazené. Buď môžete zobraziť okamžite, keď pristane zákazník na vašom webe alebo na určitý čas a keď návštevník zvitky nadol"
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,Geo Umiestnenie: Nastavenie zvoliť zobrazenie ponúk podľa umiestnenia Geo návštevníkov.
+3-Look & Feel  setting tab ,3-Look & Vaša karta nastavenia
+Setting to allow change the look of the wheel as it appears on the site,"Nastavenie umožňuje zmeniť vzhľad bicykla, ako je uvedený na webe"
+4-Wheel setting tab,Karta nastavenie 4-Wheel
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,"Nastavenie zmeniť vzhľad a dojem z spin kola zmenou nastavenia vo voľbe, Wheel Setting '"
+5-Slice setting tab,Karta nastavenie 5-plátok
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,"Nastavenie a text alebo ponuky zobrazené v rôznych plátkov kola možno meniť od, Slice Setting 'voľba"
+6-Email marketing setting tab,Karta marketing nastavenie 6-Email
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,"Administrátor môže povoliť alebo zakázať MailChimp a Klaviyo voľbu z nastavení, E-mail marketing '. E-mailom oznámenia bude zaslaný k zákazníkom na e-mailovú ID, ako zmienil sa o ne."
+7-Email tab,Karta 7-Email
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’","Umožňuje správca vybrať miesta, kde chce zobraziť kupón. A síce, len na bicykel ',, Email iba',, Email & Wheel '"
+8-Statistics tab,8 Karta štatistických údajov
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,"Kompletný prístup ku štatistickej správy z návštevníkov, ktorí spradená bicykel a nárokovaných kupón generovaný rovnaký. Táto správa je generovaná v oboch grafickej a tabuľkové podobe."
+Display Image,Display Image
+Show image in the front end Spin Wheel interface,Zobraziť obrázok v rozhraní front end Spin Wheel
+Upload your Logo Image,Nahrať svoj obrázok loga
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),"Nahrať obrázok, ktorý bude zobrazený v rozhraní front end preklzávaniu kolies (Maximálna veľkosť - 2 MB)"
+Required Field,Požadované pole
+Not a valid email,Nie je platný e-mail
+a discount,zľava
+Code copied.,Kód kopírovať.
+Website Logo,Webové stránky Logo
+Special bonus unlocked,Špeciálny bonus odomkol
+Hurrah! You've got,Hurá! Máte
+. Lucky day!,", Šťastný deň!"
+The coupon code has been sent to you through the email.,Kupon kód bol zaslaný prostredníctvom e-mailu.
+Better luck next time!,Nabudúce viac šťastia!
+You have a chance to win a nice big fat discount. Are you ready?,Máte šancu vyhrať pekný veľký tučný zľavu. Si pripravený?
+You can spin the wheel only once.,Môžete točiť volantom iba raz.
+"If you win, you can claim your coupon for 1 day only!","Ak vyhráte, môžete nárokovať kupón len 1 deň!"
+Don't forget to use the discount code at checkout!,Nezabudnite použiť zľavový kód pri pokladni!
+Enter you email,Zadajte e-maily
+Try your luck,Skús svoje šťastie
+Next Time,Nabudúce
+"No, I do not feel lucky","Nie, nemám pocit šťastia"
+Continue,ďalej
+Spin and Win Free,Spin a Win zadarmo

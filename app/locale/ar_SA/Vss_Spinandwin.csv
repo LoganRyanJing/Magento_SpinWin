@@ -1,0 +1,201 @@
+Jan,يناير
+Feb,فبراير
+Mar,مارس
+Apr,أبريل
+May,قد
+Jun,يونيو
+Jul,يوليو
+Aug,أغسطس
+Sep,سبتمبر
+Oct,أكتوبر
+Nov,نوفمبر
+Dec,ديسمبر
+Spin and Win,أدر واربح
+Module Configurations,تكوينات وحدة
+Image has been uploaded successfully!,تم تحميل الصورة بنجاح!
+There was some error while uploading the image for the front end.,كان هناك بعض الأخطاء أثناء تحميل صورة للواجهة الأمامية.
+Module configuration have been saved successfully!,تم حفظ وحدة التكوين بنجاح!
+Not your lucky day today. Better Luck Next Time.,لا يومك محظوظ اليوم. حظ أوفر في المرة القادمة.
+"Something went wrong while generating the coupon code, please try again.",حدث خطأ أثناء إنشاء رمز القسيمة، يرجى المحاولة مرة أخرى.
+Slice Settings,إعدادات شريحة
+Note,ملحوظة
+"1. The value that you put in the Gravity column will determine the possibility of a slice to be selected on the front end. The higher the value, the higher the chances for the slice to be selected when the customer uses the plugin.",1. قيمة التي وضعت في العمود الجاذبية هي التي ستحدد إمكانية شريحة التي سيتم اختيارها على الواجهة الأمامية. وكلما ارتفعت قيمة، وارتفاع فرص شريحة التي سيتم اختيارها عندما يستخدم العملاء البرنامج المساعد.
+2. The value of the Gravity column for each slice cannot be greater than 100 and the sum of all 12 slices cannot be greater than 100 and less than 1.,2. لا يمكن أن تكون قيمة العمود الجاذبية لكل شريحة أكبر من 100 ومجموع كل شرائح 12 لا يمكن أن يكون أكبر من 100 وأقل من 1.
+Slice Label,تسمية شريحة
+Coupon Type,نوع القسيمة
+Coupon Value,قيمة القسيمة
+Gravity (%),الجاذبية (٪)
+Fixed,ثابت
+Percentage,النسبة المئوية
+Free Shipping,الشحن مجانا
+Please select atleast one page,الرجاء تحديد أتلست صفحة واحدة
+Please select atleast one country,الرجاء تحديد أتلست بلد واحد
+Field cannot be empty,لا يمكن أن يكون حقل فارغ
+Total Coupons Generated,مجموع القسائم ولدت
+Total Coupons Unused,مجموع القسائم غير المستخدمة
+Total Coupons Used,مجموع قسائم مستعمل
+`Active Date` cannot be greater than `Inactive Date`,`النشطة Date` لا يمكن أن يكون أكبر من` غير فعال Date`
+`From` Date cannot be greater than `To` Date,`تاريخ From` لا يمكن أن يكون أكبر من` To` التسجيل
+The sum of Gravity is not in the valid range. It should be betwen 1 and 100,مجموع الجاذبية ليست في نطاق صالح. وينبغي أن يكون بين العامين 1 و 100
+Date & Time should be greater than current date time.,يجب أن يكون تاريخ ووقت أكبر من وقت التاريخ الحالي.
+Please enter First name.,الرجاء إدخال الاسم الأول.
+First name cannot be greater than # characters.,لا يمكن أن يكون الاسم الأول أكبر من # حرفا.
+First name cannot be less than # characters.,لا يمكن أن يكون الاسم الأول أقل من # حرفا.
+Please enter middle name.,الرجاء إدخال الاسم الأوسط.
+Middle name cannot be greater than # characters.,لا يمكن أن يكون الاسم الأوسط أكبر من # حرفا.
+Middle name cannot be less than # characters.,لا يمكن أن يكون الاسم الأوسط أقل من # حرفا.
+Only alphabets are allowed.,يسمح الحروف الهجائية فقط.
+Please enter Last name.,الرجاء إدخال اسم آخر.
+Last name cannot be greater than # characters.,لا يمكن أن يكون الاسم الأخير أكبر من # حرفا.
+Last name cannot be less than # characters.,لا يمكن أن يكون الاسم الأخير أقل من # حرفا.
+Field should be alphanumeric.,يجب أن يكون حقل أبجدية.
+Please enter Password.,الرجاء إدخال كلمة المرور.
+Password cannot be greater than # characters.,كلمة لا يمكن أن يكون أكبر من # حرفا.
+Password cannot be less than # characters.,كلمة سر لا يمكن أن يكون أقل من # حرفا.
+Password should contain atleast 1 special character.,يجب أن تحتوي كلمة المرور أتلست طابع خاص 1.
+Password should contain alphabets.,يجب أن تحتوي كلمة المرور الحروف الهجائية.
+Password should contain atleast 1 capital letter.,يجب أن تحتوي كلمة المرور أتلست إلكتروني 1 من رأس المال.
+Password should contain atleast 1 small letter.,يجب أن تحتوي كلمة المرور أتلست 1 إلكتروني صغير.
+Password should contain atleast 1 digit.,يجب أن تحتوي كلمة المرور أتلست رقم 1.
+Field cannot be empty.,لا يمكن أن يكون الحقل فارغا.
+You can enter only numbers.,يمكنك إدخال أرقام فقط.
+Number should be greater than 0.,يجب أن تكون عدد أكبر من 0.
+Field cannot be greater than # characters.,لا يمكن أن يكون الحقل أكبر من # حرفا.
+Field cannot be less than # character(s).,لا يمكن أن يكون أقل من الميدان # حرف (ق).
+Please enter Email.,يرجى إدخال البريد الإلكتروني.
+Please enter a valid Email.,يرجى إدخال البريد الإلكتروني الصحيح.
+Please enter country name.,الرجاء إدخال اسم البلد.
+Country cannot be greater than # characters.,البلد لا يمكن أن يكون أكبر من # حرفا.
+Country cannot be less than # characters.,البلد لا يمكن أن يكون أقل من # حرفا.
+Please enter city name.,الرجاء إدخال اسم المدينة.
+City cannot be greater than # characters.,المدينة لا يمكن أن يكون أكبر من # حرفا.
+City cannot be less than # characters.,المدينة لا يمكن أن يكون أقل من # حرفا.
+Please enter state name.,الرجاء إدخال اسم الدولة.
+State cannot be greater than # characters.,الدولة لا يمكن أن يكون أكبر من # حرفا.
+State cannot be less than # characters.,الدولة لا يمكن أن يكون أقل من # حرفا.
+Please enter product name.,الرجاء إدخال اسم المنتج.
+Product cannot be greater than # characters.,المنتج لا يمكن أن يكون أكبر من # حرفا.
+Product cannot be less than # characters.,المنتج لا يمكن أن يكون أقل من # حرفا.
+Please enter category name.,الرجاء إدخال اسم الفئة.
+Category cannot be greater than # characters.,الفئة لا يمكن أن يكون أكبر من # حرفا.
+Category cannot be less than # characters.,الفئة لا يمكن أن يكون أقل من # حرفا.
+Please enter zip code.,الرجاء إدخال الرمز البريدي.
+Zip cannot be greater than # characters.,الرمز لا يمكن أن يكون أكبر من # حرفا.
+Zip cannot be less than # characters.,الرمز لا يمكن أن يكون أقل من # حرفا.
+Please enter Username.,الرجاء إدخال اسم المستخدم.
+Username cannot be greater than # characters.,اسم المستخدم لا يمكن أن يكون أكبر من # حرفا.
+Username cannot be less than # characters.,اسم المستخدم لا يمكن أن يكون أقل من # حرفا.
+Invalid date format.,تنسيق التاريخ غير صالح.
+SKU cannot be greater than # characters.,SKU لا يمكن أن يكون أكبر من # حرفا.
+SKU cannot be less than # characters.,SKU لا يمكن أن يكون أقل من # حرفا.
+Invalid SKU format.,شكل SKU صالح.
+Please enter SKU.,الرجاء إدخال SKU.
+Number is not in the valid range. It should be betwen # and %,عدد غير موجود في النطاق الصالح. وينبغي أن يكون بين العامين # و٪
+Please enter address.,يرجى إدخال عنوان.
+Address cannot be less than # characters.,عنوان لا يمكن أن يكون أقل من # حرفا.
+Address cannot be greater than # characters.,عنوان لا يمكن أن يكون أكبر من # حرفا.
+Please enter company name.,يرجى إدخال اسم الشركة.
+Company name cannot be less than # characters.,لا يمكن أن يكون اسم الشركة أقل من # حرفا.
+Company name cannot be greater than # characters.,لا يمكن أن يكون اسم الشركة أكبر من # حرفا.
+Phone number is invalid.,رقم الهاتف غير صالح.
+Please enter phone number.,الرجاء إدخال رقم الهاتف.
+Phone number cannot be less than # characters.,رقم الهاتف لا يمكن أن يكون أقل من # حرفا.
+Phone number cannot be greater than # characters.,رقم الهاتف لا يمكن أن يكون أكبر من # حرفا.
+Please enter brand name.,الرجاء إدخال اسم العلامة التجارية.
+Brand name cannot be greater than # characters.,لا يمكن أن يكون اسم العلامة التجارية أكبر من # حرفا.
+Brand name cannot be less than # characters.,لا يمكن أن يكون اسم العلامة التجارية أقل من # حرفا.
+Please enter Shimpment.,الرجاء إدخال Shimpment.
+Shipment cannot be greater than # characters.,شحنة لا يمكن أن يكون أكبر من # حرفا.
+Shipment cannot be less than # characters.,شحنة لا يمكن أن يكون أقل من # حرفا.
+Invalid IP format.,شكل IP غير صالح.
+Invalid URL format.,تنسيق URL صالح.
+Please enter URL.,الرجاء إدخال URL.
+Field should be numeric.,يجب أن يكون حقل رقمي.
+Field can have only upto two decimal values.,يمكن أن يكون الحقل فقط تصل قيمتين عشرية.
+Email cannot be greater than # characters.,البريد الإلكتروني لا يمكن أن يكون أكبر من # حرفا.
+Zip should not have special characters.,لا ينبغي أن يكون الرمز البريدي أحرف خاصة.
+SKU should not have special characters.,يجب SKU يكن لديك أحرف خاصة.
+URL cannot be greater than # characters.,URL لا يمكن أن يكون أكبر من # حرفا.
+Percentage should be in number.,يجب أن تكون النسبة المئوية في العدد.
+Percentage should be between 0 and 100.,يجب أن تكون النسبة المئوية بين 0 و 100.
+Size cannot be greater than # characters.,الحجم لا يمكن أن يكون أكبر من # حرفا.
+Size should not have special characters.,لا ينبغي أن يكون حجم الأحرف الخاصة.
+UPC should not have special characters.,يجب UPC يكن لديك أحرف خاصة.
+UPC cannot be greater than # characters.,UPC لا يمكن أن يكون أكبر من # حرفا.
+EAN should not have special characters.,يجب EAN يكن لديك أحرف خاصة.
+EAN cannot be greater than # characters.,EAN لا يمكن أن يكون أكبر من # حرفا.
+Barcode should not have special characters.,يجب الباركود يكن لديك أحرف خاصة.
+Barcode cannot be greater than # characters.,الباركود لا يمكن أن يكون أكبر من # حرفا.
+Field should be positive.,يجب أن يكون الحقل إيجابي.
+Color could not be greater than # characters.,اللون لا يمكن أن يكون أكبر من # حرفا.
+Color is not valid.,لون غير صالح.
+Special characters are not allowed.,يمنع استعمال الرموز.
+Script tags are not allowed.,لا يسمح علامات البرنامج النصي.
+Style tags are not allowed.,لا يسمح العلامات نمط.
+Iframe tags are not allowed.,لا يسمح علامات IFRAME.
+Uploaded file is not an image,ملف مرفوع ليس صورة
+Uploaded file size must be less than #.,يجب أن يكون مرفوع حجم الملف أقل من #.
+Field should not contain HTML tags.,يجب أن لا يحتوي على حقل علامات HTML.
+You can enter only positive numbers.,يمكنك إدخال أرقام موجبة فقط.
+Invalid comma (#) separated values.,فاصلة غير صالحة (#) فصل القيم.
+Spin and Win Free version,تدور واربح نسخة مجانية
+v1.0.0,v1.0.0
+Current Configuration Scope,نطاق التكوين الحالي
+Save Configurations,حفظ تكوينات
+General Settings,الاعدادات العامة
+Look and Feel Settings,الشكل والمظهر إعدادات
+Go to Home Page,الذهاب إلى الصفحة الرئيسية
+Home,الصفحة الرئيسية
+Spin & Win,تدور واربح
+Enable the Extension,تمكين التمديد
+Following features are not avalialble in free version.,الميزات التالية لا avalialble في نسخة مجانية.
+Click here ,انقر هنا
+to buy paid version of this module.,لشراء النسخة المدفوعة من هذه الوحدة.
+1-General setting tab,1 العام التبويب وضع
+Show Pull out : Setting to allow store owner to provide the option to pull the wheel back on the screen by the user,مشاهدة سحب: الإعداد للسماح صاحب متجر لتوفير خيار سحب العجلة الخلفية على الشاشة من قبل المستخدم
+Email Redundancy Check : Setting to verify the email id of the customer in order to ensure that there is no repetition of emails id,البريد الإلكتروني التكرار تحقق: إعداد للتحقق من هوية البريد الإلكتروني للعملاء من أجل ضمان أنه لا يوجد تكرار رسائل البريد الإلكتروني معرف
+Wheel Display Interval : Setting to fix the number of days after which the wheel will be displayed to the customer.,عجلة العرض الفاصل الزمني: تحديد لإصلاح عدد من الأيام وبعد ذلك سيتم عرض العجلة إلى العملاء.
+Custom CSS and Custom JS : Setting to change  the look and feel of the module as per their need by entering the custom CSS and custom JS code,CSS العرف وJS مخصص: الإعداد لتغيير الشكل والمظهر من وحدة وفقا لحاجتها عن طريق إدخال CSS العرف والعرف كود JS
+2-Display setting tab,علامة التبويب إعداد 2-العرض
+Minimum Screen Size : Setting to choose minimum screen size whom you want to display offers.,الحد الأدنى مقاس الشاشة: تعيين لاختيار الحد الأدنى لحجم الشاشة الذي تريد عرضه العروض.
+Maximum Display frequency : Setting to select the frequency of the wheel display here,الحد الأقصى تردد العرض: وضع لتحديد وتيرة العرض عجلة هنا
+Where to Display : Setting to select the pages where you want to display the wheel from here,حيث أن العرض: إعداد لتحديد الصفحات التي تريد عرضها في عجلة من هنا
+"Who to Show : Setting to select the visitors to whom you want to show the spin wheel. You may select ‘All Visitors’, ‘Registered Visitors’, or ‘Guest Visitors’",الذين إظهار: إعداد لتحديد الزائرين الذين تريد أن تظهر العجلة تدور. يمكنك اختيار 'جميع الزوار' آخر مسجل "، أو" آخر الزوار "
+When to Display : Setting to choose exactly when you want the wheel to be displayed. You can either display it immediately when the customer lands on your site or after some time or when the visitor scrolls down,عندما لعرض: تعيين لاختيار بالضبط عندما تريد العجلة ليتم عرضها. يمكنك إما عرضه على الفور عندما الأراضي العملاء على موقعك أو بعد مرور بعض الوقت أو عندما مخطوطات الزوار أسفل
+Geo Location :  Setting to select the display offers as per the Geo location of the visitors.,الموقع الجغرافي: إعداد لتحديد عرض يقدم وفقا للموقع الجغرافي للزوار.
+3-Look & Feel  setting tab ,3-نظرة ويشعر التبويب وضع
+Setting to allow change the look of the wheel as it appears on the site,للسماح لتغيير شكل عجلة كما يظهر على الموقع
+4-Wheel setting tab,علامة التبويب إعداد 4 عجلات
+Setting to change the look and feel of the spin wheel by changing the configuration in the ‘Wheel Setting’ option,الإعداد لتغيير الشكل والمظهر من عجلة تدور عن طريق تغيير التكوين في خيار 'إعداد عجلة "
+5-Slice setting tab,5-شريحة التبويب وضع
+Settings and the text or offers displayed in the different slices of the wheel can be changed from the ‘Slice Setting’ option,وضبط النص أو العروض المعروضة في شرائح مختلفة من عجلة القيادة يمكن أن تغير من خيار "وضع شريحة"
+6-Email marketing setting tab,6-البريد الإلكتروني التبويب إعداد التسويق
+The admin can enable or disable MailChimp and Klaviyo option from the ‘Email Marketing’ settings. An email notification will be sent to the customers on the email id as mentioned by them.,المشرف يمكن تمكين أو الخيار ميل تشيمب وKlaviyo تعطيل من الإعدادات "التسويق عبر البريد الإلكتروني. سيتم إرسال إشعار البريد الإلكتروني للعملاء على معرف البريد الإلكتروني كما هو مذكور بها.
+7-Email tab,علامة التبويب 7 البريد الإلكتروني
+"Allows the admin to choose the places where he wants to display the coupon. Namely ‘Only on Wheel’, ‘Email Only’, ‘Email & Wheel’",يسمح المشرف لاختيار الأماكن التي يريد لعرض القسيمة. وهي "فقط على عجلة '،' البريد الالكتروني فقط '،' البريد الإلكتروني وعجلة"
+8-Statistics tab,8 الاحصائيات التبويب
+A complete access to the statistical report of the visitors who spinned the wheel and claimed the coupon generated by the same. The report is generated in both graphical and tabular format.,A الوصول الكامل للتقرير الإحصائي للزوار الذين نسجها عجلة القيادة وادعى القسيمة الناتجة عن نفسه. يتم إنشاء تقرير في كل شكل رسوم بيانية وجداول.
+Display Image,هذه الصورة ليست للعرض
+Show image in the front end Spin Wheel interface,صورة تظهر في واجهة الأمامية تدور العجلة
+Upload your Logo Image,حمل سيرتك صورة الشعار
+Upload an image to be shown in the front end Spin Wheel interface (Max Size - 2 MB),تحميل صورة ليتم عرضها في واجهة عجلة نهاية سبين الأمامي (ماكس الحجم - 2 MB)
+Required Field,يتطلب حقلا
+Not a valid email,البريد الإلكتروني غير صالح
+a discount,خصم
+Code copied.,كود نسخ.
+Website Logo,موقع الشعار
+Special bonus unlocked,مكافأة خاصة مقفلة
+Hurrah! You've got,يا هلا! عندك
+. Lucky day!,. يوم الحظ!
+The coupon code has been sent to you through the email.,تم ارسال رمز القسيمة لك من خلال البريد الإلكتروني.
+Better luck next time!,حظ أوفر في المرة القادمة!
+You have a chance to win a nice big fat discount. Are you ready?,لديك فرصة للفوز لطيفة خصم كبيرة من الدهون. هل أنت جاهز؟
+You can spin the wheel only once.,يمكنك تدور العجلة مرة واحدة فقط.
+"If you win, you can claim your coupon for 1 day only!",إذا كنت الفوز، يمكنك المطالبة القسيمة الخاصة بك لمدة 1 يوم فقط!
+Don't forget to use the discount code at checkout!,لا تنسى أن استخدام رمز الخصم على الخروج!
+Enter you email,أدخل البريد الإلكتروني لك
+Try your luck,جرب حظك
+Next Time,المره القادمة
+"No, I do not feel lucky",لا، أنا لا أشعر بأنني محظوظ
+Continue,استمر
+Spin and Win Free,وتدور فوز الحرة

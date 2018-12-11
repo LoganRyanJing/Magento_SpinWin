@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<layout>
+    <default id="default">
+        <reference name="head">
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/front_style.css</name>                
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_css</type>
+                <name>vss_spinandwin/css/tooltipster.css</name>                
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/front_script.js</name>
+            </action>
+            
+            <!-- Adding js for Fireworks-->
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jquery.fireworks.js</name>
+            </action>
+            
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/ouibounce.js</name>
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jQuery/jquery.cookie.js</name>
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/tooltipster.js</name>
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/jquery_active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jQuery/jquery-2.2.3.min.js</name>
+            </action>
+            <action method="addItem" ifconfig="vss/spinandwheel/jquery_active">
+                <type>skin_js</type>
+                <name>vss_spinandwin/js/jQuery/jquery-no-conflict.js</name>
+            </action>
+        </reference>
+        <block type="spinandwin/spinandwinfront" name="spinandwin" as="spinandwin" template="vss_spinandwin/spinandwin.phtml"/>
+        <reference name="after_body_start">
+            <action method="append" ifconfig="vss/spinandwheel/active"><block>spinandwin</block></action>
+        </reference>
+<!--        <reference name="after_body_start">
+            <block type="spinandwin/spinandwinfront" name="spinandwin" as="spinandwin" template="vss_spinandwin/spinandwin.phtml"/>
+        </reference>-->
+    </default>
+</layout>
